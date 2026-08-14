@@ -1,7 +1,7 @@
 import { useEffect, useRef, type CSSProperties } from "react";
 import { OverlayHud } from "../logic/OverlayHud";
 import { useSky } from "../logic/store";
-import { isOverlayWindow, isTauri, setClickThrough } from "../tauri";
+import { isOverlayWindow, isTauri, setOverlayVisible, showMenuWindow } from "../tauri";
 
 export function OverlayWindow() {
   const s = useSky();
@@ -11,10 +11,11 @@ export function OverlayWindow() {
   const embedded = !overlayPage;
 
   useEffect(() => {
-    if (overlayPage && isTauri()) void setClickThrough(s.overlayLocked);
+    if (overlayPage && isTauri()) void import("../tauri").then((api) => api.setOverlayClickThrough(s.overlayLocked));
   }, [overlayPage, s.overlayLocked]);
 
-  if (!s.overlayVisible && overlayPage) {
+  if (!s.overlayVisible && !overlayPage) return null;
+  if (!s.overlayVisible && overlayPage && !isTauri()) {
     return (
       <div className="overlay-frame" style={{ inset: 0, background: "#141210" }}>
         <div className="overlay-chrome">
@@ -24,7 +25,6 @@ export function OverlayWindow() {
       </div>
     );
   }
-  if (!s.overlayVisible) return null;
 
   const bg = `rgba(20, 18, 16, ${s.overlayOpacity / 100})`;
   const style: CSSProperties = embedded
@@ -44,8 +44,24 @@ export function OverlayWindow() {
         background: bg,
       };
 
+  async function hideOverlay() {
+    s.setOverlayVisible(false);
+    if (isTauri()) await setOverlayVisible(false);
+  }
+
+  async function startNativeResize() {
+    if (!overlayPage || !isTauri()) return false;
+    try {
+      const { getCurrentWindow } = await import("@tauri-apps/api/window");
+      await getCurrentWindow().startResizeDragging("SouthEast");
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
   return (
-    <div className={`overlay-frame ${s.overlayLocked ? "locked" : ""}`} style={style}>
+    <div className={`overlay-frame ${s.overlayLocked ? "locked" : ""} ${overlayPage ? "native" : ""}`} style={style}>
       <div
         className="overlay-chrome"
         data-tauri-drag-region
@@ -82,38 +98,45 @@ export function OverlayWindow() {
           <input type="checkbox" checked={s.showObtained} onChange={(e) => s.setShowObtained(e.target.checked)} />
           have
         </label>
+        {isTauri() ? (
+          <button className="btn" data-tauri-drag-region="false" onClick={() => void showMenuWindow()}>
+            Menu
+          </button>
+        ) : null}
         <button
           className={`btn ${s.overlayLocked ? "on" : ""}`}
           data-tauri-drag-region="false"
+          title="Lock click-through. Unlock with Ctrl+Shift+L (works in game)."
           onClick={() => s.setOverlayLocked(!s.overlayLocked)}
         >
           {s.overlayLocked ? "Unlock" : "Lock"}
         </button>
-        <button className="btn" data-tauri-drag-region="false" onClick={() => s.setOverlayVisible(false)}>
+        <button className="btn" data-tauri-drag-region="false" onClick={() => void hideOverlay()}>
           Hide
         </button>
       </div>
       <OverlayHud />
-      {embedded ? (
-        <div
-          className="resize"
-          onPointerDown={(e) => {
-            e.stopPropagation();
+      <div
+        className="resize"
+        onPointerDown={(e) => {
+          e.stopPropagation();
+          void (async () => {
+            if (await startNativeResize()) return;
             resizing.current = { x: e.clientX, y: e.clientY, w: s.overlaySize.w, h: s.overlaySize.h };
             (e.target as HTMLElement).setPointerCapture(e.pointerId);
-          }}
-          onPointerMove={(e) => {
-            if (!resizing.current) return;
-            s.setOverlaySize({
-              w: Math.max(260, resizing.current.w + (e.clientX - resizing.current.x)),
-              h: Math.max(180, resizing.current.h + (e.clientY - resizing.current.y)),
-            });
-          }}
-          onPointerUp={() => {
-            resizing.current = null;
-          }}
-        />
-      ) : null}
+          })();
+        }}
+        onPointerMove={(e) => {
+          if (!resizing.current) return;
+          s.setOverlaySize({
+            w: Math.max(260, resizing.current.w + (e.clientX - resizing.current.x)),
+            h: Math.max(180, resizing.current.h + (e.clientY - resizing.current.y)),
+          });
+        }}
+        onPointerUp={() => {
+          resizing.current = null;
+        }}
+      />
     </div>
   );
 }

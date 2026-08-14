@@ -2,7 +2,7 @@ import { dataset, creatureLine, kindLabel } from "../data";
 import { itemOwned, matchesFilter, missingCount, outstandingByIsland, questState, questTouchesIsland, sharedOpenUses } from "../logic/progress";
 import { OverlayWindow } from "../overlay/OverlayWindow";
 import { selectProgress, useSky, visibleClasses, WIND_RUNES } from "../logic/store";
-import { openOverlayWindow } from "../tauri";
+import { isTauri, openOverlayWindow, setOverlayVisible } from "../tauri";
 import type { QuestFilter } from "../types";
 
 const FILTERS: { id: QuestFilter; label: string }[] = [
@@ -65,18 +65,31 @@ export function MenuApp() {
         <button className="btn" onClick={s.loadDemo}>
           Load demo
         </button>
-        <button className={`btn ${s.overlayVisible ? "on" : ""}`} onClick={() => s.setOverlayVisible(!s.overlayVisible)}>
-          Overlay
-        </button>
         <button
-          className="btn"
+          className={`btn ${s.overlayVisible ? "on" : ""}`}
           onClick={() => {
-            s.setOverlayPopout(true);
-            void openOverlayWindow();
+            const next = !s.overlayVisible;
+            s.setOverlayVisible(next);
+            if (isTauri()) {
+              s.setOverlayPopout(true);
+              void setOverlayVisible(next);
+            }
           }}
         >
-          Pop out
+          Overlay
         </button>
+        {isTauri() ? null : (
+          <button
+            className="btn"
+            onClick={() => {
+              s.setOverlayPopout(true);
+              s.setOverlayVisible(true);
+              void openOverlayWindow();
+            }}
+          >
+            Pop out
+          </button>
+        )}
       </header>
 
       <div className="filterbar">
@@ -298,9 +311,13 @@ export function MenuApp() {
         <button className="btn danger" onClick={s.resetProgress}>
           Reset ticks
         </button>
-        <span className="help">Ctrl+Shift+O overlay · Ctrl+Shift+L lock · borderless EQL · no memory read</span>
+        <span className="help">
+          {isTauri()
+            ? "Always-on-top HUD · Ctrl+Shift+O hide/show · Ctrl+Shift+L lock · Ctrl+Shift+M menu · borderless EQ · same admin as the game"
+            : "Ctrl+Shift+O overlay · Ctrl+Shift+L lock · use npm run tauri dev for the in-game HUD"}
+        </span>
       </footer>
-      {s.overlayVisible && !s.overlayPopout ? <OverlayWindow /> : null}
+      {s.overlayVisible && !s.overlayPopout && !isTauri() ? <OverlayWindow /> : null}
     </div>
   );
 }

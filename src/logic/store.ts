@@ -325,7 +325,6 @@ export const useSky = create<SkyState>()(
           showAllClasses: false,
           demo: true,
           overlayVisible: true,
-          overlayPopout: false,
           overlayLocked: false,
           overlayOpacity: 88,
           runeCounts: { "Wind Rune Lena": 1, "Wind Rune Azia": 0 },

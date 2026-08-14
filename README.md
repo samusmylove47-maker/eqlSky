@@ -6,16 +6,21 @@ Fan-made. Not affiliated with Daybreak or Game Jawn. Reads only the log and `/ou
 
 ## In game (Windows)
 
-1. Run EverQuest Legends **borderless or windowed**. Exclusive fullscreen covers overlays.
-2. `/log on`
-3. At a banker, open **Bank** and **Dragon's Hoard**, then `/outputfile inventory`
-4. Launch eqlSky. Set your trio (and server). Import the dump. **Watch log** / **Watch dump** re-reads the file about once a second (Chrome/Edge or the Tauri app).
-5. Wind Runes in **Currency / Alternate Storage** do not appear in the dump — click a rune chip to set how many you have (0–6).
-6. Click a quest to expand it. **Track** pins it to the overlay. **HUD** on each item chooses what the overlay shows.
-7. Click an island on the ladder: the overlay lists **NEED on this island** for tracked classes (farm mode), then pinned tests.
-8. `Ctrl+Shift+O` toggles the overlay. `Ctrl+Shift+L` locks the list (chrome stays clickable). Opacity changes the panel fill, not the text.
+The HUD is a **separate always-on-top window**. It opens with the app. It is not a panel inside the companion.
+
+1. Run EverQuest Legends **borderless or windowed**. Exclusive fullscreen covers every overlay.
+2. If you launch EQ **as Administrator**, launch eqlSky as Administrator too (Windows will not put a normal window over an elevated game).
+3. `/log on`
+4. At a banker, open **Bank** and **Dragon's Hoard**, then `/outputfile inventory`
+5. Launch eqlSky (`npm run tauri dev` or the Windows installer). The HUD appears on top immediately. Alt-tab to EQ; the HUD stays above the game.
+6. Set your trio. Import the dump. **Watch log** / **Watch dump** re-reads the file about once a second.
+7. Wind Runes in **Currency / Alternate Storage** do not appear in the dump — click a rune chip to set how many you have (0–6).
+8. Click a quest to expand it. **Track** pins it to the overlay. **HUD** on each item chooses what the overlay shows. Island buttons on the HUD list **NEED on this island**.
+9. Global hotkeys (work while EQ is focused): `Ctrl+Shift+O` hide/show HUD, `Ctrl+Shift+L` lock click-through, `Ctrl+Shift+M` companion menu. Opacity changes the panel fill, not the text.
 
 Bags full is **Ready**, not done. Shared drops use a pool (one Djinni War Blade does not fill two classes). Mark handed in yourself, or let give-to-tester (+ XP if the log has it) / the finished reward in the dump do it.
+
+`npm run dev` in a browser cannot sit over the game. Use the Tauri app for the in-game HUD.
 
 ## Demo (no game)
 

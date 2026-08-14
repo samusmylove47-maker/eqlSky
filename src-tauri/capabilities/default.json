@@ -7,10 +7,18 @@
     "core:window:allow-set-ignore-cursor-events",
     "core:window:allow-show",
     "core:window:allow-hide",
+    "core:window:allow-unminimize",
     "core:window:allow-set-focus",
     "core:window:allow-start-dragging",
+    "core:window:allow-start-resize-dragging",
     "core:window:allow-close",
     "core:window:allow-set-always-on-top",
-    "core:webview:allow-create-webview-window"
+    "core:window:allow-set-shadow",
+    "core:webview:allow-create-webview-window",
+    "dialog:allow-open",
+    "allow-overlay-set-visible",
+    "allow-overlay-set-click-through",
+    "allow-read-text-path",
+    "allow-stat-text-path"
   ]
 }

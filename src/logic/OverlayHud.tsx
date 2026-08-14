@@ -1,4 +1,4 @@
-import { creatureLine, islandById, questById } from "../data";
+import { creatureLine, dataset, islandById, questById } from "../data";
 import { islandNeeds, itemOwned, poolCount, questState, sharedOpenUses } from "./progress";
 import { overlayClasses, selectProgress, useSky } from "./store";
 
@@ -26,6 +26,17 @@ export function OverlayHud() {
         {s.characterName || "Sky"}
         {s.trio.length ? ` · ${s.trio.join("/")}` : ""}
         {s.watchingLog ? ` · tail ${s.watchingLog}` : ""}
+      </div>
+      <div className="ov-islands">
+        {dataset.islands.map((isl) => (
+          <button
+            key={isl.id}
+            className={s.islandFilter === isl.id ? "on" : ""}
+            onClick={() => s.setIsland(isl.id)}
+          >
+            I{isl.number}
+          </button>
+        ))}
       </div>
       {island ? (
         <section className="ov-quest">
