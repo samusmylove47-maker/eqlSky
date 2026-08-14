@@ -1,0 +1,9 @@
+Location	Name	ID	Count
+General1-Slot1	Light Woolen Mask	1001	1
+General1-Slot2	Azure Ring	1002	1
+General1-Slot3	Small Shield	1003	1
+Bank1	Crude Wooden Flute	1004	1
+DragonHoard1	Stone Amulet	1005	1
+General2-Slot1	Mask of Song	2001	1
+General2-Slot2	empty	0	0
+Currency	Wind Rune Azia	0	1
