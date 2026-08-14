@@ -14,8 +14,31 @@
       {
         "label": "menu",
         "title": "eqlSky",
+        "url": "index.html",
         "width": 1120,
         "height": 780
+      },
+      {
+        "label": "overlay",
+        "title": "eqlSky overlay",
+        "url": "overlay.html",
+        "width": 380,
+        "height": 560,
+        "minWidth": 260,
+        "minHeight": 180,
+        "x": 36,
+        "y": 72,
+        "decorations": false,
+        "transparent": true,
+        "shadow": false,
+        "alwaysOnTop": true,
+        "resizable": true,
+        "skipTaskbar": true,
+        "focus": false,
+        "maximizable": false,
+        "visible": true,
+        "dragDropEnabled": false,
+        "backgroundColor": [0, 0, 0, 0]
       }
     ],
     "security": {
