@@ -2,13 +2,17 @@ export function isTauri(): boolean {
   return typeof window !== "undefined" && "__TAURI_INTERNALS__" in window;
 }
 
+export function isOverlayWindow(): boolean {
+  return typeof window !== "undefined" && /overlay\.html/i.test(window.location.pathname);
+}
+
 export async function setClickThrough(locked: boolean): Promise<void> {
-  if (!isTauri()) return;
+  if (!isTauri() || !isOverlayWindow()) return;
   try {
     const { getCurrentWindow } = await import("@tauri-apps/api/window");
     await getCurrentWindow().setIgnoreCursorEvents(locked);
   } catch {
-    /* web or overlay window without plugin */
+    /* overlay chrome still works via CSS lock */
   }
 }
 

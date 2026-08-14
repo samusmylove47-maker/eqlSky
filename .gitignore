@@ -6,3 +6,5 @@ src-tauri/gen
 *.log
 .vscode
 .idea
+tsconfig.tsbuildinfo
+*.tsbuildinfo

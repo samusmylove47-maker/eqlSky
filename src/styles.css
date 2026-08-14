@@ -177,6 +177,12 @@ input[type="text"]:focus { outline: 1px solid var(--gold-dim); }
   border: 0;
   text-align: left;
 }
+.quest-head button {
+  background: transparent;
+  border: 0;
+  text-align: left;
+  padding: 0;
+}
 .quest-head h3 {
   font-family: var(--cond);
   font-size: 17px;
@@ -241,7 +247,16 @@ input[type="text"]:focus { outline: 1px solid var(--gold-dim); }
   overflow: hidden;
   color: var(--txt);
 }
-.overlay-frame.locked { pointer-events: none; }
+body.overlay-page,
+html.overlay-page,
+.overlay-page html,
+.overlay-page body,
+.overlay-page #root {
+  background: transparent;
+}
+
+.overlay-frame.locked .overlay-body { pointer-events: none; }
+.overlay-frame.locked { pointer-events: auto; }
 .overlay-chrome {
   display: flex;
   align-items: center;

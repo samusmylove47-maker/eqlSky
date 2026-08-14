@@ -11,8 +11,8 @@ describe("log parser", () => {
     expect(kinds).toContain("give");
     expect(kinds).toContain("sold");
     const applied = applyLogEvents(events);
-    expect(applied.have.has(normalizeName("Silver Hoop"))).toBe(true);
-    expect(applied.have.has(normalizeName("Djinni War Blade"))).toBe(true);
+    expect(applied.net[normalizeName("Silver Hoop")]).toBeGreaterThan(0);
+    expect(applied.net[normalizeName("Djinni War Blade")]).toBeGreaterThan(0);
     expect(applied.given.get(normalizeName("Clarisa Spiritsong"))).toEqual([
       normalizeName("Light Woolen Mask"),
       normalizeName("Wind Rune Meda"),

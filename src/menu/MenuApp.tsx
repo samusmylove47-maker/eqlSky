@@ -1,5 +1,5 @@
 import { dataset, creatureLine, kindLabel } from "../data";
-import { itemOwned, matchesFilter, outstandingByIsland, questState, questTouchesIsland, sharedOpenUses } from "../logic/progress";
+import { itemOwned, matchesFilter, missingCount, outstandingByIsland, questState, questTouchesIsland, sharedOpenUses } from "../logic/progress";
 import { OverlayWindow } from "../overlay/OverlayWindow";
 import { selectProgress, useSky, visibleClasses, WIND_RUNES } from "../logic/store";
 import { openOverlayWindow } from "../tauri";
@@ -16,8 +16,7 @@ export function MenuApp() {
   const s = useSky();
   const p = selectProgress(s);
   const classes = visibleClasses(s);
-  const counts = outstandingByIsland(classes, p);
-  const focusIds = s.trio.length === 3 ? s.trio : dataset.classes.map((c) => c.id);
+  const counts = outstandingByIsland(classes, p, s.pinnedQuestIds);
 
   function onFile(kind: "inv" | "log", file: File | undefined) {
     if (!file) return;
@@ -32,10 +31,17 @@ export function MenuApp() {
         </h1>
         <input
           type="text"
-          placeholder="Character (optional)"
+          placeholder="Character"
           value={s.characterName}
           maxLength={24}
           onChange={(e) => s.setName(e.target.value)}
+        />
+        <input
+          type="text"
+          placeholder="Server"
+          value={s.serverName}
+          maxLength={24}
+          onChange={(e) => s.setServer(e.target.value)}
         />
         <div className="row">
           {dataset.classes.map((c) => (
@@ -79,6 +85,15 @@ export function MenuApp() {
             {f.label}
           </button>
         ))}
+        <input
+          type="text"
+          placeholder="Search item, reward, mob…"
+          value={s.search}
+          onChange={(e) => s.setSearch(e.target.value)}
+        />
+        <label className="help">
+          <input type="checkbox" checked={s.sortClosest} onChange={(e) => s.setSortClosest(e.target.checked)} /> Closest
+        </label>
         <span className="grow" />
         <span className="range">
           Opacity
@@ -118,11 +133,21 @@ export function MenuApp() {
 
         <div className="sheet">
           {classes.map((cls) => {
-            const quests = cls.quests.filter((q) => {
-              const st = questState(q, p);
-              return matchesFilter(st, s.filter) && questTouchesIsland(q, s.islandFilter, p);
-            });
-            const done = cls.quests.filter((q) => questState(q, p) === "done").length;
+            const quests = cls.quests
+              .filter((q) => {
+                const st = questState(q, p, classes, s.pinnedQuestIds);
+                const pinned = s.pinnedQuestIds.includes(q.id);
+                if (pinned) return questTouchesIsland(q, s.islandFilter, p, classes, s.pinnedQuestIds) || !s.islandFilter;
+                if (!matchesFilter(st, s.filter) || !questTouchesIsland(q, s.islandFilter, p, classes, s.pinnedQuestIds)) return false;
+                if (!s.search.trim()) return true;
+                const qstr = [q.name, q.reward.name, q.tester, ...q.items.flatMap((it) => [it.name, ...it.creatures])].join(" ").toLowerCase();
+                return qstr.includes(s.search.trim().toLowerCase());
+              })
+              .sort((a, b) => {
+                if (!s.sortClosest) return 0;
+                return missingCount(a, p, classes, s.pinnedQuestIds) - missingCount(b, p, classes, s.pinnedQuestIds);
+              });
+            const done = cls.quests.filter((q) => questState(q, p, classes, s.pinnedQuestIds) === "done").length;
             if (s.filter !== "all" && quests.length === 0) return null;
             return (
               <section key={cls.id} className="class-block">
@@ -137,22 +162,27 @@ export function MenuApp() {
                   </div>
                 </div>
                 {quests.map((quest) => {
-                  const st = questState(quest, p);
+                  const st = questState(quest, p, classes, s.pinnedQuestIds);
                   const pinned = s.pinnedQuestIds.includes(quest.id);
+                  const expanded = pinned || s.expandedQuestIds.includes(quest.id);
                   const overlaySet = new Set(s.overlayItemIds[quest.id] ?? []);
                   return (
                     <article key={quest.id} className={`quest ${st} ${pinned ? "pinned" : ""}`}>
-                      <button className="quest-head" onClick={() => s.pinQuest(quest.id)}>
-                        <div>
-                          <h3>{quest.reward.name}</h3>
-                          <div className="meta">
-                            {quest.name} · {quest.tester}
-                            {quest.say ? ` · say ${quest.say}` : ""}
-                            {quest.reward.slot ? ` · ${quest.reward.slot}` : ""}
+                      <div className="quest-head">
+                        <button type="button" className="quest-head" style={{ padding: 0 }} onClick={() => s.toggleExpand(quest.id)}>
+                          <div>
+                            <h3>{quest.reward.name}</h3>
+                            <div className="meta">
+                              {quest.name} · {quest.tester}
+                              {quest.say ? ` · say ${quest.say}` : ""}
+                              {quest.reward.slot ? ` · ${quest.reward.slot}` : ""}
+                            </div>
                           </div>
-                        </div>
+                        </button>
                         <div className="badges">
-                          {pinned ? <span className="chip on">Tracking</span> : <span className="chip">Click to track</span>}
+                          <button className={`chip ${pinned ? "on" : ""}`} onClick={() => s.pinQuest(quest.id)}>
+                            {pinned ? "Tracking" : "Track"}
+                          </button>
                           {st === "ready" ? <span className="chip on">Ready</span> : null}
                           {st === "needs-rune" ? <span className="chip on">Needs rune</span> : null}
                           {st === "done" ? <span className="chip">Done</span> : null}
@@ -160,20 +190,18 @@ export function MenuApp() {
                           {quest.reward.haste ? <span className="chip">{quest.reward.haste}% haste</span> : null}
                           {quest.sayConfidence === "unverified" ? <span className="chip warn">Unverified</span> : null}
                         </div>
-                      </button>
-                      {pinned ? (
+                      </div>
+                      {expanded ? (
                         <div className="items">
+                          {quest.reward.stats ? <div className="help">{quest.reward.stats}</div> : null}
                           {quest.items.map((item) => {
-                            const have = itemOwned(item, p);
-                            const shared = sharedOpenUses(item.name, focusIds, p);
+                            const have = itemOwned(item, quest, p, classes, s.pinnedQuestIds);
+                            const shared = sharedOpenUses(item, classes, p);
                             return (
                               <div key={item.id} className={`item ${have ? "have" : "need"}`}>
-                                <button
-                                  className={`check ${have ? "on" : ""}`}
-                                  aria-pressed={have}
-                                  title="Have this piece"
-                                  onClick={() => s.toggleHave(item.id)}
-                                />
+                                <label className="help" title="Have this piece">
+                                  <input type="checkbox" checked={have} onChange={() => s.toggleHave(item.id)} aria-label={`Have ${item.name}`} />
+                                </label>
                                 <button
                                   className={`ov ${overlaySet.has(item.id) ? "on" : ""}`}
                                   onClick={() => s.toggleOverlayItem(quest.id, item.id)}
@@ -201,7 +229,7 @@ export function MenuApp() {
                             <button className={`btn ${st === "done" ? "on" : ""}`} onClick={() => s.toggleDone(quest.id)}>
                               {st === "done" ? "Handed in" : "Mark handed in"}
                             </button>
-                            <span className="help">Bags full ≠ done. Reward in dump or a full give-to-tester log match also marks done.</span>
+                            <span className="help">Bags full ≠ done. Reward in dump or give-to-tester (+ XP if present) marks done.</span>
                           </div>
                         </div>
                       ) : null}
@@ -238,24 +266,32 @@ export function MenuApp() {
           Import eqlog
           <input type="file" accept=".txt,text/plain" onChange={(e) => onFile("log", e.target.files?.[0])} />
         </label>
+        <button className={`btn ${s.watchingInv ? "on" : ""}`} onClick={() => void s.watchInventory()}>
+          Watch dump
+        </button>
+        <button className={`btn ${s.watchingLog ? "on" : ""}`} onClick={() => void s.watchLog()}>
+          Watch log
+        </button>
+        {s.watchingLog || s.watchingInv ? (
+          <button className="btn" onClick={s.stopWatches}>
+            Stop watch
+          </button>
+        ) : null}
         <span className="help">{s.lastInventoryNote}</span>
         <span className="help">{s.lastLogNote}</span>
         <span className="grow" />
         <div className="runes">
-          <span className="help">Currency runes</span>
-          <button className="btn" onClick={() => s.setAllRunes(true)}>
-            All
+          <span className="help">Currency runes (click = count)</span>
+          <button className="btn" onClick={() => s.setAllRunes(1)}>
+            1 each
           </button>
-          <button className="btn" onClick={() => s.setAllRunes(false)}>
+          <button className="btn" onClick={() => s.setAllRunes(0)}>
             None
           </button>
           {WIND_RUNES.map((n) => (
-            <button
-              key={n}
-              className={`chip ${s.currencyRunes.map((x) => x.toLowerCase()).includes(n.toLowerCase()) ? "on" : ""}`}
-              onClick={() => s.toggleRune(n)}
-            >
+            <button key={n} className={`chip ${(s.runeCounts[n] ?? 0) > 0 ? "on" : ""}`} onClick={() => s.cycleRune(n)}>
               {n.replace("Wind Rune ", "")}
+              {(s.runeCounts[n] ?? 0) > 0 ? ` ${s.runeCounts[n]}` : ""}
             </button>
           ))}
         </div>
