@@ -1,0 +1,2896 @@
+{
+  "ISLANDS": {
+    "1": {
+      "n": "1",
+      "name": "Fairy Island",
+      "boss": "Thunder Spirit Princess",
+      "d": 1
+    },
+    "2": {
+      "n": "2",
+      "name": "Imp Island",
+      "boss": "Protector of Sky",
+      "d": 3
+    },
+    "3": {
+      "n": "3",
+      "name": "Harpy Island",
+      "boss": "Gorgalosk",
+      "d": 4
+    },
+    "4": {
+      "n": "4",
+      "name": "Pegasus Island",
+      "boss": "Keeper of Souls",
+      "d": 5
+    },
+    "5": {
+      "n": "5",
+      "name": "Bird Island",
+      "boss": "The Spiroc Lord — farmable",
+      "d": 6
+    },
+    "6": {
+      "n": "6",
+      "name": "Bee Island",
+      "boss": "Bazzt Zzzt",
+      "d": 7
+    },
+    "7": {
+      "n": "7",
+      "name": "Drake Island",
+      "boss": "Sister of the Spire — farmable",
+      "d": 8
+    },
+    "8": {
+      "n": "8",
+      "name": "Butterfly Island",
+      "boss": "Eye of Veeshan",
+      "d": 9
+    },
+    "1.5": {
+      "n": "1.5",
+      "name": "Noble Island",
+      "boss": "Noble Dojorn — week spawn",
+      "d": 2
+    },
+    "any": {
+      "n": "—",
+      "name": "Zone-wide",
+      "boss": "wind runes, any mob",
+      "d": 0
+    }
+  },
+  "LADDER": [
+    "8",
+    "7",
+    "6",
+    "5",
+    "4",
+    "3",
+    "2",
+    "1.5",
+    "1",
+    "any"
+  ],
+  "EF": [
+    "1.5",
+    "4",
+    "8"
+  ],
+  "EFM": "Noble Dojorn · Overseer of Air · the Hand of Veeshan",
+  "ORDER": [
+    "BRD",
+    "BST",
+    "BER",
+    "CLR",
+    "DRU",
+    "ENC",
+    "MAG",
+    "MNK",
+    "NEC",
+    "PAL",
+    "RNG",
+    "ROG",
+    "SHD",
+    "SHM",
+    "WAR",
+    "WIZ"
+  ],
+  "CLASSES": {
+    "BRD": {
+      "label": "Bard",
+      "abbr": "BRD",
+      "hub": "Cilin Spellsinger",
+      "armor": "Chain",
+      "v": 1,
+      "q": [
+        {
+          "n": "Test of Tone",
+          "g": "Clarisa Spiritsong",
+          "say": "choose Clarisa → tone",
+          "r": "Mask of Song",
+          "s": "Face",
+          "st": "AC 12 · STR/DEX/STA/CHA/WIS/INT/AGI +3 · all five resists +7",
+          "it": [
+            {
+              "n": "Light Woolen Mask",
+              "i": [
+                "3"
+              ],
+              "m": "Gorgalosk (boss)"
+            },
+            {
+              "n": "Wind Rune Meda",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Voice",
+          "g": "Clarisa Spiritsong",
+          "say": "choose Clarisa → voice",
+          "r": "Mantle of the Songweaver",
+          "s": "Shoulders",
+          "st": "AC 9 · STR +7 · DEX +7 · CHA +5 · AGI +5 · SV MAGIC +5 · clicky Fury (5)",
+          "it": [
+            {
+              "n": "Light Woolen Mantle",
+              "i": [
+                "4"
+              ],
+              "m": "Keeper of Souls (boss)"
+            },
+            {
+              "n": "Wind Rune Kala",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Pitch",
+          "g": "Clarisa Spiritsong",
+          "say": "choose Clarisa → pitch",
+          "r": "Ervaj's Flute of Flight",
+          "s": "Primary",
+          "st": "Wind Resonance 12 · STR +8 · STA +10 · CHA +10 · INT +5",
+          "it": [
+            {
+              "n": "Crude Wooden Flute",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Wind Rune Azia",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Wind",
+          "g": "Denise Songweaver",
+          "say": "choose Denise → wind",
+          "r": "Fae Amulet",
+          "s": "Neck",
+          "st": "AC 5 · DEX +4 · STA +4 · HP +50 · SV DISEASE/POISON +10 · clicky Healing (4)",
+          "it": [
+            {
+              "n": "Amulet of Woven Hair",
+              "i": [
+                "6"
+              ],
+              "m": "Bazzt Zzzt (boss)"
+            },
+            {
+              "n": "Wind Rune Caza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Brass",
+          "g": "Denise Songweaver",
+          "say": "choose Denise → brass",
+          "r": "Denon's Horn of Disaster",
+          "s": "Primary",
+          "st": "Brass Resonance 15 · STR +5 · CHA +10 · INT +5 · HP +50",
+          "it": [
+            {
+              "n": "Glowing Diamond",
+              "i": [
+                "7"
+              ],
+              "m": "Sister of the Spire (boss)"
+            },
+            {
+              "n": "Efreeti War Horn",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Fana",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Harmony",
+          "g": "Denise Songweaver",
+          "say": "choose Denise → harmony",
+          "r": "Harmonic Spear",
+          "s": "Primary",
+          "st": "Piercing 10 / 21 · STR +5 · DEX +5 · CHA +5 · proc Chant of Battle",
+          "it": [
+            {
+              "n": "Nebulous Diamond",
+              "i": [
+                "8"
+              ],
+              "m": "Eye of Veeshan (final boss)"
+            },
+            {
+              "n": "Efreeti War Spear",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Heda",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        }
+      ]
+    },
+    "BST": {
+      "label": "Beastlord",
+      "abbr": "BST",
+      "hub": "Animist Kratho",
+      "armor": "Leather",
+      "v": 1,
+      "q": [
+        {
+          "n": "Test of Aviak",
+          "g": "Animist Kratho",
+          "say": "aviak",
+          "r": "Spiroc Beak Earcuff",
+          "s": "Ear",
+          "st": "AC 4 · HP +10 · Mana +10 · End +10 · WIS +5 · CHA +5 · click Vigor of Zehkes (120s)",
+          "it": [
+            {
+              "n": "Spiroc Elder's Totem",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Wind Rune Beza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Azarack",
+          "g": "Animist Kratho",
+          "say": "azarack",
+          "r": "Azarack Skin Wristwraps",
+          "s": "Wrist",
+          "st": "AC 5 · HP +35 · End +10 · STR +5 · STA +5 · DEX +5 · click Whirl Bolt (240s)",
+          "it": [
+            {
+              "n": "Azarack Skin",
+              "i": [
+                "2"
+              ],
+              "m": "Protector of Sky (boss)"
+            },
+            {
+              "n": "Wind Rune Heda",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Claw",
+          "g": "Animist Kratho",
+          "say": "claw",
+          "r": "Windhowl + Spirit Render",
+          "s": "Primary / Secondary",
+          "st": "Windhowl H2H 12 / 22 · HP +55 · End +25 · proc Herikol's Soothing — paired with Spirit Render H2H 10 / 23 · HP 25 · Mana 25 · proc Sha's Lethargy",
+          "it": [
+            {
+              "n": "Sphinx Claw",
+              "i": [
+                "7"
+              ],
+              "m": "Sister of the Spire (boss)"
+            },
+            {
+              "n": "Mithril Bands",
+              "i": [
+                "8"
+              ],
+              "m": "Eye of Veeshan (final boss)"
+            },
+            {
+              "n": "Brass Knuckles",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Izah",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Harpy",
+          "g": "Animist Kratho",
+          "say": "harpy",
+          "r": "Griffin-Hide Armguards",
+          "s": "Arms",
+          "st": "AC 6 · STA +4 · WIS +3 · End +15 · all five resists +5",
+          "it": [
+            {
+              "n": "Leather Cord",
+              "i": [
+                "3"
+              ],
+              "m": "Gorgalosk (boss)"
+            },
+            {
+              "n": "Wind Rune Kala",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Wind",
+          "g": "Animist Kratho",
+          "say": "wind",
+          "r": "Diaphonous Waistband",
+          "s": "Waist",
+          "st": "AC 5 · STR +5 · WIS +10 · DEX +10 · Haste +41%",
+          "haste": 41,
+          "it": [
+            {
+              "n": "Silken Wrap",
+              "i": [
+                "6"
+              ],
+              "m": "Bazzt Zzzt (boss)"
+            },
+            {
+              "n": "Wind Rune Geza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        }
+      ]
+    },
+    "BER": {
+      "label": "Berserker",
+      "abbr": "BER",
+      "hub": "Stragen The Hewer",
+      "armor": "Chain",
+      "v": 1,
+      "q": [
+        {
+          "n": "Test of Sharpness",
+          "g": "Stragen The Hewer",
+          "say": "sharpness",
+          "r": "Skycleaver",
+          "s": "Primary",
+          "st": "2H Slash 30 / 35 · Dmg Bonus 24 · STA +5 · DEX +10 · SV DISEASE +5 · combat effect Haste",
+          "it": [
+            {
+              "n": "Djinni War Blade",
+              "i": [
+                "7"
+              ],
+              "m": "Sister of the Spire (boss)"
+            },
+            {
+              "n": "Efreeti Standard",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Jaka",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Will",
+          "g": "Stragen The Hewer",
+          "say": "will",
+          "r": "Molten Coil",
+          "s": "Finger",
+          "st": "AC 5 · Mana −55 · STR +6 · STA +5 · AGI +5 · DEX +6 · CHA +10 · SV FIRE +5",
+          "it": [
+            {
+              "n": "Pulsating Ruby",
+              "i": [
+                "6"
+              ],
+              "m": "Bazzt Zzzt (boss)"
+            },
+            {
+              "n": "Wind Rune Ena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Ferocity",
+          "g": "Stragen The Hewer",
+          "say": "ferocity",
+          "r": "Sash of Ferocity",
+          "s": "Waist",
+          "st": "AC 10 · STR +6 · DEX +5 · SV MAGIC +5 · Haste +41%",
+          "haste": 41,
+          "it": [
+            {
+              "n": "High Quality Raiment",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Wind Rune Ozah",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Burden",
+          "g": "Stragen The Hewer",
+          "say": "burden",
+          "r": "Shroud of the Sky",
+          "s": "Shoulders",
+          "st": "AC 8 · HP +25 · End +25 · STR +7 · WIS +7 · DEX +7 · click Raging Strength (120s)",
+          "it": [
+            {
+              "n": "Feathered Cape",
+              "i": [
+                "3"
+              ],
+              "m": "Gorgalosk (boss)"
+            },
+            {
+              "n": "Wind Rune Azia",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Blood",
+          "g": "Stragen The Hewer",
+          "say": "blood",
+          "r": "Blood-Drawn Runes",
+          "s": "Chest",
+          "st": "HP +55 · End +25 · STR +10 · STA +10 · AGI +5 · DEX +10 · HP Regen +10",
+          "it": [
+            {
+              "n": "Azarack Blood",
+              "i": [
+                "2"
+              ],
+              "m": "Protector of Sky (boss)"
+            },
+            {
+              "n": "Wind Rune Lena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Fools Errand",
+          "g": "Stragen The Hewer",
+          "say": "fools errand",
+          "r": "Cudgel of the Fool",
+          "s": "Primary",
+          "st": "2H Blunt 45 / 52 · Dmg Bonus 40 · INT −7 · proc Fury of the Chosen",
+          "it": [
+            {
+              "n": "Jester's Mask",
+              "i": [
+                "4"
+              ],
+              "m": "Keeper of Souls (boss)"
+            },
+            {
+              "n": "Efreeti Great Staff",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Dena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        }
+      ]
+    },
+    "CLR": {
+      "label": "Cleric",
+      "abbr": "CLR",
+      "hub": "Josin Faithbringer",
+      "armor": "Plate",
+      "v": 1,
+      "q": [
+        {
+          "n": "Test of Courage",
+          "g": "Alan Harten",
+          "say": "choose Alan → courage",
+          "r": "Truewind Earring",
+          "s": "Ear",
+          "st": "DEX +5 · WIS +9 · SV COLD +10",
+          "it": [
+            {
+              "n": "Silver Hoop",
+              "i": [
+                "3"
+              ],
+              "m": "Gorgalosk (boss)"
+            },
+            {
+              "n": "Wind Rune Lena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Skill",
+          "g": "Alan Harten",
+          "say": "choose Alan → skill",
+          "r": "Aegis of the Wind",
+          "s": "Secondary",
+          "st": "AC 25 · WIS +9 · MANA +60 · SV DISEASE +10",
+          "it": [
+            {
+              "n": "Small Shield",
+              "i": [
+                "4"
+              ],
+              "m": "Keeper of Souls (boss)"
+            },
+            {
+              "n": "Wind Rune Meda",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Protection",
+          "g": "Alan Harten",
+          "say": "choose Alan → protection",
+          "r": "Pauldrons of Piety",
+          "s": "Shoulders",
+          "st": "AC 11 · STA +8 · CHA +2 · WIS +12 · MANA +35",
+          "it": [
+            {
+              "n": "Shiny Pauldrons",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Wind Rune Caza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Resolution",
+          "g": "Deric Lennox",
+          "say": "choose Deric → resolution",
+          "r": "Necklace of Resolution",
+          "s": "Neck",
+          "st": "AC 4 · STR +5 · WIS +7 · HP +30 · MANA +15 · Promised Renewal · Charges: unlimited",
+          "it": [
+            {
+              "n": "Silvered Spiroc Necklace",
+              "i": [
+                "6"
+              ],
+              "m": "Bazzt Zzzt (boss)"
+            },
+            {
+              "n": "Wind Rune Neza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Theurgy",
+          "g": "Deric Lennox",
+          "say": "choose Deric → theurgy",
+          "r": "Theurgist's Star",
+          "s": "Primary",
+          "st": "1H Blunt 15 / 25 · WIS +10 · MANA +40 · SV DISEASE/POISON +25 · proc Blessing of the Theurgist",
+          "it": [
+            {
+              "n": "Djinni Aura",
+              "i": [
+                "7"
+              ],
+              "m": "Sister of the Spire (boss)"
+            },
+            {
+              "n": "Efreeti Mace",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Kala",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of The Weak",
+          "g": "Deric Lennox",
+          "say": "choose Deric → weak",
+          "r": "Baton of the Sky",
+          "s": "Primary",
+          "st": "2H Blunt 33 / 40 · AC 25 · MANA +75 · STR +10 · STA +10 · WIS +15 · Blessing of the Lord Commander (600s)",
+          "it": [
+            {
+              "n": "Mithril Bands",
+              "i": [
+                "8"
+              ],
+              "m": "Eye of Veeshan (final boss)"
+            },
+            {
+              "n": "Efreeti Standard",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Ena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        }
+      ]
+    },
+    "DRU": {
+      "label": "Druid",
+      "abbr": "DRU",
+      "hub": "Strandar Pinemist",
+      "armor": "Leather",
+      "v": 1,
+      "q": [
+        {
+          "n": "Test of Wolf",
+          "g": "Will Treewalker",
+          "say": "choose Will → wolf",
+          "r": "Drake-Hide Mask",
+          "s": "Face",
+          "st": "AC 4 · STR +10 · DEX +10 · WIS +10 · AGI +10 · MANA +10 · SV MAGIC +7",
+          "it": [
+            {
+              "n": "Worn Leather Mask",
+              "i": [
+                "3"
+              ],
+              "m": "Gorgalosk (boss)"
+            },
+            {
+              "n": "Wind Rune Meda",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Bear",
+          "g": "Will Treewalker",
+          "say": "choose Will → bear",
+          "r": "Nature Walker's Mantle",
+          "s": "Shoulders",
+          "st": "AC 6 · DEX +4 · WIS +4 · AGI +4 · MANA +50",
+          "it": [
+            {
+              "n": "Mantle of Woven Grass",
+              "i": [
+                "4"
+              ],
+              "m": "Keeper of Souls (boss)"
+            },
+            {
+              "n": "Wind Rune Kala",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Tree",
+          "g": "Will Treewalker",
+          "say": "choose Will → tree",
+          "r": "Shillelagh",
+          "s": "Primary",
+          "st": "1H Blunt 10 / 25 · AC 2 · CHA +4 · WIS +9 · AGI +2 · MANA +50 · SV FIRE +5",
+          "it": [
+            {
+              "n": "Spiroc Battle Staff",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Efreeti Statuette",
+              "i": [
+                "4"
+              ],
+              "m": "soul / essence griffons"
+            },
+            {
+              "n": "Wind Rune Azia",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of The Bee",
+          "g": "Fenalla Moonshadow",
+          "say": "choose Fenalla → bee",
+          "r": "Honeycomb Belt",
+          "s": "Waist",
+          "st": "AC 6 · CHA +2 · WIS +8 · MANA +75 · Haste +26%",
+          "haste": 26,
+          "it": [
+            {
+              "n": "Divine Honeycomb",
+              "i": [
+                "6"
+              ],
+              "m": "Bazzt Zzzt (boss)"
+            },
+            {
+              "n": "Wind Rune Dena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Eagle",
+          "g": "Fenalla Moonshadow",
+          "say": "choose Fenalla → eagle",
+          "r": "Spiroc Banisher Focus",
+          "s": "Primary / Secondary",
+          "st": "STR −2 · DEX −2 · WIS +20 · AGI −2 · MANA +10",
+          "it": [
+            {
+              "n": "Ethereal Ruby",
+              "i": [
+                "7"
+              ],
+              "m": "Sister of the Spire (boss)"
+            },
+            {
+              "n": "Spiroc Elder's Totem",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Wind Rune Ena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Nature",
+          "g": "Fenalla Moonshadow",
+          "say": "choose Fenalla → nature",
+          "r": "Espri",
+          "s": "Primary",
+          "st": "1H Slash 10 / 23 · DEX +9 · WIS +9 · MANA +50 · proc Combust",
+          "it": [
+            {
+              "n": "Storm Sky Opal",
+              "i": [
+                "8"
+              ],
+              "m": "Eye of Veeshan (final boss)"
+            },
+            {
+              "n": "Efreeti Scimitar",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Izah",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        }
+      ]
+    },
+    "ENC": {
+      "label": "Enchanter",
+      "abbr": "ENC",
+      "hub": "Enchanter Jolas",
+      "armor": "Silk",
+      "v": 1,
+      "q": [
+        {
+          "n": "Test of Illusion",
+          "g": "Lelulean",
+          "say": "choose Lelulean → illusion",
+          "r": "Sphinx Hair Cord",
+          "s": "Waist",
+          "st": "AC 4 · CHA +5 · INT +5 · SV FIRE/DISEASE/COLD +10 · no haste",
+          "it": [
+            {
+              "n": "Finely Woven Cloth Cord",
+              "i": [
+                "3"
+              ],
+              "m": "Gorgalosk (boss)"
+            },
+            {
+              "n": "Wind Rune Meda",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Metamorphism",
+          "g": "Lelulean",
+          "say": "choose Lelulean → metamorphism",
+          "r": "Wind Walker's Mantle",
+          "s": "Shoulders",
+          "st": "AC 6 · STR +5 · DEX +5 · CHA +10 · AGI +2 · HP +50",
+          "it": [
+            {
+              "n": "Light Cloth Mantle",
+              "i": [
+                "4"
+              ],
+              "m": "Keeper of Souls (boss)"
+            },
+            {
+              "n": "Wind Rune Ozah",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Deception",
+          "g": "Lelulean",
+          "say": "choose Lelulean → deception",
+          "r": "Ivory Mask",
+          "s": "Face",
+          "st": "AC 6 · CHA +6 · INT +6 · MANA +30",
+          "it": [
+            {
+              "n": "Silken Mask",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Wind Rune Beza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Disillusion",
+          "g": "Enderbite",
+          "say": "choose Enderbite → disillusion",
+          "r": "Earring of Displacement",
+          "s": "Ear",
+          "st": "AC 6 · CHA +4 · INT +4 · MANA +25 · Gravity Flux (2 charges)",
+          "it": [
+            {
+              "n": "Adamantium Earring",
+              "i": [
+                "6"
+              ],
+              "m": "Bazzt Zzzt (boss)"
+            },
+            {
+              "n": "Wind Rune Caza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Memorization",
+          "g": "Enderbite",
+          "say": "choose Enderbite → memorization",
+          "r": "Necklace of Whispering Winds",
+          "s": "Neck",
+          "st": "AC 4 · STA +5 · CHA +10 · INT +5 · MANA +35 · Cajoling Whispers (2 charges)",
+          "it": [
+            {
+              "n": "Glowing Necklace",
+              "i": [
+                "7"
+              ],
+              "m": "Sister of the Spire (boss)"
+            },
+            {
+              "n": "Wind Rune Fana",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Incapacitation",
+          "g": "Enderbite",
+          "say": "choose Enderbite → incapacitation",
+          "r": "Rod of the Protecting Winds",
+          "s": "Primary",
+          "st": "2H Blunt 35 / 45 · AC 10 · CHA +15 · INT +15 · MANA +75 · Rune III, infinite charges, 180s",
+          "it": [
+            {
+              "n": "Large Sky Sapphire",
+              "i": [
+                "8"
+              ],
+              "m": "Eye of Veeshan (final boss)"
+            },
+            {
+              "n": "Efreeti Wind Staff",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Izah",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        }
+      ]
+    },
+    "MAG": {
+      "label": "Magician",
+      "abbr": "MAG",
+      "hub": "Magus Frinon",
+      "armor": "Silk",
+      "v": 1,
+      "q": [
+        {
+          "n": "Test of Clarification",
+          "g": "Frederic Calermin",
+          "say": "choose Frederic → clarification",
+          "r": "Bracelet of Clarification",
+          "s": "Back / Wrist",
+          "st": "AC 6 · CHA +1 · INT +9 · MANA +10",
+          "it": [
+            {
+              "n": "Feathered Cape",
+              "i": [
+                "3"
+              ],
+              "m": "Gorgalosk (boss)"
+            },
+            {
+              "n": "Wind Rune Lena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Empowerment",
+          "g": "Frederic Calermin",
+          "say": "choose Frederic → empowerment",
+          "r": "Mask of Empowerment",
+          "s": "Face",
+          "st": "AC 4 · DEX +7 · INT +7 · AGI +7 · Burnout III (5 charges)",
+          "it": [
+            {
+              "n": "Ceramic Mask",
+              "i": [
+                "4"
+              ],
+              "m": "Keeper of Souls (boss)"
+            },
+            {
+              "n": "Wind Rune Neza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Shielding",
+          "g": "Frederic Calermin",
+          "say": "choose Frederic → shielding",
+          "r": "Gold White Pendant",
+          "s": "Neck",
+          "st": "AC 2 · INT +5 · MANA +50",
+          "it": [
+            {
+              "n": "Golden Coffer",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Wind Rune Azia",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Summoning",
+          "g": "Roanis Elindar",
+          "say": "choose Roanis → summoning",
+          "r": "Drake-Hide Amice",
+          "s": "Shoulders",
+          "st": "AC 6 · STA +5 · HP +50 · MANA +50 · Malaise (10 charges)",
+          "it": [
+            {
+              "n": "Large Diamond",
+              "i": [
+                "6"
+              ],
+              "m": "Bazzt Zzzt (boss)"
+            },
+            {
+              "n": "Wind Rune Dena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Interpretation",
+          "g": "Roanis Elindar",
+          "say": "choose Roanis → interpretation",
+          "r": "Duennan Shielding Ring",
+          "s": "Finger",
+          "st": "AC 4 · WIS +5 · INT +5 · MANA +30 · Harmshield (1 charge)",
+          "it": [
+            {
+              "n": "Golden Efreeti Ring",
+              "i": [
+                "7"
+              ],
+              "m": "Sister of the Spire (boss)"
+            },
+            {
+              "n": "Wind Rune Ena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Gesticulation",
+          "g": "Roanis Elindar",
+          "say": "choose Roanis → gesticulation",
+          "r": "Staff of The Magister",
+          "s": "Primary",
+          "st": "2H Blunt 16 / 48 · INT +15 · MANA +75 · SV FIRE +10 · SV COLD +20 · SV POISON +10",
+          "it": [
+            {
+              "n": "Hazy Opal",
+              "i": [
+                "8"
+              ],
+              "m": "Eye of Veeshan (final boss)"
+            },
+            {
+              "n": "Efreeti Magi Staff",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Jaka",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Displacement",
+          "g": "Roanis Elindar",
+          "say": "choose Roanis → displacement",
+          "r": "Staff of Elemental Mastery: Air",
+          "s": "Primary",
+          "st": "2H Blunt 15 / 30 · Reclaim Energy · Focus Effect: Servant of Air",
+          "it": [
+            {
+              "n": "Crown of Elemental Mastery",
+              "i": [
+                "7"
+              ],
+              "m": "drake / sphinx / spirit trash"
+            },
+            {
+              "n": "Large Opal",
+              "i": [
+                "8"
+              ],
+              "m": "Eye of Veeshan (final boss)"
+            },
+            {
+              "n": "Djinni Stave",
+              "i": [
+                "7"
+              ],
+              "m": "Sister of the Spire (boss)"
+            },
+            {
+              "n": "Wind Rune Heda",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        }
+      ]
+    },
+    "MNK": {
+      "label": "Monk",
+      "abbr": "MNK",
+      "hub": "Holwin",
+      "armor": "Leather",
+      "v": 1,
+      "q": [
+        {
+          "n": "Test of Strength",
+          "g": "Ton Po",
+          "say": "Ton Po → strength",
+          "r": "Back Straps of Mastery",
+          "s": "Back / Wrist",
+          "st": "AC 15 · STR +7 · STA +7 · CHA +5 · HP +50",
+          "it": [
+            {
+              "n": "Silken Strands",
+              "i": [
+                "3"
+              ],
+              "m": "Gorgalosk (boss)"
+            },
+            {
+              "n": "Wind Rune Caza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Sight",
+          "g": "Ton Po",
+          "say": "Ton Po → sight",
+          "r": "Ton Po's Eye Patch",
+          "s": "Face",
+          "st": "End +25 · STR +8 · DEX +8 · AGI +8 · See Invisible (worn)",
+          "it": [
+            {
+              "n": "Cracked Leather Eyepatch",
+              "i": [
+                "4"
+              ],
+              "m": "Keeper of Souls (boss)"
+            },
+            {
+              "n": "Wind Rune Geza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Speed",
+          "g": "Ton Po",
+          "say": "Ton Po → speed",
+          "r": "Sandals of Alacrity",
+          "s": "Feet",
+          "st": "AC 6 · STR +10 · AGI +10 · HP +20 · Alacrity (2 charges)",
+          "it": [
+            {
+              "n": "Dove Slippers",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Wind Rune Jaka",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Tears",
+          "g": "Wu the Enlightened",
+          "say": "Wu → tears",
+          "r": "Ton Po's Shoulder Wraps",
+          "s": "Shoulders",
+          "st": "AC 8 · STR +4 · DEX +4 · AGI +4 · all five resists +10",
+          "it": [
+            {
+              "n": "Silken Wrap",
+              "i": [
+                "6"
+              ],
+              "m": "Bazzt Zzzt (boss)"
+            },
+            {
+              "n": "Wind Rune Beza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Fists",
+          "g": "Wu the Enlightened",
+          "say": "Wu → fists",
+          "r": "Wu's Fist of Mastery",
+          "s": "Primary / Secondary",
+          "st": "1H Blunt 16 / 22 · NO DROP but tooltip carries no LORE flag",
+          "it": [
+            {
+              "n": "Nebulous Sapphire",
+              "i": [
+                "7"
+              ],
+              "m": "Sister of the Spire (boss)"
+            },
+            {
+              "n": "Brass Knuckles",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Neza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Tranquility",
+          "g": "Wu the Enlightened",
+          "say": "Wu → tranquility",
+          "r": "Golden Sash of Tranquility",
+          "s": "Waist",
+          "st": "AC 5 · Haste +41% · STR +15 · DEX +15 · AGI +15",
+          "haste": 41,
+          "it": [
+            {
+              "n": "Tear of Quellious",
+              "i": [
+                "8"
+              ],
+              "m": "Eye of Veeshan (final boss)"
+            },
+            {
+              "n": "Wind Rune Lena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        }
+      ]
+    },
+    "NEC": {
+      "label": "Necromancer",
+      "abbr": "NEC",
+      "hub": "Drakis Bloodcaster",
+      "armor": "Silk",
+      "v": 1,
+      "q": [
+        {
+          "n": "Test of Flight",
+          "g": "Jzil Gsix",
+          "say": "choose Jzil → flight",
+          "r": "Bloody Griffon-Hide Wrist Guard",
+          "s": "Wrist",
+          "st": "AC 5 · DEX +5 · CHA +10 · INT +5 · AGI +5 · MANA +25 · Levitate (10 charges)",
+          "it": [
+            {
+              "n": "Griffon's Beak",
+              "i": [
+                "3"
+              ],
+              "m": "Gorgalosk (boss)"
+            },
+            {
+              "n": "Wind Rune Lena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Power",
+          "g": "Jzil Gsix",
+          "say": "choose Jzil → power",
+          "r": "Cloak of Spiroc Feathers",
+          "s": "Back",
+          "st": "AC 6 · STR +5 · STA +6 · INT +5 · MANA +50",
+          "it": [
+            {
+              "n": "Black Silk Cape",
+              "i": [
+                "4"
+              ],
+              "m": "Keeper of Souls (boss)"
+            },
+            {
+              "n": "Wind Rune Neza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Mind",
+          "g": "Jzil Gsix",
+          "say": "choose Jzil → mind",
+          "r": "Bloodsoaked Raiment",
+          "s": "Shoulders",
+          "st": "AC 4 · DEX +3 · INT +5 · HP +30 · MANA +65",
+          "it": [
+            {
+              "n": "Fine Cloth Raiment",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Wind Rune Ozah",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Heart",
+          "g": "Dugaas Helpyre",
+          "say": "choose Dugaas → heart",
+          "r": "Sphinx Heart Amulet",
+          "s": "Neck",
+          "st": "AC 4 · STR +10 · CHA −5 · INT +10 · MANA +25 · SV DISEASE +5 · Ultravision (worn)",
+          "it": [
+            {
+              "n": "Pulsating Ruby",
+              "i": [
+                "6"
+              ],
+              "m": "Bazzt Zzzt (boss)"
+            },
+            {
+              "n": "Wind Rune Azia",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Finger",
+          "g": "Dugaas Helpyre",
+          "say": "choose Dugaas → finger",
+          "r": "Band of Wailing Winds",
+          "s": "Finger",
+          "st": "AC 2 · INT +5 · MANA +50 · Invoke Fear (3 charges)",
+          "it": [
+            {
+              "n": "Ring of Veeshan",
+              "i": [
+                "7"
+              ],
+              "m": "Sister of the Spire (boss)"
+            },
+            {
+              "n": "Wind Rune Caza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Hands",
+          "g": "Dugaas Helpyre",
+          "say": "choose Dugaas → hands",
+          "r": "Gorgon Head Staff",
+          "s": "Primary",
+          "st": "2H Blunt 14 / 41 · INT +15 · MANA +75 · SV DISEASE +25 · proc Tishan's Clash",
+          "it": [
+            {
+              "n": "Gorgon Head",
+              "i": [
+                "3"
+              ],
+              "m": "Gorgalosk (boss)"
+            },
+            {
+              "n": "Efreeti Great Staff",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Fana",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        }
+      ]
+    },
+    "PAL": {
+      "label": "Paladin",
+      "abbr": "PAL",
+      "hub": "Dason Goldblade",
+      "armor": "Plate",
+      "v": 1,
+      "q": [
+        {
+          "n": "Test of Spirit",
+          "g": "Dirkog Steelhand",
+          "say": "tested by Dirkog → spirit",
+          "r": "Girdle of Faith",
+          "s": "Waist",
+          "st": "AC 10 · STR +6 · WIS +6 · AGI +6 · Haste +41%",
+          "haste": 41,
+          "it": [
+            {
+              "n": "Ivory Sky Diamond",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Wind Rune Lena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Sacrifice",
+          "g": "Gregori Lightbringer",
+          "say": "tested by Gregori → sacrifice",
+          "r": "Aldryn, Blade of the Ocean",
+          "s": "Primary",
+          "st": "1H Slash 20 / 26 · STR +10 · STA +10 · WIS +8",
+          "it": [
+            {
+              "n": "Bixie Sword Blade",
+              "i": [
+                "6"
+              ],
+              "m": "Bazzt Zzzt (boss)"
+            },
+            {
+              "n": "Wind Rune Ozah",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Love",
+          "g": "Gregori Lightbringer",
+          "say": "tested by Gregori → love",
+          "r": "Thelvorn, Blade of Light",
+          "s": "Primary",
+          "st": "1H Slash 20 / 26 · WIS +15 · proc Dismiss Summoned",
+          "it": [
+            {
+              "n": "Golden Hilt",
+              "i": [
+                "7"
+              ],
+              "m": "drake / sphinx / spirit trash"
+            },
+            {
+              "n": "Sphinx Claw",
+              "i": [
+                "7"
+              ],
+              "m": "Sister of the Spire (boss)"
+            },
+            {
+              "n": "Wind Rune Geza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Compassion",
+          "g": "Gregori Lightbringer",
+          "say": "tested by Gregori → compassion",
+          "r": "Truvinan",
+          "s": "Primary",
+          "st": "2H Slash 32 / 40 · proc Dismiss Undead",
+          "it": [
+            {
+              "n": "Large Sky Diamond",
+              "i": [
+                "8"
+              ],
+              "m": "Eye of Veeshan (final boss)"
+            },
+            {
+              "n": "Efreeti Zweihander",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Izah",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        }
+      ]
+    },
+    "RNG": {
+      "label": "Ranger",
+      "abbr": "RNG",
+      "hub": "Ranger Spirit",
+      "armor": "Chain",
+      "v": 0,
+      "q": [
+        {
+          "n": "Griffon Talon Necklace",
+          "g": "Ranger Spirit",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Griffon Talon Necklace",
+          "s": "Neck",
+          "st": "",
+          "it": [
+            {
+              "n": "Griffon Talon",
+              "i": [
+                "3"
+              ],
+              "m": "Gorgalosk (boss)"
+            },
+            {
+              "n": "Wind Rune Meda",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Dark Cloak of the Sky",
+          "g": "Ranger Spirit",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Dark Cloak of the Sky",
+          "s": "Back",
+          "st": "",
+          "it": [
+            {
+              "n": "Fine Velvet Cloak",
+              "i": [
+                "4"
+              ],
+              "m": "Keeper of Souls (boss)"
+            },
+            {
+              "n": "Wind Rune Neza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Earthshaker's Mantle",
+          "g": "Ranger Spirit",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Earthshaker's Mantle",
+          "s": "Shoulders",
+          "st": "",
+          "it": [
+            {
+              "n": "Spiroc Earth Totem",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Wind Rune Kala",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Thunderforged Earring",
+          "g": "Ranger Spirit",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Thunderforged Earring",
+          "s": "Ear",
+          "st": "",
+          "it": [
+            {
+              "n": "White Gold Earring",
+              "i": [
+                "6"
+              ],
+              "m": "Bazzt Zzzt (boss)"
+            },
+            {
+              "n": "Wind Rune Azia",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Arydryidriyorn",
+          "g": "Ranger Spirit",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Arydryidriyorn",
+          "s": "Primary / Secondary",
+          "st": "STR +8 · WIS +8 · HP +50 — partial, Build Forge snapshot",
+          "it": [
+            {
+              "n": "Circlet of Brambles",
+              "i": [
+                "7"
+              ],
+              "m": "Sister of the Spire (boss)"
+            },
+            {
+              "n": "Efreeti Long Sword",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Ena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Windstriker",
+          "g": "Ranger Spirit",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Windstriker",
+          "s": "Range",
+          "st": "",
+          "it": [
+            {
+              "n": "Shimmering Pearl",
+              "i": [
+                "8"
+              ],
+              "m": "Eye of Veeshan (final boss)"
+            },
+            {
+              "n": "Efreeti War Bow",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Heda",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        }
+      ]
+    },
+    "ROG": {
+      "label": "Rogue",
+      "abbr": "ROG",
+      "hub": "Thalik Silenthand",
+      "armor": "Chain",
+      "v": 0,
+      "q": [
+        {
+          "n": "Wispy Choker of Vigor",
+          "g": "Thalik Silenthand",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Wispy Choker of Vigor",
+          "s": "Neck",
+          "st": "",
+          "it": [
+            {
+              "n": "Inlaid Choker",
+              "i": [
+                "3"
+              ],
+              "m": "Gorgalosk (boss)"
+            },
+            {
+              "n": "Wind Rune Ozah",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Crystal Mask",
+          "g": "Thalik Silenthand",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Crystal Mask",
+          "s": "Face",
+          "st": "",
+          "it": [
+            {
+              "n": "Jester's Mask",
+              "i": [
+                "4"
+              ],
+              "m": "Keeper of Souls (boss)"
+            },
+            {
+              "n": "Wind Rune Dena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Griffon Wing Spaulders",
+          "g": "Thalik Silenthand",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Griffon Wing Spaulders",
+          "s": "Shoulders",
+          "st": "",
+          "it": [
+            {
+              "n": "Spiroc Sky Totem",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Wind Rune Ena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Shimmering Bracer of Protection",
+          "g": "Thalik Silenthand",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Shimmering Bracer of Protection",
+          "s": "Wrist",
+          "st": "",
+          "it": [
+            {
+              "n": "Fine Wool Cloak",
+              "i": [
+                "6"
+              ],
+              "m": "Bazzt Zzzt (boss)"
+            },
+            {
+              "n": "Wind Rune Geza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Renard's Belt of Quickness",
+          "g": "Thalik Silenthand",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Renard's Belt of Quickness",
+          "s": "Waist",
+          "st": "",
+          "it": [
+            {
+              "n": "Sphinxian Circlet",
+              "i": [
+                "7"
+              ],
+              "m": "Sister of the Spire (boss)"
+            },
+            {
+              "n": "Wind Rune Izah",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Thornstinger",
+          "g": "Thalik Silenthand",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Thornstinger",
+          "s": "Primary",
+          "st": "",
+          "it": [
+            {
+              "n": "Bixie Stinger",
+              "i": [
+                "6"
+              ],
+              "m": "Bazzt Zzzt (boss)"
+            },
+            {
+              "n": "Bloodsky Sapphire",
+              "i": [
+                "8"
+              ],
+              "m": "Eye of Veeshan (final boss)"
+            },
+            {
+              "n": "Wind Rune Jaka",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        }
+      ]
+    },
+    "SHD": {
+      "label": "Shadow Knight",
+      "abbr": "SHD",
+      "hub": "Sarkis Ebonblade",
+      "armor": "Plate",
+      "v": 0,
+      "q": [
+        {
+          "n": "Amulet of the Sphinx Eye",
+          "g": "Sarkis Ebonblade",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Amulet of the Sphinx Eye",
+          "s": "Neck",
+          "st": "AC 15 · STR +7 · WIS +3 · INT +14 · CHA +3 · MANA +25 · Ultravision (worn)",
+          "it": [
+            {
+              "n": "Finely Crafted Amulet",
+              "i": [
+                "3"
+              ],
+              "m": "Gorgalosk (boss)"
+            },
+            {
+              "n": "Wind Rune Ozah",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Crimson Ring of the Djinni",
+          "g": "Sarkis Ebonblade",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Crimson Ring of the Djinni",
+          "s": "Finger",
+          "st": "",
+          "it": [
+            {
+              "n": "Silvery Ring",
+              "i": [
+                "4"
+              ],
+              "m": "Keeper of Souls (boss)"
+            },
+            {
+              "n": "Wind Rune Beza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Pegasus-Hide Belt",
+          "g": "Sarkis Ebonblade",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Pegasus-Hide Belt",
+          "s": "Waist",
+          "st": "",
+          "it": [
+            {
+              "n": "Finely Woven Cloth Belt",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Wind Rune Dena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Blood Sky Face Plate",
+          "g": "Sarkis Ebonblade",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Blood Sky Face Plate",
+          "s": "Face",
+          "st": "",
+          "it": [
+            {
+              "n": "Rusted Pauldrons",
+              "i": [
+                "6"
+              ],
+              "m": "Bazzt Zzzt (boss)"
+            },
+            {
+              "n": "Wind Rune Fana",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Obtenebrate Mithril Guard",
+          "g": "Sarkis Ebonblade",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Obtenebrate Mithril Guard",
+          "s": "Secondary",
+          "st": "",
+          "it": [
+            {
+              "n": "Efreeti War Shield",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Heda",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Khyldorn the Blood Drinker",
+          "g": "Sarkis Ebonblade",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Khyldorn the Blood Drinker",
+          "s": "Primary",
+          "st": "",
+          "it": [
+            {
+              "n": "Blood Sky Ruby",
+              "i": [
+                "8"
+              ],
+              "m": "Eye of Veeshan (final boss)"
+            },
+            {
+              "n": "Efreeti War Axe",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Kala",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Pearlescent Pauldrons",
+          "g": "Sarkis Ebonblade",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Pearlescent Pauldrons",
+          "s": "Shoulders",
+          "st": "",
+          "it": [
+            {
+              "n": "Fae Pauldrons",
+              "i": [
+                "8"
+              ],
+              "m": "Eye of Veeshan (final boss)"
+            },
+            {
+              "n": "Sphinxian Ring",
+              "i": [
+                "7"
+              ],
+              "m": "Sister of the Spire (boss)"
+            },
+            {
+              "n": "Wind Rune Izah",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        }
+      ]
+    },
+    "SHM": {
+      "label": "Shaman",
+      "abbr": "SHM",
+      "hub": "Medicine Man Veetra",
+      "armor": "Chain",
+      "v": 0,
+      "q": [
+        {
+          "n": "Amulet of the Fang",
+          "g": "Medicine Man Veetra",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Amulet of the Fang",
+          "s": "Neck",
+          "st": "AC 8 · WIS +8 · CHA +2 · MANA +10 · SV MAGIC +5 · SV FIRE +10",
+          "it": [
+            {
+              "n": "Leather Cord",
+              "i": [
+                "3"
+              ],
+              "m": "Gorgalosk (boss)"
+            },
+            {
+              "n": "Wind Rune Meda",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Bracelet of the Spirits",
+          "g": "Medicine Man Veetra",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Bracelet of the Spirits",
+          "s": "Waist",
+          "st": "",
+          "it": [
+            {
+              "n": "Ceremonial Belt",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Wind Rune Kala",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Fairy-Hide Mantle",
+          "g": "Medicine Man Veetra",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Fairy-Hide Mantle",
+          "s": "Shoulders",
+          "st": "",
+          "it": [
+            {
+              "n": "Light Damask Mantle",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Wind Rune Beza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Vermilion Sky Ring",
+          "g": "Medicine Man Veetra",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Vermilion Sky Ring",
+          "s": "Finger",
+          "st": "AC 5 · DEX +3 · WIS +7 · SV DISEASE +20 · Feign Death (2 charges) — classic tooltip",
+          "it": [
+            {
+              "n": "Bixie Essence",
+              "i": [
+                "6"
+              ],
+              "m": "bee mobs"
+            },
+            {
+              "n": "Spiritualist's Ring",
+              "i": [
+                "7"
+              ],
+              "m": "Sister of the Spire (boss)"
+            },
+            {
+              "n": "Wind Rune Heda",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Warhammer of the Wind",
+          "g": "Medicine Man Veetra",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Warhammer of the Wind",
+          "s": "Primary",
+          "st": "",
+          "it": [
+            {
+              "n": "Corrosive Venom",
+              "i": [
+                "6"
+              ],
+              "m": "Bazzt Zzzt (boss)"
+            },
+            {
+              "n": "Efreeti War Club",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Ena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Garduk",
+          "g": "Medicine Man Veetra",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Garduk",
+          "s": "Primary",
+          "st": "Piercing 23 / 40 · WIS +15 · MANA +75 · proc Tagar's Insects — classic tooltip",
+          "it": [
+            {
+              "n": "Symbol of Veeshan",
+              "i": [
+                "8"
+              ],
+              "m": "Eye of Veeshan (final boss)"
+            },
+            {
+              "n": "Efreeti War Maul",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Geza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        }
+      ]
+    },
+    "WAR": {
+      "label": "Warrior",
+      "abbr": "WAR",
+      "hub": "Torgon Blademaster",
+      "armor": "Plate",
+      "v": 1,
+      "q": [
+        {
+          "n": "Test of Skill",
+          "g": "Falorn",
+          "say": "tested by Falorn → test of blades → skill",
+          "r": "Azure Ruby Ring",
+          "s": "Finger",
+          "st": "AC 5 · STR +6 · DEX +9 · STA +6",
+          "it": [
+            {
+              "n": "Azure Ring",
+              "i": [
+                "3"
+              ],
+              "m": "Gorgalosk (boss)"
+            },
+            {
+              "n": "Wind Rune Neza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Force",
+          "g": "Falorn",
+          "say": "… test of blades → force",
+          "r": "Pauldrons of the Blue Sky",
+          "s": "Shoulders",
+          "st": "AC 12 · STR +8 · DEX +10 · STA +7 · AGI +10 · Spirit of Cheetah (3 charges)",
+          "it": [
+            {
+              "n": "Spiroc Air Totem",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Wind Rune Beza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Strength",
+          "g": "Falorn",
+          "say": "… test of blades → strength",
+          "r": "Runed Wind Amulet",
+          "s": "Neck",
+          "st": "AC 6 · STR +7 · AGI +7 · HP +40",
+          "it": [
+            {
+              "n": "Stone Amulet",
+              "i": [
+                "4"
+              ],
+              "m": "Keeper of Souls (boss)"
+            },
+            {
+              "n": "Wind Rune Azia",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Think",
+          "g": "Ogog",
+          "say": "tested by ogog → ready for ogog → think",
+          "r": "Belt of the Four Winds",
+          "s": "Waist",
+          "st": "AC 5 · STR +12 · DEX +6 · STA +12 · AGI +6 · SV MAGIC +5 · Haste +41%",
+          "haste": 41,
+          "it": [
+            {
+              "n": "Efreeti Belt",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Tablet",
+              "i": [
+                "6"
+              ],
+              "m": "Bazzt Zzzt (boss)"
+            },
+            {
+              "n": "Wind Rune Fana",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Smash",
+          "g": "Ogog",
+          "say": "… ready for ogog → smash",
+          "r": "Dagas",
+          "s": "Primary / Secondary",
+          "st": "1H Slash 11 / 21 · AC 20 · STR +3 · AGI +2 · HP +100 · Lore Equipped",
+          "it": [
+            {
+              "n": "Djinni War Blade",
+              "i": [
+                "7"
+              ],
+              "m": "Sister of the Spire (boss)"
+            },
+            {
+              "n": "Gem of Invigoration",
+              "i": [
+                "7"
+              ],
+              "m": "drake / sphinx / spirit trash",
+              "flag": "source unconfirmed"
+            },
+            {
+              "n": "Wind Rune Jaka",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Test of Bash",
+          "g": "Ogog",
+          "say": "… ready for ogog → bash",
+          "r": "Fangol",
+          "s": "Primary",
+          "st": "2H Slash 29 / 35 · STR +3 · DEX +10 · STA +10 · SV POISON +5 · proc Fangol's Breath",
+          "it": [
+            {
+              "n": "Efreeti Battle Axe",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Ethereal Emerald",
+              "i": [
+                "8"
+              ],
+              "m": "Eye of Veeshan (final boss)"
+            },
+            {
+              "n": "Wind Rune Dena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        }
+      ]
+    },
+    "WIZ": {
+      "label": "Wizard",
+      "abbr": "WIZ",
+      "hub": "Wizard Schrock",
+      "armor": "Silk",
+      "v": 0,
+      "q": [
+        {
+          "n": "Augmentor's Mask",
+          "g": "Wizard Schrock",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Augmentor's Mask",
+          "s": "Face",
+          "st": "AC 6 · AGI +8 · DEX +4 · INT +9 · MANA +9 — Build Forge snapshot",
+          "it": [
+            {
+              "n": "Grey Damask Cloak",
+              "i": [
+                "3"
+              ],
+              "m": "Gorgalosk (boss)"
+            },
+            {
+              "n": "Wind Rune Dena",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Al`Kabor's Cap of Binding",
+          "g": "Wizard Schrock",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Al`Kabor's Cap of Binding",
+          "s": "Head",
+          "st": "AC 6 · STR +5 · INT +8 · HP +40 · MANA +20 · SV FIRE/COLD +10 — Build Forge snapshot",
+          "it": [
+            {
+              "n": "Woven Skull Cap",
+              "i": [
+                "4"
+              ],
+              "m": "Keeper of Souls (boss)"
+            },
+            {
+              "n": "Wind Rune Fana",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Raiment of Thunder",
+          "g": "Wizard Schrock",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Raiment of Thunder",
+          "s": "Shoulders",
+          "st": "",
+          "it": [
+            {
+              "n": "High Quality Raiment",
+              "i": [
+                "5"
+              ],
+              "m": "The Spiroc Lord (boss)"
+            },
+            {
+              "n": "Wind Rune Geza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Solidate Mithril Ring",
+          "g": "Wizard Schrock",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Solidate Mithril Ring",
+          "s": "Finger",
+          "st": "",
+          "it": [
+            {
+              "n": "Box of Winds",
+              "i": [
+                "6"
+              ],
+              "m": "Bazzt Zzzt (boss)"
+            },
+            {
+              "n": "Efreeti Statuette",
+              "i": [
+                "4"
+              ],
+              "m": "soul / essence griffons, Eternal Spirit"
+            },
+            {
+              "n": "Wind Rune Izah",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Amulet of the Void",
+          "g": "Wizard Schrock",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Amulet of the Void",
+          "s": "Neck",
+          "st": "AC 4 · AGI +5 · DEX +5 · INT +5 · CHA +5 · MANA +50 — Build Forge snapshot",
+          "it": [
+            {
+              "n": "Amethyst Amulet",
+              "i": [
+                "7"
+              ],
+              "m": "Sister of the Spire (boss)"
+            },
+            {
+              "n": "Wind Rune Jaka",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        },
+        {
+          "n": "Nargon's Staff",
+          "g": "Wizard Schrock",
+          "say": "tester chain not confirmed for Legends",
+          "r": "Nargon's Staff",
+          "s": "Primary",
+          "st": "",
+          "it": [
+            {
+              "n": "Large Sky Lapis",
+              "i": [
+                "8"
+              ],
+              "m": "Eye of Veeshan (final boss)"
+            },
+            {
+              "n": "Efreeti War Staff",
+              "i": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "m": "Noble Dojorn · Overseer of Air · the Hand of Veeshan"
+            },
+            {
+              "n": "Wind Rune Caza",
+              "i": [
+                "any"
+              ],
+              "m": "random zone-wide drop",
+              "rune": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

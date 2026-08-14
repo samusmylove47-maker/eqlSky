@@ -1,0 +1,6519 @@
+{
+  "version": 1,
+  "generated": "2026-08-14",
+  "zone": "airplane",
+  "zoneName": "Plane of Sky",
+  "notes": {
+    "unlock": "Completing every Plane of Sky test for a class unlocks that class as a Primary. /ach tracks this. One free Primary Class Unlock Token at first level 50.",
+    "questRoom": "Buy Efreeti's Key (free) from the Key Master on Island 1. North teleport pad ~1600, 520. Keys persist on the keyring after first use.",
+    "windRunes": "Wind Runes drop zone-wide from trash and live in Currency / Alternate Storage. /outputfile inventory does not dump the currency tab.",
+    "keys": "Island bosses drop the next island key. Sirran key turn-ins are classic leftover and are not used in EverQuest Legends.",
+    "dropRates": "No public EQL source publishes a reliable numeric drop rate. Overlay shows creature, island, and drop kind only."
+  },
+  "islands": [
+    {
+      "id": "8",
+      "number": "8",
+      "name": "Butterfly Island",
+      "boss": "Eye of Veeshan",
+      "depth": 9
+    },
+    {
+      "id": "7",
+      "number": "7",
+      "name": "Drake Island",
+      "boss": "Sister of the Spire",
+      "depth": 8
+    },
+    {
+      "id": "6",
+      "number": "6",
+      "name": "Bee Island",
+      "boss": "Bazzt Zzzt",
+      "depth": 7
+    },
+    {
+      "id": "5",
+      "number": "5",
+      "name": "Bird Island",
+      "boss": "The Spiroc Lord",
+      "depth": 6
+    },
+    {
+      "id": "4",
+      "number": "4",
+      "name": "Pegasus Island",
+      "boss": "Keeper of Souls",
+      "depth": 5
+    },
+    {
+      "id": "3",
+      "number": "3",
+      "name": "Harpy Island",
+      "boss": "Gorgalosk",
+      "depth": 4
+    },
+    {
+      "id": "2",
+      "number": "2",
+      "name": "Imp Island",
+      "boss": "Protector of Sky",
+      "depth": 3
+    },
+    {
+      "id": "1.5",
+      "number": "1.5",
+      "name": "Noble Island",
+      "boss": "Noble Dojorn",
+      "depth": 2
+    },
+    {
+      "id": "1",
+      "number": "1",
+      "name": "Fairy Island",
+      "boss": "Thunder Spirit Princess",
+      "depth": 1
+    },
+    {
+      "id": "any",
+      "number": "—",
+      "name": "Zone-wide",
+      "boss": "wind runes, any mob",
+      "depth": 0
+    }
+  ],
+  "classes": [
+    {
+      "id": "BRD",
+      "name": "Bard",
+      "hub": "Cilin Spellsinger",
+      "armor": "Chain",
+      "verified": true,
+      "quests": [
+        {
+          "id": "BRD:test-of-tone",
+          "index": 0,
+          "name": "Test of Tone",
+          "tester": "Clarisa Spiritsong",
+          "say": "choose Clarisa → tone",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Mask of Song",
+            "aliases": [],
+            "slot": "Face",
+            "stats": "AC 12 · STR/DEX/STA/CHA/WIS/INT/AGI +3 · all five resists +7",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "BRD:test-of-tone:light-woolen-mask:0",
+              "name": "Light Woolen Mask",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "3"
+              ],
+              "creatures": [
+                "Gorgalosk"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BRD:test-of-tone:wind-rune-meda:1",
+              "name": "Wind Rune Meda",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "BRD:test-of-voice",
+          "index": 1,
+          "name": "Test of Voice",
+          "tester": "Clarisa Spiritsong",
+          "say": "choose Clarisa → voice",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Mantle of the Songweaver",
+            "aliases": [],
+            "slot": "Shoulders",
+            "stats": "AC 9 · STR +7 · DEX +7 · CHA +5 · AGI +5 · SV MAGIC +5 · clicky Fury (5)",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "BRD:test-of-voice:light-woolen-mantle:0",
+              "name": "Light Woolen Mantle",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "4"
+              ],
+              "creatures": [
+                "Keeper of Souls"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BRD:test-of-voice:wind-rune-kala:1",
+              "name": "Wind Rune Kala",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "BRD:test-of-pitch",
+          "index": 2,
+          "name": "Test of Pitch",
+          "tester": "Clarisa Spiritsong",
+          "say": "choose Clarisa → pitch",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Ervaj's Flute of Flight",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "Wind Resonance 12 · STR +8 · STA +10 · CHA +10 · INT +5",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "BRD:test-of-pitch:crude-wooden-flute:0",
+              "name": "Crude Wooden Flute",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BRD:test-of-pitch:wind-rune-azia:1",
+              "name": "Wind Rune Azia",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "BRD:test-of-wind",
+          "index": 3,
+          "name": "Test of Wind",
+          "tester": "Denise Songweaver",
+          "say": "choose Denise → wind",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Fae Amulet",
+            "aliases": [
+              "Amulet of the Fae"
+            ],
+            "slot": "Neck",
+            "stats": "AC 5 · DEX +4 · STA +4 · HP +50 · SV DISEASE/POISON +10 · clicky Healing (4)",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "BRD:test-of-wind:amulet-of-woven-hair:0",
+              "name": "Amulet of Woven Hair",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "Bazzt Zzzt"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BRD:test-of-wind:wind-rune-caza:1",
+              "name": "Wind Rune Caza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "BRD:test-of-brass",
+          "index": 4,
+          "name": "Test of Brass",
+          "tester": "Denise Songweaver",
+          "say": "choose Denise → brass",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Denon's Horn of Disaster",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "Brass Resonance 15 · STR +5 · CHA +10 · INT +5 · HP +50",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "BRD:test-of-brass:glowing-diamond:0",
+              "name": "Glowing Diamond",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "Sister of the Spire"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BRD:test-of-brass:efreeti-war-horn:1",
+              "name": "Efreeti War Horn",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BRD:test-of-brass:wind-rune-fana:2",
+              "name": "Wind Rune Fana",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "BRD:test-of-harmony",
+          "index": 5,
+          "name": "Test of Harmony",
+          "tester": "Denise Songweaver",
+          "say": "choose Denise → harmony",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Harmonic Spear",
+            "aliases": [
+              "Spear of Harmony"
+            ],
+            "slot": "Primary",
+            "stats": "Piercing 10 / 21 · STR +5 · DEX +5 · CHA +5 · proc Chant of Battle",
+            "haste": null
+          },
+          "island8": true,
+          "items": [
+            {
+              "id": "BRD:test-of-harmony:nebulous-diamond:0",
+              "name": "Nebulous Diamond",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "8"
+              ],
+              "creatures": [
+                "Eye of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BRD:test-of-harmony:efreeti-war-spear:1",
+              "name": "Efreeti War Spear",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BRD:test-of-harmony:wind-rune-heda:2",
+              "name": "Wind Rune Heda",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BST",
+      "name": "Beastlord",
+      "hub": "Animist Kratho",
+      "armor": "Leather",
+      "verified": true,
+      "quests": [
+        {
+          "id": "BST:test-of-aviak",
+          "index": 0,
+          "name": "Test of Aviak",
+          "tester": "Animist Kratho",
+          "say": "aviak",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Spiroc Beak Earcuff",
+            "aliases": [],
+            "slot": "Ear",
+            "stats": "AC 4 · HP +10 · Mana +10 · End +10 · WIS +5 · CHA +5 · click Vigor of Zehkes (120s)",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "BST:test-of-aviak:spiroc-elder-s-totem:0",
+              "name": "Spiroc Elder's Totem",
+              "aliases": [
+                "Spiroc Elder’s Totem"
+              ],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BST:test-of-aviak:wind-rune-beza:1",
+              "name": "Wind Rune Beza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "BST:test-of-azarack",
+          "index": 1,
+          "name": "Test of Azarack",
+          "tester": "Animist Kratho",
+          "say": "azarack",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Azarack Skin Wristwraps",
+            "aliases": [],
+            "slot": "Wrist",
+            "stats": "AC 5 · HP +35 · End +10 · STR +5 · STA +5 · DEX +5 · click Whirl Bolt (240s)",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "BST:test-of-azarack:azarack-skin:0",
+              "name": "Azarack Skin",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "2"
+              ],
+              "creatures": [
+                "Protector of Sky"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BST:test-of-azarack:wind-rune-heda:1",
+              "name": "Wind Rune Heda",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "BST:test-of-claw",
+          "index": 2,
+          "name": "Test of Claw",
+          "tester": "Animist Kratho",
+          "say": "claw",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Windhowl + Spirit Render",
+            "aliases": [
+              "Windhowl/Spirit Render",
+              "Windhowl",
+              "Spirit Render"
+            ],
+            "slot": "Primary / Secondary",
+            "stats": "Windhowl H2H 12 / 22 · HP +55 · End +25 · proc Herikol's Soothing — paired with Spirit Render H2H 10 / 23 · HP 25 · Mana 25 · proc Sha's Lethargy",
+            "haste": null
+          },
+          "island8": true,
+          "items": [
+            {
+              "id": "BST:test-of-claw:sphinx-claw:0",
+              "name": "Sphinx Claw",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "Sister of the Spire"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BST:test-of-claw:mithril-bands:1",
+              "name": "Mithril Bands",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "8"
+              ],
+              "creatures": [
+                "Eye of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BST:test-of-claw:brass-knuckles:2",
+              "name": "Brass Knuckles",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BST:test-of-claw:wind-rune-izah:3",
+              "name": "Wind Rune Izah",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "BST:test-of-harpy",
+          "index": 3,
+          "name": "Test of Harpy",
+          "tester": "Animist Kratho",
+          "say": "harpy",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Griffin-Hide Armguards",
+            "aliases": [],
+            "slot": "Arms",
+            "stats": "AC 6 · STA +4 · WIS +3 · End +15 · all five resists +5",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "BST:test-of-harpy:leather-cord:0",
+              "name": "Leather Cord",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "3"
+              ],
+              "creatures": [
+                "Gorgalosk"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BST:test-of-harpy:wind-rune-kala:1",
+              "name": "Wind Rune Kala",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "BST:test-of-wind",
+          "index": 4,
+          "name": "Test of Wind",
+          "tester": "Animist Kratho",
+          "say": "wind",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Diaphonous Waistband",
+            "aliases": [],
+            "slot": "Waist",
+            "stats": "AC 5 · STR +5 · WIS +10 · DEX +10 · Haste +41%",
+            "haste": 41
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "BST:test-of-wind:silken-wrap:0",
+              "name": "Silken Wrap",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "Bazzt Zzzt"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BST:test-of-wind:wind-rune-geza:1",
+              "name": "Wind Rune Geza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BER",
+      "name": "Berserker",
+      "hub": "Stragen The Hewer",
+      "armor": "Chain",
+      "verified": true,
+      "quests": [
+        {
+          "id": "BER:test-of-sharpness",
+          "index": 0,
+          "name": "Test of Sharpness",
+          "tester": "Stragen The Hewer",
+          "say": "sharpness",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Skycleaver",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "2H Slash 30 / 35 · Dmg Bonus 24 · STA +5 · DEX +10 · SV DISEASE +5 · combat effect Haste",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "BER:test-of-sharpness:djinni-war-blade:0",
+              "name": "Djinni War Blade",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "Sister of the Spire"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BER:test-of-sharpness:efreeti-standard:1",
+              "name": "Efreeti Standard",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BER:test-of-sharpness:wind-rune-jaka:2",
+              "name": "Wind Rune Jaka",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "BER:test-of-will",
+          "index": 1,
+          "name": "Test of Will",
+          "tester": "Stragen The Hewer",
+          "say": "will",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Molten Coil",
+            "aliases": [],
+            "slot": "Finger",
+            "stats": "AC 5 · Mana −55 · STR +6 · STA +5 · AGI +5 · DEX +6 · CHA +10 · SV FIRE +5",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "BER:test-of-will:pulsating-ruby:0",
+              "name": "Pulsating Ruby",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "Bazzt Zzzt"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BER:test-of-will:wind-rune-ena:1",
+              "name": "Wind Rune Ena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "BER:test-of-ferocity",
+          "index": 2,
+          "name": "Test of Ferocity",
+          "tester": "Stragen The Hewer",
+          "say": "ferocity",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Sash of Ferocity",
+            "aliases": [],
+            "slot": "Waist",
+            "stats": "AC 10 · STR +6 · DEX +5 · SV MAGIC +5 · Haste +41%",
+            "haste": 41
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "BER:test-of-ferocity:high-quality-raiment:0",
+              "name": "High Quality Raiment",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BER:test-of-ferocity:wind-rune-ozah:1",
+              "name": "Wind Rune Ozah",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "BER:test-of-burden",
+          "index": 3,
+          "name": "Test of Burden",
+          "tester": "Stragen The Hewer",
+          "say": "burden",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Shroud of the Sky",
+            "aliases": [],
+            "slot": "Shoulders",
+            "stats": "AC 8 · HP +25 · End +25 · STR +7 · WIS +7 · DEX +7 · click Raging Strength (120s)",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "BER:test-of-burden:feathered-cape:0",
+              "name": "Feathered Cape",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "3"
+              ],
+              "creatures": [
+                "Gorgalosk"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BER:test-of-burden:wind-rune-azia:1",
+              "name": "Wind Rune Azia",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "BER:test-of-blood",
+          "index": 4,
+          "name": "Test of Blood",
+          "tester": "Stragen The Hewer",
+          "say": "blood",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Blood-Drawn Runes",
+            "aliases": [],
+            "slot": "Chest",
+            "stats": "HP +55 · End +25 · STR +10 · STA +10 · AGI +5 · DEX +10 · HP Regen +10",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "BER:test-of-blood:azarack-blood:0",
+              "name": "Azarack Blood",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "2"
+              ],
+              "creatures": [
+                "Protector of Sky"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BER:test-of-blood:wind-rune-lena:1",
+              "name": "Wind Rune Lena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "BER:test-of-fools-errand",
+          "index": 5,
+          "name": "Test of Fools Errand",
+          "tester": "Stragen The Hewer",
+          "say": "fools errand",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Cudgel of the Fool",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "2H Blunt 45 / 52 · Dmg Bonus 40 · INT −7 · proc Fury of the Chosen",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "BER:test-of-fools-errand:jester-s-mask:0",
+              "name": "Jester's Mask",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "4"
+              ],
+              "creatures": [
+                "Keeper of Souls"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "BER:test-of-fools-errand:efreeti-great-staff:1",
+              "name": "Efreeti Great Staff",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "conflict",
+              "notes": "eqlsource + EQProgression: Noble Dojorn / Overseer of Air / Hand of Veeshan. eqlegendstools lists Eye of Veeshan only. Overlay shows the cycle and flags the conflict.",
+              "dropRate": null,
+              "altCreatures": [
+                "Eye of Veeshan"
+              ]
+            },
+            {
+              "id": "BER:test-of-fools-errand:wind-rune-dena:2",
+              "name": "Wind Rune Dena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CLR",
+      "name": "Cleric",
+      "hub": "Josin Faithbringer",
+      "armor": "Plate",
+      "verified": true,
+      "quests": [
+        {
+          "id": "CLR:test-of-courage",
+          "index": 0,
+          "name": "Test of Courage",
+          "tester": "Alan Harten",
+          "say": "choose Alan → courage",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Truewind Earring",
+            "aliases": [],
+            "slot": "Ear",
+            "stats": "DEX +5 · WIS +9 · SV COLD +10",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "CLR:test-of-courage:silver-hoop:0",
+              "name": "Silver Hoop",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "3"
+              ],
+              "creatures": [
+                "Gorgalosk"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "CLR:test-of-courage:wind-rune-lena:1",
+              "name": "Wind Rune Lena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "CLR:test-of-skill",
+          "index": 1,
+          "name": "Test of Skill",
+          "tester": "Alan Harten",
+          "say": "choose Alan → skill",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Aegis of the Wind",
+            "aliases": [],
+            "slot": "Secondary",
+            "stats": "AC 25 · WIS +9 · MANA +60 · SV DISEASE +10",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "CLR:test-of-skill:small-shield:0",
+              "name": "Small Shield",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "4"
+              ],
+              "creatures": [
+                "Keeper of Souls"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "CLR:test-of-skill:wind-rune-meda:1",
+              "name": "Wind Rune Meda",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "CLR:test-of-protection",
+          "index": 2,
+          "name": "Test of Protection",
+          "tester": "Alan Harten",
+          "say": "choose Alan → protection",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Pauldrons of Piety",
+            "aliases": [],
+            "slot": "Shoulders",
+            "stats": "AC 11 · STA +8 · CHA +2 · WIS +12 · MANA +35",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "CLR:test-of-protection:shiny-pauldrons:0",
+              "name": "Shiny Pauldrons",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "CLR:test-of-protection:wind-rune-caza:1",
+              "name": "Wind Rune Caza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "CLR:test-of-resolution",
+          "index": 3,
+          "name": "Test of Resolution",
+          "tester": "Deric Lennox",
+          "say": "choose Deric → resolution",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Necklace of Resolution",
+            "aliases": [],
+            "slot": "Neck",
+            "stats": "AC 4 · STR +5 · WIS +7 · HP +30 · MANA +15 · Promised Renewal · Charges: unlimited",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "CLR:test-of-resolution:silvered-spiroc-necklace:0",
+              "name": "Silvered Spiroc Necklace",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "Bazzt Zzzt"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "CLR:test-of-resolution:wind-rune-neza:1",
+              "name": "Wind Rune Neza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "CLR:test-of-theurgy",
+          "index": 4,
+          "name": "Test of Theurgy",
+          "tester": "Deric Lennox",
+          "say": "choose Deric → theurgy",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Theurgist's Star",
+            "aliases": [
+              "Theurgist’s Star"
+            ],
+            "slot": "Primary",
+            "stats": "1H Blunt 15 / 25 · WIS +10 · MANA +40 · SV DISEASE/POISON +25 · proc Blessing of the Theurgist",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "CLR:test-of-theurgy:djinni-aura:0",
+              "name": "Djinni Aura",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "Sister of the Spire"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "CLR:test-of-theurgy:efreeti-mace:1",
+              "name": "Efreeti Mace",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "CLR:test-of-theurgy:wind-rune-kala:2",
+              "name": "Wind Rune Kala",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "CLR:test-of-the-weak",
+          "index": 5,
+          "name": "Test of The Weak",
+          "tester": "Deric Lennox",
+          "say": "choose Deric → weak",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Baton of the Sky",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "2H Blunt 33 / 40 · AC 25 · MANA +75 · STR +10 · STA +10 · WIS +15 · Blessing of the Lord Commander (600s)",
+            "haste": null
+          },
+          "island8": true,
+          "items": [
+            {
+              "id": "CLR:test-of-the-weak:mithril-bands:0",
+              "name": "Mithril Bands",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "8"
+              ],
+              "creatures": [
+                "Eye of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "CLR:test-of-the-weak:efreeti-standard:1",
+              "name": "Efreeti Standard",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "CLR:test-of-the-weak:wind-rune-ena:2",
+              "name": "Wind Rune Ena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DRU",
+      "name": "Druid",
+      "hub": "Strandar Pinemist",
+      "armor": "Leather",
+      "verified": true,
+      "quests": [
+        {
+          "id": "DRU:test-of-wolf",
+          "index": 0,
+          "name": "Test of Wolf",
+          "tester": "Will Treewalker",
+          "say": "choose Will → wolf",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Drake-Hide Mask",
+            "aliases": [],
+            "slot": "Face",
+            "stats": "AC 4 · STR +10 · DEX +10 · WIS +10 · AGI +10 · MANA +10 · SV MAGIC +7",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "DRU:test-of-wolf:worn-leather-mask:0",
+              "name": "Worn Leather Mask",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "3"
+              ],
+              "creatures": [
+                "Gorgalosk"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "DRU:test-of-wolf:wind-rune-meda:1",
+              "name": "Wind Rune Meda",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "DRU:test-of-bear",
+          "index": 1,
+          "name": "Test of Bear",
+          "tester": "Will Treewalker",
+          "say": "choose Will → bear",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Nature Walker's Mantle",
+            "aliases": [],
+            "slot": "Shoulders",
+            "stats": "AC 6 · DEX +4 · WIS +4 · AGI +4 · MANA +50",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "DRU:test-of-bear:mantle-of-woven-grass:0",
+              "name": "Mantle of Woven Grass",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "4"
+              ],
+              "creatures": [
+                "Keeper of Souls"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "DRU:test-of-bear:wind-rune-kala:1",
+              "name": "Wind Rune Kala",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "DRU:test-of-tree",
+          "index": 2,
+          "name": "Test of Tree",
+          "tester": "Will Treewalker",
+          "say": "choose Will → tree",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Shillelagh",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "1H Blunt 10 / 25 · AC 2 · CHA +4 · WIS +9 · AGI +2 · MANA +50 · SV FIRE +5",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "DRU:test-of-tree:spiroc-battle-staff:0",
+              "name": "Spiroc Battle Staff",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "DRU:test-of-tree:efreeti-statuette:1",
+              "name": "Efreeti Statuette",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-trash",
+              "islands": [
+                "4"
+              ],
+              "creatures": [
+                "soul",
+                "essence griffons"
+              ],
+              "confidence": "conflict",
+              "notes": "eqlsource + EQProgression: Island 4 soul/essence griffons (Eternal Spirit unconfirmed). eqlegendstools lists the efreeti cycle. Overlay keeps the griffon source and flags the conflict.",
+              "dropRate": null,
+              "altCreatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ]
+            },
+            {
+              "id": "DRU:test-of-tree:wind-rune-azia:2",
+              "name": "Wind Rune Azia",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "DRU:test-of-the-bee",
+          "index": 3,
+          "name": "Test of The Bee",
+          "tester": "Fenalla Moonshadow",
+          "say": "choose Fenalla → bee",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Honeycomb Belt",
+            "aliases": [],
+            "slot": "Waist",
+            "stats": "AC 6 · CHA +2 · WIS +8 · MANA +75 · Haste +26%",
+            "haste": 26
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "DRU:test-of-the-bee:divine-honeycomb:0",
+              "name": "Divine Honeycomb",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "Bazzt Zzzt"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "DRU:test-of-the-bee:wind-rune-dena:1",
+              "name": "Wind Rune Dena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "DRU:test-of-eagle",
+          "index": 4,
+          "name": "Test of Eagle",
+          "tester": "Fenalla Moonshadow",
+          "say": "choose Fenalla → eagle",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Spiroc Banisher Focus",
+            "aliases": [],
+            "slot": "Primary / Secondary",
+            "stats": "STR −2 · DEX −2 · WIS +20 · AGI −2 · MANA +10",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "DRU:test-of-eagle:ethereal-ruby:0",
+              "name": "Ethereal Ruby",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "Sister of the Spire"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "DRU:test-of-eagle:spiroc-elder-s-totem:1",
+              "name": "Spiroc Elder's Totem",
+              "aliases": [
+                "Spiroc Elder’s Totem"
+              ],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "DRU:test-of-eagle:wind-rune-ena:2",
+              "name": "Wind Rune Ena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "DRU:test-of-nature",
+          "index": 5,
+          "name": "Test of Nature",
+          "tester": "Fenalla Moonshadow",
+          "say": "choose Fenalla → nature",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Espri",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "1H Slash 10 / 23 · DEX +9 · WIS +9 · MANA +50 · proc Combust",
+            "haste": null
+          },
+          "island8": true,
+          "items": [
+            {
+              "id": "DRU:test-of-nature:storm-sky-opal:0",
+              "name": "Storm Sky Opal",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "8"
+              ],
+              "creatures": [
+                "Eye of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "DRU:test-of-nature:efreeti-scimitar:1",
+              "name": "Efreeti Scimitar",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "DRU:test-of-nature:wind-rune-izah:2",
+              "name": "Wind Rune Izah",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ENC",
+      "name": "Enchanter",
+      "hub": "Enchanter Jolas",
+      "armor": "Silk",
+      "verified": true,
+      "quests": [
+        {
+          "id": "ENC:test-of-illusion",
+          "index": 0,
+          "name": "Test of Illusion",
+          "tester": "Lelulean",
+          "say": "choose Lelulean → illusion",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Sphinx Hair Cord",
+            "aliases": [],
+            "slot": "Waist",
+            "stats": "AC 4 · CHA +5 · INT +5 · SV FIRE/DISEASE/COLD +10 · no haste",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "ENC:test-of-illusion:finely-woven-cloth-cord:0",
+              "name": "Finely Woven Cloth Cord",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "3"
+              ],
+              "creatures": [
+                "Gorgalosk"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "ENC:test-of-illusion:wind-rune-meda:1",
+              "name": "Wind Rune Meda",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "ENC:test-of-metamorphism",
+          "index": 1,
+          "name": "Test of Metamorphism",
+          "tester": "Lelulean",
+          "say": "choose Lelulean → metamorphism",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Wind Walker's Mantle",
+            "aliases": [],
+            "slot": "Shoulders",
+            "stats": "AC 6 · STR +5 · DEX +5 · CHA +10 · AGI +2 · HP +50",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "ENC:test-of-metamorphism:light-cloth-mantle:0",
+              "name": "Light Cloth Mantle",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "4"
+              ],
+              "creatures": [
+                "Keeper of Souls"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "ENC:test-of-metamorphism:wind-rune-ozah:1",
+              "name": "Wind Rune Ozah",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "ENC:test-of-deception",
+          "index": 2,
+          "name": "Test of Deception",
+          "tester": "Lelulean",
+          "say": "choose Lelulean → deception",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Ivory Mask",
+            "aliases": [],
+            "slot": "Face",
+            "stats": "AC 6 · CHA +6 · INT +6 · MANA +30",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "ENC:test-of-deception:silken-mask:0",
+              "name": "Silken Mask",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "ENC:test-of-deception:wind-rune-beza:1",
+              "name": "Wind Rune Beza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "ENC:test-of-disillusion",
+          "index": 3,
+          "name": "Test of Disillusion",
+          "tester": "Enderbite",
+          "say": "choose Enderbite → disillusion",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Earring of Displacement",
+            "aliases": [],
+            "slot": "Ear",
+            "stats": "AC 6 · CHA +4 · INT +4 · MANA +25 · Gravity Flux (2 charges)",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "ENC:test-of-disillusion:adamantium-earring:0",
+              "name": "Adamantium Earring",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "Bazzt Zzzt"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "ENC:test-of-disillusion:wind-rune-caza:1",
+              "name": "Wind Rune Caza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "ENC:test-of-memorization",
+          "index": 4,
+          "name": "Test of Memorization",
+          "tester": "Enderbite",
+          "say": "choose Enderbite → memorization",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Necklace of Whispering Winds",
+            "aliases": [],
+            "slot": "Neck",
+            "stats": "AC 4 · STA +5 · CHA +10 · INT +5 · MANA +35 · Cajoling Whispers (2 charges)",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "ENC:test-of-memorization:glowing-necklace:0",
+              "name": "Glowing Necklace",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "Sister of the Spire"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "ENC:test-of-memorization:wind-rune-fana:1",
+              "name": "Wind Rune Fana",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "ENC:test-of-incapacitation",
+          "index": 5,
+          "name": "Test of Incapacitation",
+          "tester": "Enderbite",
+          "say": "choose Enderbite → incapacitation",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Rod of the Protecting Winds",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "2H Blunt 35 / 45 · AC 10 · CHA +15 · INT +15 · MANA +75 · Rune III, infinite charges, 180s",
+            "haste": null
+          },
+          "island8": true,
+          "items": [
+            {
+              "id": "ENC:test-of-incapacitation:large-sky-sapphire:0",
+              "name": "Large Sky Sapphire",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "8"
+              ],
+              "creatures": [
+                "Eye of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "ENC:test-of-incapacitation:efreeti-wind-staff:1",
+              "name": "Efreeti Wind Staff",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "ENC:test-of-incapacitation:wind-rune-izah:2",
+              "name": "Wind Rune Izah",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MAG",
+      "name": "Magician",
+      "hub": "Magus Frinon",
+      "armor": "Silk",
+      "verified": true,
+      "quests": [
+        {
+          "id": "MAG:test-of-clarification",
+          "index": 0,
+          "name": "Test of Clarification",
+          "tester": "Frederic Calermin",
+          "say": "choose Frederic → clarification",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Bracelet of Clarification",
+            "aliases": [],
+            "slot": "Back / Wrist",
+            "stats": "AC 6 · CHA +1 · INT +9 · MANA +10",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "MAG:test-of-clarification:feathered-cape:0",
+              "name": "Feathered Cape",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "3"
+              ],
+              "creatures": [
+                "Gorgalosk"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "MAG:test-of-clarification:wind-rune-lena:1",
+              "name": "Wind Rune Lena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "MAG:test-of-empowerment",
+          "index": 1,
+          "name": "Test of Empowerment",
+          "tester": "Frederic Calermin",
+          "say": "choose Frederic → empowerment",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Mask of Empowerment",
+            "aliases": [],
+            "slot": "Face",
+            "stats": "AC 4 · DEX +7 · INT +7 · AGI +7 · Burnout III (5 charges)",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "MAG:test-of-empowerment:ceramic-mask:0",
+              "name": "Ceramic Mask",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "4"
+              ],
+              "creatures": [
+                "Keeper of Souls"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "MAG:test-of-empowerment:wind-rune-neza:1",
+              "name": "Wind Rune Neza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "MAG:test-of-shielding",
+          "index": 2,
+          "name": "Test of Shielding",
+          "tester": "Frederic Calermin",
+          "say": "choose Frederic → shielding",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Gold White Pendant",
+            "aliases": [],
+            "slot": "Neck",
+            "stats": "AC 2 · INT +5 · MANA +50",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "MAG:test-of-shielding:golden-coffer:0",
+              "name": "Golden Coffer",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "MAG:test-of-shielding:wind-rune-azia:1",
+              "name": "Wind Rune Azia",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "MAG:test-of-summoning",
+          "index": 3,
+          "name": "Test of Summoning",
+          "tester": "Roanis Elindar",
+          "say": "choose Roanis → summoning",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Drake-Hide Amice",
+            "aliases": [],
+            "slot": "Shoulders",
+            "stats": "AC 6 · STA +5 · HP +50 · MANA +50 · Malaise (10 charges)",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "MAG:test-of-summoning:large-diamond:0",
+              "name": "Large Diamond",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "Bazzt Zzzt"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "MAG:test-of-summoning:wind-rune-dena:1",
+              "name": "Wind Rune Dena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "MAG:test-of-interpretation",
+          "index": 4,
+          "name": "Test of Interpretation",
+          "tester": "Roanis Elindar",
+          "say": "choose Roanis → interpretation",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Duennan Shielding Ring",
+            "aliases": [],
+            "slot": "Finger",
+            "stats": "AC 4 · WIS +5 · INT +5 · MANA +30 · Harmshield (1 charge)",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "MAG:test-of-interpretation:golden-efreeti-ring:0",
+              "name": "Golden Efreeti Ring",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "Sister of the Spire"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "MAG:test-of-interpretation:wind-rune-ena:1",
+              "name": "Wind Rune Ena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "MAG:test-of-gesticulation",
+          "index": 5,
+          "name": "Test of Gesticulation",
+          "tester": "Roanis Elindar",
+          "say": "choose Roanis → gesticulation",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Staff of The Magister",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "2H Blunt 16 / 48 · INT +15 · MANA +75 · SV FIRE +10 · SV COLD +20 · SV POISON +10",
+            "haste": null
+          },
+          "island8": true,
+          "items": [
+            {
+              "id": "MAG:test-of-gesticulation:hazy-opal:0",
+              "name": "Hazy Opal",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "8"
+              ],
+              "creatures": [
+                "Eye of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "MAG:test-of-gesticulation:efreeti-magi-staff:1",
+              "name": "Efreeti Magi Staff",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "MAG:test-of-gesticulation:wind-rune-jaka:2",
+              "name": "Wind Rune Jaka",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "MAG:test-of-displacement",
+          "index": 6,
+          "name": "Test of Displacement",
+          "tester": "Roanis Elindar",
+          "say": "choose Roanis → displacement",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Staff of Elemental Mastery: Air",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "2H Blunt 15 / 30 · Reclaim Energy · Focus Effect: Servant of Air",
+            "haste": null
+          },
+          "island8": true,
+          "items": [
+            {
+              "id": "MAG:test-of-displacement:crown-of-elemental-mastery:0",
+              "name": "Crown of Elemental Mastery",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-trash",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "drake",
+                "sphinx",
+                "spirit trash"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "MAG:test-of-displacement:large-opal:1",
+              "name": "Large Opal",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "8"
+              ],
+              "creatures": [
+                "Eye of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "MAG:test-of-displacement:djinni-stave:2",
+              "name": "Djinni Stave",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "Sister of the Spire"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "MAG:test-of-displacement:wind-rune-heda:3",
+              "name": "Wind Rune Heda",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MNK",
+      "name": "Monk",
+      "hub": "Holwin",
+      "armor": "Leather",
+      "verified": true,
+      "quests": [
+        {
+          "id": "MNK:test-of-strength",
+          "index": 0,
+          "name": "Test of Strength",
+          "tester": "Ton Po",
+          "say": "Ton Po → strength",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Back Straps of Mastery",
+            "aliases": [],
+            "slot": "Back / Wrist",
+            "stats": "AC 15 · STR +7 · STA +7 · CHA +5 · HP +50",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "MNK:test-of-strength:silken-strands:0",
+              "name": "Silken Strands",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "3"
+              ],
+              "creatures": [
+                "Gorgalosk"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "MNK:test-of-strength:wind-rune-caza:1",
+              "name": "Wind Rune Caza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "MNK:test-of-sight",
+          "index": 1,
+          "name": "Test of Sight",
+          "tester": "Ton Po",
+          "say": "Ton Po → sight",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Ton Po's Eye Patch",
+            "aliases": [],
+            "slot": "Face",
+            "stats": "End +25 · STR +8 · DEX +8 · AGI +8 · See Invisible (worn)",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "MNK:test-of-sight:cracked-leather-eyepatch:0",
+              "name": "Cracked Leather Eyepatch",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "4"
+              ],
+              "creatures": [
+                "Keeper of Souls"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "MNK:test-of-sight:wind-rune-geza:1",
+              "name": "Wind Rune Geza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "MNK:test-of-speed",
+          "index": 2,
+          "name": "Test of Speed",
+          "tester": "Ton Po",
+          "say": "Ton Po → speed",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Sandals of Alacrity",
+            "aliases": [],
+            "slot": "Feet",
+            "stats": "AC 6 · STR +10 · AGI +10 · HP +20 · Alacrity (2 charges)",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "MNK:test-of-speed:dove-slippers:0",
+              "name": "Dove Slippers",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "MNK:test-of-speed:wind-rune-jaka:1",
+              "name": "Wind Rune Jaka",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "MNK:test-of-tears",
+          "index": 3,
+          "name": "Test of Tears",
+          "tester": "Wu the Enlightened",
+          "say": "Wu → tears",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Ton Po's Shoulder Wraps",
+            "aliases": [],
+            "slot": "Shoulders",
+            "stats": "AC 8 · STR +4 · DEX +4 · AGI +4 · all five resists +10",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "MNK:test-of-tears:silken-wrap:0",
+              "name": "Silken Wrap",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "Bazzt Zzzt"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "MNK:test-of-tears:wind-rune-beza:1",
+              "name": "Wind Rune Beza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "MNK:test-of-fists",
+          "index": 4,
+          "name": "Test of Fists",
+          "tester": "Wu the Enlightened",
+          "say": "Wu → fists",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Wu's Fist of Mastery",
+            "aliases": [],
+            "slot": "Primary / Secondary",
+            "stats": "1H Blunt 16 / 22 · NO DROP but tooltip carries no LORE flag",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "MNK:test-of-fists:nebulous-sapphire:0",
+              "name": "Nebulous Sapphire",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "Sister of the Spire"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "MNK:test-of-fists:brass-knuckles:1",
+              "name": "Brass Knuckles",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "MNK:test-of-fists:wind-rune-neza:2",
+              "name": "Wind Rune Neza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "MNK:test-of-tranquility",
+          "index": 5,
+          "name": "Test of Tranquility",
+          "tester": "Wu the Enlightened",
+          "say": "Wu → tranquility",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Golden Sash of Tranquility",
+            "aliases": [],
+            "slot": "Waist",
+            "stats": "AC 5 · Haste +41% · STR +15 · DEX +15 · AGI +15",
+            "haste": 41
+          },
+          "island8": true,
+          "items": [
+            {
+              "id": "MNK:test-of-tranquility:tear-of-quellious:0",
+              "name": "Tear of Quellious",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "8"
+              ],
+              "creatures": [
+                "Eye of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "MNK:test-of-tranquility:wind-rune-lena:1",
+              "name": "Wind Rune Lena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NEC",
+      "name": "Necromancer",
+      "hub": "Drakis Bloodcaster",
+      "armor": "Silk",
+      "verified": true,
+      "quests": [
+        {
+          "id": "NEC:test-of-flight",
+          "index": 0,
+          "name": "Test of Flight",
+          "tester": "Jzil Gsix",
+          "say": "choose Jzil → flight",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Bloody Griffon-Hide Wrist Guard",
+            "aliases": [],
+            "slot": "Wrist",
+            "stats": "AC 5 · DEX +5 · CHA +10 · INT +5 · AGI +5 · MANA +25 · Levitate (10 charges)",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "NEC:test-of-flight:griffon-s-beak:0",
+              "name": "Griffon's Beak",
+              "aliases": [
+                "Griffon’s Beak"
+              ],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "3"
+              ],
+              "creatures": [
+                "Gorgalosk"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "NEC:test-of-flight:wind-rune-lena:1",
+              "name": "Wind Rune Lena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "NEC:test-of-power",
+          "index": 1,
+          "name": "Test of Power",
+          "tester": "Jzil Gsix",
+          "say": "choose Jzil → power",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Cloak of Spiroc Feathers",
+            "aliases": [],
+            "slot": "Back",
+            "stats": "AC 6 · STR +5 · STA +6 · INT +5 · MANA +50",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "NEC:test-of-power:black-silk-cape:0",
+              "name": "Black Silk Cape",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "4"
+              ],
+              "creatures": [
+                "Keeper of Souls"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "NEC:test-of-power:wind-rune-neza:1",
+              "name": "Wind Rune Neza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "NEC:test-of-mind",
+          "index": 2,
+          "name": "Test of Mind",
+          "tester": "Jzil Gsix",
+          "say": "choose Jzil → mind",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Bloodsoaked Raiment",
+            "aliases": [],
+            "slot": "Shoulders",
+            "stats": "AC 4 · DEX +3 · INT +5 · HP +30 · MANA +65",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "NEC:test-of-mind:fine-cloth-raiment:0",
+              "name": "Fine Cloth Raiment",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "NEC:test-of-mind:wind-rune-ozah:1",
+              "name": "Wind Rune Ozah",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "NEC:test-of-heart",
+          "index": 3,
+          "name": "Test of Heart",
+          "tester": "Dugaas Helpyre",
+          "say": "choose Dugaas → heart",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Sphinx Heart Amulet",
+            "aliases": [],
+            "slot": "Neck",
+            "stats": "AC 4 · STR +10 · CHA −5 · INT +10 · MANA +25 · SV DISEASE +5 · Ultravision (worn)",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "NEC:test-of-heart:pulsating-ruby:0",
+              "name": "Pulsating Ruby",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "Bazzt Zzzt"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "NEC:test-of-heart:wind-rune-azia:1",
+              "name": "Wind Rune Azia",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "NEC:test-of-finger",
+          "index": 4,
+          "name": "Test of Finger",
+          "tester": "Dugaas Helpyre",
+          "say": "choose Dugaas → finger",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Band of Wailing Winds",
+            "aliases": [],
+            "slot": "Finger",
+            "stats": "AC 2 · INT +5 · MANA +50 · Invoke Fear (3 charges)",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "NEC:test-of-finger:ring-of-veeshan:0",
+              "name": "Ring of Veeshan",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "Sister of the Spire"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "NEC:test-of-finger:wind-rune-caza:1",
+              "name": "Wind Rune Caza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "NEC:test-of-hands",
+          "index": 5,
+          "name": "Test of Hands",
+          "tester": "Dugaas Helpyre",
+          "say": "choose Dugaas → hands",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Gorgon Head Staff",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "2H Blunt 14 / 41 · INT +15 · MANA +75 · SV DISEASE +25 · proc Tishan's Clash",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "NEC:test-of-hands:gorgon-head:0",
+              "name": "Gorgon Head",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "3"
+              ],
+              "creatures": [
+                "Gorgalosk"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "NEC:test-of-hands:efreeti-great-staff:1",
+              "name": "Efreeti Great Staff",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "conflict",
+              "notes": "eqlsource + EQProgression: Noble Dojorn / Overseer of Air / Hand of Veeshan. eqlegendstools lists Eye of Veeshan only. Overlay shows the cycle and flags the conflict.",
+              "dropRate": null,
+              "altCreatures": [
+                "Eye of Veeshan"
+              ]
+            },
+            {
+              "id": "NEC:test-of-hands:wind-rune-fana:2",
+              "name": "Wind Rune Fana",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PAL",
+      "name": "Paladin",
+      "hub": "Dason Goldblade",
+      "armor": "Plate",
+      "verified": true,
+      "quests": [
+        {
+          "id": "PAL:test-of-spirit",
+          "index": 0,
+          "name": "Test of Spirit",
+          "tester": "Dirkog Steelhand",
+          "say": "tested by Dirkog → spirit",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Girdle of Faith",
+            "aliases": [],
+            "slot": "Waist",
+            "stats": "AC 10 · STR +6 · WIS +6 · AGI +6 · Haste +41%",
+            "haste": 41
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "PAL:test-of-spirit:ivory-sky-diamond:0",
+              "name": "Ivory Sky Diamond",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "PAL:test-of-spirit:wind-rune-lena:1",
+              "name": "Wind Rune Lena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "PAL:test-of-sacrifice",
+          "index": 1,
+          "name": "Test of Sacrifice",
+          "tester": "Gregori Lightbringer",
+          "say": "tested by Gregori → sacrifice",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Aldryn, Blade of the Ocean",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "1H Slash 20 / 26 · STR +10 · STA +10 · WIS +8",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "PAL:test-of-sacrifice:bixie-sword-blade:0",
+              "name": "Bixie Sword Blade",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "Bazzt Zzzt"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "PAL:test-of-sacrifice:wind-rune-ozah:1",
+              "name": "Wind Rune Ozah",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "PAL:test-of-love",
+          "index": 2,
+          "name": "Test of Love",
+          "tester": "Gregori Lightbringer",
+          "say": "tested by Gregori → love",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Thelvorn, Blade of Light",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "1H Slash 20 / 26 · WIS +15 · proc Dismiss Summoned",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "PAL:test-of-love:golden-hilt:0",
+              "name": "Golden Hilt",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-trash",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "drake",
+                "sphinx",
+                "spirit trash"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "PAL:test-of-love:sphinx-claw:1",
+              "name": "Sphinx Claw",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "Sister of the Spire"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "PAL:test-of-love:wind-rune-geza:2",
+              "name": "Wind Rune Geza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "PAL:test-of-compassion",
+          "index": 3,
+          "name": "Test of Compassion",
+          "tester": "Gregori Lightbringer",
+          "say": "tested by Gregori → compassion",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Truvinan",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "2H Slash 32 / 40 · proc Dismiss Undead",
+            "haste": null
+          },
+          "island8": true,
+          "items": [
+            {
+              "id": "PAL:test-of-compassion:large-sky-diamond:0",
+              "name": "Large Sky Diamond",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "8"
+              ],
+              "creatures": [
+                "Eye of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "PAL:test-of-compassion:efreeti-zweihander:1",
+              "name": "Efreeti Zweihander",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "PAL:test-of-compassion:wind-rune-izah:2",
+              "name": "Wind Rune Izah",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RNG",
+      "name": "Ranger",
+      "hub": "Ranger Spirit",
+      "armor": "Chain",
+      "verified": false,
+      "quests": [
+        {
+          "id": "RNG:griffon-talon-necklace",
+          "index": 0,
+          "name": "Griffon Talon Necklace",
+          "tester": "Ranger Spirit",
+          "say": "body",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Griffon Talon Necklace",
+            "aliases": [],
+            "slot": "Neck",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "RNG:griffon-talon-necklace:griffon-talon:0",
+              "name": "Griffon Talon",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "3"
+              ],
+              "creatures": [
+                "Gorgalosk"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "RNG:griffon-talon-necklace:wind-rune-meda:1",
+              "name": "Wind Rune Meda",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "RNG:dark-cloak-of-the-sky",
+          "index": 1,
+          "name": "Dark Cloak of the Sky",
+          "tester": "Ranger Spirit",
+          "say": "defense",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Dark Cloak of the Sky",
+            "aliases": [],
+            "slot": "Back",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "RNG:dark-cloak-of-the-sky:fine-velvet-cloak:0",
+              "name": "Fine Velvet Cloak",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "4"
+              ],
+              "creatures": [
+                "Keeper of Souls"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "RNG:dark-cloak-of-the-sky:wind-rune-neza:1",
+              "name": "Wind Rune Neza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "RNG:earthshaker-s-mantle",
+          "index": 2,
+          "name": "Earthshaker's Mantle",
+          "tester": "Ranger Spirit",
+          "say": "earth",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Earthshaker's Mantle",
+            "aliases": [],
+            "slot": "Shoulders",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "RNG:earthshaker-s-mantle:spiroc-earth-totem:0",
+              "name": "Spiroc Earth Totem",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "RNG:earthshaker-s-mantle:wind-rune-kala:1",
+              "name": "Wind Rune Kala",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "RNG:thunderforged-earring",
+          "index": 3,
+          "name": "Thunderforged Earring",
+          "tester": "Ranger Spirit",
+          "say": "thunder",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Thunderforged Earring",
+            "aliases": [],
+            "slot": "Ear",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "RNG:thunderforged-earring:white-gold-earring:0",
+              "name": "White Gold Earring",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "Bazzt Zzzt"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "RNG:thunderforged-earring:wind-rune-azia:1",
+              "name": "Wind Rune Azia",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "RNG:arydryidriyorn",
+          "index": 4,
+          "name": "Arydryidriyorn",
+          "tester": "Ranger Spirit",
+          "say": "blade",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Arydryidriyorn",
+            "aliases": [],
+            "slot": "Primary / Secondary",
+            "stats": "STR +8 · WIS +8 · HP +50 — partial, Build Forge snapshot",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "RNG:arydryidriyorn:circlet-of-brambles:0",
+              "name": "Circlet of Brambles",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "Sister of the Spire"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "RNG:arydryidriyorn:efreeti-long-sword:1",
+              "name": "Efreeti Long Sword",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "RNG:arydryidriyorn:wind-rune-ena:2",
+              "name": "Wind Rune Ena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "RNG:windstriker",
+          "index": 5,
+          "name": "Windstriker",
+          "tester": "Ranger Spirit",
+          "say": "ranged",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Windstriker",
+            "aliases": [],
+            "slot": "Range",
+            "stats": "",
+            "haste": null
+          },
+          "island8": true,
+          "items": [
+            {
+              "id": "RNG:windstriker:shimmering-pearl:0",
+              "name": "Shimmering Pearl",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "8"
+              ],
+              "creatures": [
+                "Eye of Veeshan"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "RNG:windstriker:efreeti-war-bow:1",
+              "name": "Efreeti War Bow",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "RNG:windstriker:wind-rune-heda:2",
+              "name": "Wind Rune Heda",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROG",
+      "name": "Rogue",
+      "hub": "Thalik Silenthand",
+      "armor": "Chain",
+      "verified": false,
+      "quests": [
+        {
+          "id": "ROG:wispy-choker-of-vigor",
+          "index": 0,
+          "name": "Wispy Choker of Vigor",
+          "tester": "Thalik Silenthand",
+          "say": "thievery",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Wispy Choker of Vigor",
+            "aliases": [],
+            "slot": "Neck",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "ROG:wispy-choker-of-vigor:inlaid-choker:0",
+              "name": "Inlaid Choker",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "3"
+              ],
+              "creatures": [
+                "Gorgalosk"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "ROG:wispy-choker-of-vigor:wind-rune-ozah:1",
+              "name": "Wind Rune Ozah",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "ROG:crystal-mask",
+          "index": 1,
+          "name": "Crystal Mask",
+          "tester": "Thalik Silenthand",
+          "say": "cunning",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Crystal Mask",
+            "aliases": [],
+            "slot": "Face",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "ROG:crystal-mask:jester-s-mask:0",
+              "name": "Jester's Mask",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "4"
+              ],
+              "creatures": [
+                "Keeper of Souls"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "ROG:crystal-mask:wind-rune-dena:1",
+              "name": "Wind Rune Dena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "ROG:griffon-wing-spaulders",
+          "index": 2,
+          "name": "Griffon Wing Spaulders",
+          "tester": "Thalik Silenthand",
+          "say": "silence",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Griffon Wing Spaulders",
+            "aliases": [],
+            "slot": "Shoulders",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "ROG:griffon-wing-spaulders:spiroc-sky-totem:0",
+              "name": "Spiroc Sky Totem",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "ROG:griffon-wing-spaulders:wind-rune-ena:1",
+              "name": "Wind Rune Ena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "ROG:shimmering-bracer-of-protection",
+          "index": 3,
+          "name": "Shimmering Bracer of Protection",
+          "tester": "Thalik Silenthand",
+          "say": "stealth",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Shimmering Bracer of Protection",
+            "aliases": [
+              "Scintillating Bracer of Protection"
+            ],
+            "slot": "Wrist",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "ROG:shimmering-bracer-of-protection:fine-wool-cloak:0",
+              "name": "Fine Wool Cloak",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "Bazzt Zzzt"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "ROG:shimmering-bracer-of-protection:wind-rune-geza:1",
+              "name": "Wind Rune Geza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "ROG:renard-s-belt-of-quickness",
+          "index": 4,
+          "name": "Renard's Belt of Quickness",
+          "tester": "Thalik Silenthand",
+          "say": "trickery",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Renard's Belt of Quickness",
+            "aliases": [],
+            "slot": "Waist",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "ROG:renard-s-belt-of-quickness:sphinxian-circlet:0",
+              "name": "Sphinxian Circlet",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "Sister of the Spire"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "ROG:renard-s-belt-of-quickness:wind-rune-izah:1",
+              "name": "Wind Rune Izah",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "ROG:thornstinger",
+          "index": 5,
+          "name": "Thornstinger",
+          "tester": "Thalik Silenthand",
+          "say": "deception",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Thornstinger",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "",
+            "haste": null
+          },
+          "island8": true,
+          "items": [
+            {
+              "id": "ROG:thornstinger:bixie-stinger:0",
+              "name": "Bixie Stinger",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "Bazzt Zzzt"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "ROG:thornstinger:bloodsky-sapphire:1",
+              "name": "Bloodsky Sapphire",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "8"
+              ],
+              "creatures": [
+                "Eye of Veeshan"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "ROG:thornstinger:wind-rune-jaka:2",
+              "name": "Wind Rune Jaka",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SHD",
+      "name": "Shadow Knight",
+      "hub": "Sarkis Ebonblade",
+      "armor": "Plate",
+      "verified": false,
+      "quests": [
+        {
+          "id": "SHD:amulet-of-the-sphinx-eye",
+          "index": 0,
+          "name": "Amulet of the Sphinx Eye",
+          "tester": "Sarkis Ebonblade",
+          "say": "bash",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Amulet of the Sphinx Eye",
+            "aliases": [],
+            "slot": "Neck",
+            "stats": "AC 15 · STR +7 · WIS +3 · INT +14 · CHA +3 · MANA +25 · Ultravision (worn)",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "SHD:amulet-of-the-sphinx-eye:finely-crafted-amulet:0",
+              "name": "Finely Crafted Amulet",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "3"
+              ],
+              "creatures": [
+                "Gorgalosk"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHD:amulet-of-the-sphinx-eye:wind-rune-ozah:1",
+              "name": "Wind Rune Ozah",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "SHD:crimson-ring-of-the-djinni",
+          "index": 1,
+          "name": "Crimson Ring of the Djinni",
+          "tester": "Sarkis Ebonblade",
+          "say": "smash",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Crimson Ring of the Djinni",
+            "aliases": [],
+            "slot": "Finger",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "SHD:crimson-ring-of-the-djinni:silvery-ring:0",
+              "name": "Silvery Ring",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "4"
+              ],
+              "creatures": [
+                "Keeper of Souls"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHD:crimson-ring-of-the-djinni:wind-rune-beza:1",
+              "name": "Wind Rune Beza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "SHD:pegasus-hide-belt",
+          "index": 2,
+          "name": "Pegasus-Hide Belt",
+          "tester": "Sarkis Ebonblade",
+          "say": "slash",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Pegasus-Hide Belt",
+            "aliases": [],
+            "slot": "Waist",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "SHD:pegasus-hide-belt:finely-woven-cloth-belt:0",
+              "name": "Finely Woven Cloth Belt",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHD:pegasus-hide-belt:wind-rune-dena:1",
+              "name": "Wind Rune Dena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "SHD:blood-sky-face-plate",
+          "index": 3,
+          "name": "Blood Sky Face Plate",
+          "tester": "Sarkis Ebonblade",
+          "say": "disempowerment",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Blood Sky Face Plate",
+            "aliases": [],
+            "slot": "Face",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "SHD:blood-sky-face-plate:rusted-pauldrons:0",
+              "name": "Rusted Pauldrons",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "Bazzt Zzzt"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHD:blood-sky-face-plate:wind-rune-fana:1",
+              "name": "Wind Rune Fana",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "SHD:obtenebrate-mithril-guard",
+          "index": 4,
+          "name": "Obtenebrate Mithril Guard",
+          "tester": "Sarkis Ebonblade",
+          "say": "envenoming",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Obtenebrate Mithril Guard",
+            "aliases": [],
+            "slot": "Secondary",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "SHD:obtenebrate-mithril-guard:efreeti-war-shield:0",
+              "name": "Efreeti War Shield",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHD:obtenebrate-mithril-guard:wind-rune-heda:1",
+              "name": "Wind Rune Heda",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "SHD:khyldorn-the-blood-drinker",
+          "index": 5,
+          "name": "Khyldorn the Blood Drinker",
+          "tester": "Sarkis Ebonblade",
+          "say": "necropotence",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Khyldorn the Blood Drinker",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "",
+            "haste": null
+          },
+          "island8": true,
+          "items": [
+            {
+              "id": "SHD:khyldorn-the-blood-drinker:blood-sky-ruby:0",
+              "name": "Blood Sky Ruby",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "8"
+              ],
+              "creatures": [
+                "Eye of Veeshan"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHD:khyldorn-the-blood-drinker:efreeti-war-axe:1",
+              "name": "Efreeti War Axe",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHD:khyldorn-the-blood-drinker:wind-rune-kala:2",
+              "name": "Wind Rune Kala",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "SHD:pearlescent-pauldrons",
+          "index": 6,
+          "name": "Pearlescent Pauldrons",
+          "tester": "Sarkis Ebonblade",
+          "say": "raising of the dead",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Pearlescent Pauldrons",
+            "aliases": [],
+            "slot": "Shoulders",
+            "stats": "",
+            "haste": null
+          },
+          "island8": true,
+          "items": [
+            {
+              "id": "SHD:pearlescent-pauldrons:fae-pauldrons:0",
+              "name": "Fae Pauldrons",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "8"
+              ],
+              "creatures": [
+                "Eye of Veeshan"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHD:pearlescent-pauldrons:sphinxian-ring:1",
+              "name": "Sphinxian Ring",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "Sister of the Spire"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHD:pearlescent-pauldrons:wind-rune-izah:2",
+              "name": "Wind Rune Izah",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SHM",
+      "name": "Shaman",
+      "hub": "Medicine Man Veetra",
+      "armor": "Chain",
+      "verified": false,
+      "quests": [
+        {
+          "id": "SHM:amulet-of-the-fang",
+          "index": 0,
+          "name": "Amulet of the Fang",
+          "tester": "Medicine Man Veetra",
+          "say": "might",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Amulet of the Fang",
+            "aliases": [],
+            "slot": "Neck",
+            "stats": "AC 8 · WIS +8 · CHA +2 · MANA +10 · SV MAGIC +5 · SV FIRE +10",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "SHM:amulet-of-the-fang:leather-cord:0",
+              "name": "Leather Cord",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "3"
+              ],
+              "creatures": [
+                "Gorgalosk"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHM:amulet-of-the-fang:wind-rune-meda:1",
+              "name": "Wind Rune Meda",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "SHM:bracelet-of-the-spirits",
+          "index": 1,
+          "name": "Bracelet of the Spirits",
+          "tester": "Medicine Man Veetra",
+          "say": "health",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Bracelet of the Spirits",
+            "aliases": [],
+            "slot": "Waist",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "SHM:bracelet-of-the-spirits:ceremonial-belt:0",
+              "name": "Ceremonial Belt",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHM:bracelet-of-the-spirits:wind-rune-kala:1",
+              "name": "Wind Rune Kala",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "SHM:fairy-hide-mantle",
+          "index": 2,
+          "name": "Fairy-Hide Mantle",
+          "tester": "Medicine Man Veetra",
+          "say": "sight",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Fairy-Hide Mantle",
+            "aliases": [],
+            "slot": "Shoulders",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "SHM:fairy-hide-mantle:light-damask-mantle:0",
+              "name": "Light Damask Mantle",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHM:fairy-hide-mantle:wind-rune-beza:1",
+              "name": "Wind Rune Beza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "SHM:vermilion-sky-ring",
+          "index": 3,
+          "name": "Vermilion Sky Ring",
+          "tester": "Medicine Man Veetra",
+          "say": "snake",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Vermilion Sky Ring",
+            "aliases": [],
+            "slot": "Finger",
+            "stats": "AC 5 · DEX +3 · WIS +7 · SV DISEASE +20 · Feign Death (2 charges) — classic tooltip",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "SHM:vermilion-sky-ring:bixie-essence:0",
+              "name": "Bixie Essence",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-trash",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "bee mobs"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHM:vermilion-sky-ring:spiritualist-s-ring:1",
+              "name": "Spiritualist's Ring",
+              "aliases": [
+                "Spiritualist`s Ring",
+                "Spiritualist’s Ring"
+              ],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "Sister of the Spire"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHM:vermilion-sky-ring:wind-rune-heda:2",
+              "name": "Wind Rune Heda",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "SHM:warhammer-of-the-wind",
+          "index": 4,
+          "name": "Warhammer of the Wind",
+          "tester": "Medicine Man Veetra",
+          "say": "shrink",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Warhammer of the Wind",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "SHM:warhammer-of-the-wind:corrosive-venom:0",
+              "name": "Corrosive Venom",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "Bazzt Zzzt"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHM:warhammer-of-the-wind:efreeti-war-club:1",
+              "name": "Efreeti War Club",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHM:warhammer-of-the-wind:wind-rune-ena:2",
+              "name": "Wind Rune Ena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "SHM:garduk",
+          "index": 5,
+          "name": "Garduk",
+          "tester": "Medicine Man Veetra",
+          "say": "witch doctor",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Garduk",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "Piercing 23 / 40 · WIS +15 · MANA +75 · proc Tagar's Insects — classic tooltip",
+            "haste": null
+          },
+          "island8": true,
+          "items": [
+            {
+              "id": "SHM:garduk:symbol-of-veeshan:0",
+              "name": "Symbol of Veeshan",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "8"
+              ],
+              "creatures": [
+                "Eye of Veeshan"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHM:garduk:efreeti-war-maul:1",
+              "name": "Efreeti War Maul",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "SHM:garduk:wind-rune-geza:2",
+              "name": "Wind Rune Geza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WAR",
+      "name": "Warrior",
+      "hub": "Torgon Blademaster",
+      "armor": "Plate",
+      "verified": true,
+      "quests": [
+        {
+          "id": "WAR:test-of-skill",
+          "index": 0,
+          "name": "Test of Skill",
+          "tester": "Falorn",
+          "say": "tested by Falorn → test of blades → skill",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Azure Ruby Ring",
+            "aliases": [],
+            "slot": "Finger",
+            "stats": "AC 5 · STR +6 · DEX +9 · STA +6",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "WAR:test-of-skill:azure-ring:0",
+              "name": "Azure Ring",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "3"
+              ],
+              "creatures": [
+                "Gorgalosk"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "WAR:test-of-skill:wind-rune-neza:1",
+              "name": "Wind Rune Neza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "WAR:test-of-force",
+          "index": 1,
+          "name": "Test of Force",
+          "tester": "Falorn",
+          "say": "… test of blades → force",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Pauldrons of the Blue Sky",
+            "aliases": [],
+            "slot": "Shoulders",
+            "stats": "AC 12 · STR +8 · DEX +10 · STA +7 · AGI +10 · Spirit of Cheetah (3 charges)",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "WAR:test-of-force:spiroc-air-totem:0",
+              "name": "Spiroc Air Totem",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "WAR:test-of-force:wind-rune-beza:1",
+              "name": "Wind Rune Beza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "WAR:test-of-strength",
+          "index": 2,
+          "name": "Test of Strength",
+          "tester": "Falorn",
+          "say": "… test of blades → strength",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Runed Wind Amulet",
+            "aliases": [],
+            "slot": "Neck",
+            "stats": "AC 6 · STR +7 · AGI +7 · HP +40",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "WAR:test-of-strength:stone-amulet:0",
+              "name": "Stone Amulet",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "4"
+              ],
+              "creatures": [
+                "Keeper of Souls"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "WAR:test-of-strength:wind-rune-azia:1",
+              "name": "Wind Rune Azia",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "WAR:test-of-think",
+          "index": 3,
+          "name": "Test of Think",
+          "tester": "Ogog",
+          "say": "tested by ogog → ready for ogog → think",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Belt of the Four Winds",
+            "aliases": [],
+            "slot": "Waist",
+            "stats": "AC 5 · STR +12 · DEX +6 · STA +12 · AGI +6 · SV MAGIC +5 · Haste +41%",
+            "haste": 41
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "WAR:test-of-think:efreeti-belt:0",
+              "name": "Efreeti Belt",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "WAR:test-of-think:wind-tablet:1",
+              "name": "Wind Tablet",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "Bazzt Zzzt"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "WAR:test-of-think:wind-rune-fana:2",
+              "name": "Wind Rune Fana",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "WAR:test-of-smash",
+          "index": 4,
+          "name": "Test of Smash",
+          "tester": "Ogog",
+          "say": "… ready for ogog → smash",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Dagas",
+            "aliases": [],
+            "slot": "Primary / Secondary",
+            "stats": "1H Slash 11 / 21 · AC 20 · STR +3 · AGI +2 · HP +100 · Lore Equipped",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "WAR:test-of-smash:djinni-war-blade:0",
+              "name": "Djinni War Blade",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "Sister of the Spire"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "WAR:test-of-smash:gem-of-invigoration:1",
+              "name": "Gem of Invigoration",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-trash",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "drake",
+                "sphinx",
+                "spirit trash"
+              ],
+              "confidence": "unconfirmed",
+              "notes": "eqlsource: Island 7 drake/sphinx/spirit trash, flagged unconfirmed. Loadout DB lists Protector of Sky (Island 2). No third corroboration.",
+              "dropRate": null,
+              "altCreatures": [
+                "Protector of Sky"
+              ]
+            },
+            {
+              "id": "WAR:test-of-smash:wind-rune-jaka:2",
+              "name": "Wind Rune Jaka",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "WAR:test-of-bash",
+          "index": 5,
+          "name": "Test of Bash",
+          "tester": "Ogog",
+          "say": "… ready for ogog → bash",
+          "sayConfidence": "verified",
+          "reward": {
+            "name": "Fangol",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "2H Slash 29 / 35 · STR +3 · DEX +10 · STA +10 · SV POISON +5 · proc Fangol's Breath",
+            "haste": null
+          },
+          "island8": true,
+          "items": [
+            {
+              "id": "WAR:test-of-bash:efreeti-battle-axe:0",
+              "name": "Efreeti Battle Axe",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "WAR:test-of-bash:ethereal-emerald:1",
+              "name": "Ethereal Emerald",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "8"
+              ],
+              "creatures": [
+                "Eye of Veeshan"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "WAR:test-of-bash:wind-rune-dena:2",
+              "name": "Wind Rune Dena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "verified",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WIZ",
+      "name": "Wizard",
+      "hub": "Wizard Schrock",
+      "armor": "Silk",
+      "verified": false,
+      "quests": [
+        {
+          "id": "WIZ:augmentor-s-mask",
+          "index": 0,
+          "name": "Augmentor's Mask",
+          "tester": "Wizard Schrock",
+          "say": "concentration",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Augmentor's Mask",
+            "aliases": [],
+            "slot": "Face",
+            "stats": "AC 6 · AGI +8 · DEX +4 · INT +9 · MANA +9 — Build Forge snapshot",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "WIZ:augmentor-s-mask:grey-damask-cloak:0",
+              "name": "Grey Damask Cloak",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "3"
+              ],
+              "creatures": [
+                "Gorgalosk"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "WIZ:augmentor-s-mask:wind-rune-dena:1",
+              "name": "Wind Rune Dena",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "WIZ:al-kabor-s-cap-of-binding",
+          "index": 1,
+          "name": "Al`Kabor's Cap of Binding",
+          "tester": "Wizard Schrock",
+          "say": "focus",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Al`Kabor's Cap of Binding",
+            "aliases": [],
+            "slot": "Head",
+            "stats": "AC 6 · STR +5 · INT +8 · HP +40 · MANA +20 · SV FIRE/COLD +10 — Build Forge snapshot",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "WIZ:al-kabor-s-cap-of-binding:woven-skull-cap:0",
+              "name": "Woven Skull Cap",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "4"
+              ],
+              "creatures": [
+                "Keeper of Souls"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "WIZ:al-kabor-s-cap-of-binding:wind-rune-fana:1",
+              "name": "Wind Rune Fana",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "WIZ:raiment-of-thunder",
+          "index": 2,
+          "name": "Raiment of Thunder",
+          "tester": "Wizard Schrock",
+          "say": "meditation",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Raiment of Thunder",
+            "aliases": [],
+            "slot": "Shoulders",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "WIZ:raiment-of-thunder:high-quality-raiment:0",
+              "name": "High Quality Raiment",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "5"
+              ],
+              "creatures": [
+                "The Spiroc Lord"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "WIZ:raiment-of-thunder:wind-rune-geza:1",
+              "name": "Wind Rune Geza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "WIZ:solidate-mithril-ring",
+          "index": 3,
+          "name": "Solidate Mithril Ring",
+          "tester": "Wizard Schrock",
+          "say": "conception",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Solidate Mithril Ring",
+            "aliases": [],
+            "slot": "Finger",
+            "stats": "",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "WIZ:solidate-mithril-ring:box-of-winds:0",
+              "name": "Box of Winds",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "6"
+              ],
+              "creatures": [
+                "Bazzt Zzzt"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "WIZ:solidate-mithril-ring:efreeti-statuette:1",
+              "name": "Efreeti Statuette",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-trash",
+              "islands": [
+                "4"
+              ],
+              "creatures": [
+                "soul",
+                "essence griffons, Eternal Spirit"
+              ],
+              "confidence": "conflict",
+              "notes": "eqlsource + EQProgression: Island 4 soul/essence griffons (Eternal Spirit unconfirmed). eqlegendstools lists the efreeti cycle. Overlay keeps the griffon source and flags the conflict.",
+              "dropRate": null,
+              "altCreatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ]
+            },
+            {
+              "id": "WIZ:solidate-mithril-ring:wind-rune-izah:2",
+              "name": "Wind Rune Izah",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "WIZ:amulet-of-the-void",
+          "index": 4,
+          "name": "Amulet of the Void",
+          "tester": "Wizard Schrock",
+          "say": "visualization",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Amulet of the Void",
+            "aliases": [],
+            "slot": "Neck",
+            "stats": "AC 4 · AGI +5 · DEX +5 · INT +5 · CHA +5 · MANA +50 — Build Forge snapshot",
+            "haste": null
+          },
+          "island8": false,
+          "items": [
+            {
+              "id": "WIZ:amulet-of-the-void:amethyst-amulet:0",
+              "name": "Amethyst Amulet",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "7"
+              ],
+              "creatures": [
+                "Sister of the Spire"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "WIZ:amulet-of-the-void:wind-rune-jaka:1",
+              "name": "Wind Rune Jaka",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        },
+        {
+          "id": "WIZ:nargon-s-staff",
+          "index": 5,
+          "name": "Nargon's Staff",
+          "tester": "Wizard Schrock",
+          "say": "preparation",
+          "sayConfidence": "unverified",
+          "reward": {
+            "name": "Nargon's Staff",
+            "aliases": [],
+            "slot": "Primary",
+            "stats": "",
+            "haste": null
+          },
+          "island8": true,
+          "items": [
+            {
+              "id": "WIZ:nargon-s-staff:large-sky-lapis:0",
+              "name": "Large Sky Lapis",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "island-boss",
+              "islands": [
+                "8"
+              ],
+              "creatures": [
+                "Eye of Veeshan"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "WIZ:nargon-s-staff:efreeti-war-staff:1",
+              "name": "Efreeti War Staff",
+              "aliases": [],
+              "rune": false,
+              "qty": 1,
+              "kind": "efreeti-cycle",
+              "islands": [
+                "1.5",
+                "4",
+                "8"
+              ],
+              "creatures": [
+                "Noble Dojorn",
+                "Overseer of Air",
+                "the Hand of Veeshan"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            },
+            {
+              "id": "WIZ:nargon-s-staff:wind-rune-caza:2",
+              "name": "Wind Rune Caza",
+              "aliases": [],
+              "rune": true,
+              "qty": 1,
+              "kind": "zone-wide-trash",
+              "islands": [
+                "any"
+              ],
+              "creatures": [
+                "any Plane of Sky mob"
+              ],
+              "confidence": "cross-corroborated",
+              "notes": null,
+              "dropRate": null,
+              "altCreatures": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sharedItems": [
+    {
+      "name": "Wind Rune Meda",
+      "classIds": [
+        "BRD",
+        "CLR",
+        "DRU",
+        "ENC",
+        "RNG",
+        "SHM"
+      ],
+      "questIds": [
+        "BRD:test-of-tone",
+        "CLR:test-of-skill",
+        "DRU:test-of-wolf",
+        "ENC:test-of-illusion",
+        "RNG:griffon-talon-necklace",
+        "SHM:amulet-of-the-fang"
+      ]
+    },
+    {
+      "name": "Wind Rune Kala",
+      "classIds": [
+        "BRD",
+        "BST",
+        "CLR",
+        "DRU",
+        "RNG",
+        "SHD",
+        "SHM"
+      ],
+      "questIds": [
+        "BRD:test-of-voice",
+        "BST:test-of-harpy",
+        "CLR:test-of-theurgy",
+        "DRU:test-of-bear",
+        "RNG:earthshaker-s-mantle",
+        "SHD:khyldorn-the-blood-drinker",
+        "SHM:bracelet-of-the-spirits"
+      ]
+    },
+    {
+      "name": "Wind Rune Azia",
+      "classIds": [
+        "BRD",
+        "BER",
+        "DRU",
+        "MAG",
+        "NEC",
+        "RNG",
+        "WAR"
+      ],
+      "questIds": [
+        "BRD:test-of-pitch",
+        "BER:test-of-burden",
+        "DRU:test-of-tree",
+        "MAG:test-of-shielding",
+        "NEC:test-of-heart",
+        "RNG:thunderforged-earring",
+        "WAR:test-of-strength"
+      ]
+    },
+    {
+      "name": "Wind Rune Caza",
+      "classIds": [
+        "BRD",
+        "CLR",
+        "ENC",
+        "MNK",
+        "NEC",
+        "WIZ"
+      ],
+      "questIds": [
+        "BRD:test-of-wind",
+        "CLR:test-of-protection",
+        "ENC:test-of-disillusion",
+        "MNK:test-of-strength",
+        "NEC:test-of-finger",
+        "WIZ:nargon-s-staff"
+      ]
+    },
+    {
+      "name": "Wind Rune Fana",
+      "classIds": [
+        "BRD",
+        "ENC",
+        "NEC",
+        "SHD",
+        "WAR",
+        "WIZ"
+      ],
+      "questIds": [
+        "BRD:test-of-brass",
+        "ENC:test-of-memorization",
+        "NEC:test-of-hands",
+        "SHD:blood-sky-face-plate",
+        "WAR:test-of-think",
+        "WIZ:al-kabor-s-cap-of-binding"
+      ]
+    },
+    {
+      "name": "Wind Rune Heda",
+      "classIds": [
+        "BRD",
+        "BST",
+        "MAG",
+        "RNG",
+        "SHD",
+        "SHM"
+      ],
+      "questIds": [
+        "BRD:test-of-harmony",
+        "BST:test-of-azarack",
+        "MAG:test-of-displacement",
+        "RNG:windstriker",
+        "SHD:obtenebrate-mithril-guard",
+        "SHM:vermilion-sky-ring"
+      ]
+    },
+    {
+      "name": "Spiroc Elder's Totem",
+      "classIds": [
+        "BST",
+        "DRU"
+      ],
+      "questIds": [
+        "BST:test-of-aviak",
+        "DRU:test-of-eagle"
+      ]
+    },
+    {
+      "name": "Wind Rune Beza",
+      "classIds": [
+        "BST",
+        "ENC",
+        "MNK",
+        "SHD",
+        "SHM",
+        "WAR"
+      ],
+      "questIds": [
+        "BST:test-of-aviak",
+        "ENC:test-of-deception",
+        "MNK:test-of-tears",
+        "SHD:crimson-ring-of-the-djinni",
+        "SHM:fairy-hide-mantle",
+        "WAR:test-of-force"
+      ]
+    },
+    {
+      "name": "Sphinx Claw",
+      "classIds": [
+        "BST",
+        "PAL"
+      ],
+      "questIds": [
+        "BST:test-of-claw",
+        "PAL:test-of-love"
+      ]
+    },
+    {
+      "name": "Mithril Bands",
+      "classIds": [
+        "BST",
+        "CLR"
+      ],
+      "questIds": [
+        "BST:test-of-claw",
+        "CLR:test-of-the-weak"
+      ]
+    },
+    {
+      "name": "Brass Knuckles",
+      "classIds": [
+        "BST",
+        "MNK"
+      ],
+      "questIds": [
+        "BST:test-of-claw",
+        "MNK:test-of-fists"
+      ]
+    },
+    {
+      "name": "Wind Rune Izah",
+      "classIds": [
+        "BST",
+        "DRU",
+        "ENC",
+        "PAL",
+        "ROG",
+        "SHD",
+        "WIZ"
+      ],
+      "questIds": [
+        "BST:test-of-claw",
+        "DRU:test-of-nature",
+        "ENC:test-of-incapacitation",
+        "PAL:test-of-compassion",
+        "ROG:renard-s-belt-of-quickness",
+        "SHD:pearlescent-pauldrons",
+        "WIZ:solidate-mithril-ring"
+      ]
+    },
+    {
+      "name": "Leather Cord",
+      "classIds": [
+        "BST",
+        "SHM"
+      ],
+      "questIds": [
+        "BST:test-of-harpy",
+        "SHM:amulet-of-the-fang"
+      ]
+    },
+    {
+      "name": "Silken Wrap",
+      "classIds": [
+        "BST",
+        "MNK"
+      ],
+      "questIds": [
+        "BST:test-of-wind",
+        "MNK:test-of-tears"
+      ]
+    },
+    {
+      "name": "Wind Rune Geza",
+      "classIds": [
+        "BST",
+        "MNK",
+        "PAL",
+        "ROG",
+        "SHM",
+        "WIZ"
+      ],
+      "questIds": [
+        "BST:test-of-wind",
+        "MNK:test-of-sight",
+        "PAL:test-of-love",
+        "ROG:shimmering-bracer-of-protection",
+        "SHM:garduk",
+        "WIZ:raiment-of-thunder"
+      ]
+    },
+    {
+      "name": "Djinni War Blade",
+      "classIds": [
+        "BER",
+        "WAR"
+      ],
+      "questIds": [
+        "BER:test-of-sharpness",
+        "WAR:test-of-smash"
+      ]
+    },
+    {
+      "name": "Efreeti Standard",
+      "classIds": [
+        "BER",
+        "CLR"
+      ],
+      "questIds": [
+        "BER:test-of-sharpness",
+        "CLR:test-of-the-weak"
+      ]
+    },
+    {
+      "name": "Wind Rune Jaka",
+      "classIds": [
+        "BER",
+        "MAG",
+        "MNK",
+        "ROG",
+        "WAR",
+        "WIZ"
+      ],
+      "questIds": [
+        "BER:test-of-sharpness",
+        "MAG:test-of-gesticulation",
+        "MNK:test-of-speed",
+        "ROG:thornstinger",
+        "WAR:test-of-smash",
+        "WIZ:amulet-of-the-void"
+      ]
+    },
+    {
+      "name": "Pulsating Ruby",
+      "classIds": [
+        "BER",
+        "NEC"
+      ],
+      "questIds": [
+        "BER:test-of-will",
+        "NEC:test-of-heart"
+      ]
+    },
+    {
+      "name": "Wind Rune Ena",
+      "classIds": [
+        "BER",
+        "CLR",
+        "DRU",
+        "MAG",
+        "RNG",
+        "ROG",
+        "SHM"
+      ],
+      "questIds": [
+        "BER:test-of-will",
+        "CLR:test-of-the-weak",
+        "DRU:test-of-eagle",
+        "MAG:test-of-interpretation",
+        "RNG:arydryidriyorn",
+        "ROG:griffon-wing-spaulders",
+        "SHM:warhammer-of-the-wind"
+      ]
+    },
+    {
+      "name": "High Quality Raiment",
+      "classIds": [
+        "BER",
+        "WIZ"
+      ],
+      "questIds": [
+        "BER:test-of-ferocity",
+        "WIZ:raiment-of-thunder"
+      ]
+    },
+    {
+      "name": "Wind Rune Ozah",
+      "classIds": [
+        "BER",
+        "ENC",
+        "NEC",
+        "PAL",
+        "ROG",
+        "SHD"
+      ],
+      "questIds": [
+        "BER:test-of-ferocity",
+        "ENC:test-of-metamorphism",
+        "NEC:test-of-mind",
+        "PAL:test-of-sacrifice",
+        "ROG:wispy-choker-of-vigor",
+        "SHD:amulet-of-the-sphinx-eye"
+      ]
+    },
+    {
+      "name": "Feathered Cape",
+      "classIds": [
+        "BER",
+        "MAG"
+      ],
+      "questIds": [
+        "BER:test-of-burden",
+        "MAG:test-of-clarification"
+      ]
+    },
+    {
+      "name": "Wind Rune Lena",
+      "classIds": [
+        "BER",
+        "CLR",
+        "MAG",
+        "MNK",
+        "NEC",
+        "PAL"
+      ],
+      "questIds": [
+        "BER:test-of-blood",
+        "CLR:test-of-courage",
+        "MAG:test-of-clarification",
+        "MNK:test-of-tranquility",
+        "NEC:test-of-flight",
+        "PAL:test-of-spirit"
+      ]
+    },
+    {
+      "name": "Jester's Mask",
+      "classIds": [
+        "BER",
+        "ROG"
+      ],
+      "questIds": [
+        "BER:test-of-fools-errand",
+        "ROG:crystal-mask"
+      ]
+    },
+    {
+      "name": "Efreeti Great Staff",
+      "classIds": [
+        "BER",
+        "NEC"
+      ],
+      "questIds": [
+        "BER:test-of-fools-errand",
+        "NEC:test-of-hands"
+      ]
+    },
+    {
+      "name": "Wind Rune Dena",
+      "classIds": [
+        "BER",
+        "DRU",
+        "MAG",
+        "ROG",
+        "SHD",
+        "WAR",
+        "WIZ"
+      ],
+      "questIds": [
+        "BER:test-of-fools-errand",
+        "DRU:test-of-the-bee",
+        "MAG:test-of-summoning",
+        "ROG:crystal-mask",
+        "SHD:pegasus-hide-belt",
+        "WAR:test-of-bash",
+        "WIZ:augmentor-s-mask"
+      ]
+    },
+    {
+      "name": "Wind Rune Neza",
+      "classIds": [
+        "CLR",
+        "MAG",
+        "MNK",
+        "NEC",
+        "RNG",
+        "WAR"
+      ],
+      "questIds": [
+        "CLR:test-of-resolution",
+        "MAG:test-of-empowerment",
+        "MNK:test-of-fists",
+        "NEC:test-of-power",
+        "RNG:dark-cloak-of-the-sky",
+        "WAR:test-of-skill"
+      ]
+    },
+    {
+      "name": "Efreeti Statuette",
+      "classIds": [
+        "DRU",
+        "WIZ"
+      ],
+      "questIds": [
+        "DRU:test-of-tree",
+        "WIZ:solidate-mithril-ring"
+      ]
+    }
+  ]
+}

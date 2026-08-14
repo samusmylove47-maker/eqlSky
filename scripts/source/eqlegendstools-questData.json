@@ -1,0 +1,1778 @@
+[
+  {
+    "className": "Bard",
+    "npc": "Cilin Spellsinger",
+    "reward": "Ervaj’s Flute of Flight",
+    "questItem": "Crude Wooden Flute",
+    "source": "Isle 5: The Spiroc Lord",
+    "rowId": 1
+  },
+  {
+    "className": "Bard",
+    "npc": "Cilin Spellsinger",
+    "reward": "Ervaj’s Flute of Flight",
+    "questItem": "Wind Rune Azia",
+    "source": "Trash mobs",
+    "rowId": 2
+  },
+  {
+    "className": "Bard",
+    "npc": "Cilin Spellsinger",
+    "reward": "Mantle of the Songweaver",
+    "questItem": "Light Woolen Mantle",
+    "source": "Isle 4: Keeper of Souls",
+    "rowId": 3
+  },
+  {
+    "className": "Bard",
+    "npc": "Cilin Spellsinger",
+    "reward": "Mantle of the Songweaver",
+    "questItem": "Wind Rune Kala",
+    "source": "Trash mobs",
+    "rowId": 4
+  },
+  {
+    "className": "Bard",
+    "npc": "Cilin Spellsinger",
+    "reward": "Mask of Song",
+    "questItem": "Light Woolen Mask",
+    "source": "Isle 3: Gorgalosk",
+    "rowId": 5
+  },
+  {
+    "className": "Bard",
+    "npc": "Cilin Spellsinger",
+    "reward": "Mask of Song",
+    "questItem": "Wind Rune Meda",
+    "source": "Trash mobs",
+    "rowId": 6
+  },
+  {
+    "className": "Bard",
+    "npc": "Cilin Spellsinger",
+    "reward": "Amulet of the Fae",
+    "questItem": "Amulet of Woven Hair",
+    "source": "Isle 6: Bazzt Zzzt",
+    "rowId": 7
+  },
+  {
+    "className": "Bard",
+    "npc": "Cilin Spellsinger",
+    "reward": "Amulet of the Fae",
+    "questItem": "Wind Rune Caza",
+    "source": "Trash mobs",
+    "rowId": 8
+  },
+  {
+    "className": "Bard",
+    "npc": "Cilin Spellsinger",
+    "reward": "Denon’s Horn of Disaster",
+    "questItem": "Efreeti War Horn",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 9
+  },
+  {
+    "className": "Bard",
+    "npc": "Cilin Spellsinger",
+    "reward": "Denon’s Horn of Disaster",
+    "questItem": "Glowing Diamond",
+    "source": "Isle 7: Sister of the Spire",
+    "rowId": 10
+  },
+  {
+    "className": "Bard",
+    "npc": "Cilin Spellsinger",
+    "reward": "Denon’s Horn of Disaster",
+    "questItem": "Wind Rune Fana",
+    "source": "Trash mobs",
+    "rowId": 11
+  },
+  {
+    "className": "Bard",
+    "npc": "Cilin Spellsinger",
+    "reward": "Spear of Harmony",
+    "questItem": "Efreeti War Spear",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 12
+  },
+  {
+    "className": "Bard",
+    "npc": "Cilin Spellsinger",
+    "reward": "Spear of Harmony",
+    "questItem": "Nebulous Diamond",
+    "source": "Isle 8: Eye of Veeshan",
+    "rowId": 13
+  },
+  {
+    "className": "Bard",
+    "npc": "Cilin Spellsinger",
+    "reward": "Spear of Harmony",
+    "questItem": "Wind Rune Heda",
+    "source": "Trash mobs",
+    "rowId": 14
+  },
+  {
+    "className": "Beastlord",
+    "npc": "Animist Kratho",
+    "reward": "Azarack Skin Wristwraps",
+    "questItem": "Azarack Skin",
+    "source": "Isle 2: Protector of Sky",
+    "rowId": 15
+  },
+  {
+    "className": "Beastlord",
+    "npc": "Animist Kratho",
+    "reward": "Azarack Skin Wristwraps",
+    "questItem": "Wind Rune Heda",
+    "source": "Trash mobs",
+    "rowId": 16
+  },
+  {
+    "className": "Beastlord",
+    "npc": "Animist Kratho",
+    "reward": "Diaphonous Waistband",
+    "questItem": "Silken Wrap",
+    "source": "Isle 6: Bazzt Zzzt",
+    "rowId": 17
+  },
+  {
+    "className": "Beastlord",
+    "npc": "Animist Kratho",
+    "reward": "Diaphonous Waistband",
+    "questItem": "Wind Rune Geza",
+    "source": "Trash mobs",
+    "rowId": 18
+  },
+  {
+    "className": "Beastlord",
+    "npc": "Animist Kratho",
+    "reward": "Griffin-Hide Armguards",
+    "questItem": "Leather Cord",
+    "source": "Isle 3: Gorgalosk",
+    "rowId": 19
+  },
+  {
+    "className": "Beastlord",
+    "npc": "Animist Kratho",
+    "reward": "Griffin-Hide Armguards",
+    "questItem": "Wind Rune Kala",
+    "source": "Trash mobs",
+    "rowId": 20
+  },
+  {
+    "className": "Beastlord",
+    "npc": "Animist Kratho",
+    "reward": "Spiroc Beak Earcuff",
+    "questItem": "Spiroc Elder’s Totem",
+    "source": "Isle 5: The Spiroc Lord",
+    "rowId": 21
+  },
+  {
+    "className": "Beastlord",
+    "npc": "Animist Kratho",
+    "reward": "Spiroc Beak Earcuff",
+    "questItem": "Wind Rune Beza",
+    "source": "Trash mobs",
+    "rowId": 22
+  },
+  {
+    "className": "Beastlord",
+    "npc": "Animist Kratho",
+    "reward": "Windhowl/Spirit Render",
+    "questItem": "Brass Knuckles",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 23
+  },
+  {
+    "className": "Beastlord",
+    "npc": "Animist Kratho",
+    "reward": "Windhowl/Spirit Render",
+    "questItem": "Mithril Bands",
+    "source": "Isle 8: Eye of Veeshan",
+    "rowId": 24
+  },
+  {
+    "className": "Beastlord",
+    "npc": "Animist Kratho",
+    "reward": "Windhowl/Spirit Render",
+    "questItem": "Sphinx Claw",
+    "source": "Isle 7: Sister of the Spire",
+    "rowId": 25
+  },
+  {
+    "className": "Beastlord",
+    "npc": "Animist Kratho",
+    "reward": "Windhowl/Spirit Render",
+    "questItem": "Wind Rune Izah",
+    "source": "Trash mobs",
+    "rowId": 26
+  },
+  {
+    "className": "Berserker",
+    "npc": "Stragen The Hewer",
+    "reward": "Blood-Drawn Runes",
+    "questItem": "Azarack Blood",
+    "source": "Isle 2: Protector of Sky",
+    "rowId": 27
+  },
+  {
+    "className": "Berserker",
+    "npc": "Stragen The Hewer",
+    "reward": "Blood-Drawn Runes",
+    "questItem": "Wind Rune Lena",
+    "source": "Trash mobs",
+    "rowId": 28
+  },
+  {
+    "className": "Berserker",
+    "npc": "Stragen The Hewer",
+    "reward": "Cudgel of the Fool",
+    "questItem": "Efreeti Great Staff",
+    "source": "Isle eight: Eye of Veeshan",
+    "rowId": 29
+  },
+  {
+    "className": "Berserker",
+    "npc": "Stragen The Hewer",
+    "reward": "Cudgel of the Fool",
+    "questItem": "Jester’s Mask",
+    "source": "Isle 4: Keeper of Souls",
+    "rowId": 30
+  },
+  {
+    "className": "Berserker",
+    "npc": "Stragen The Hewer",
+    "reward": "Cudgel of the Fool",
+    "questItem": "Wind Rune Dena",
+    "source": "Trash mobs",
+    "rowId": 31
+  },
+  {
+    "className": "Berserker",
+    "npc": "Stragen The Hewer",
+    "reward": "Molten Coil",
+    "questItem": "Pulsating Ruby",
+    "source": "Isle 6: Bazzt Zzzt",
+    "rowId": 32
+  },
+  {
+    "className": "Berserker",
+    "npc": "Stragen The Hewer",
+    "reward": "Molten Coil",
+    "questItem": "Wind Rune Ena",
+    "source": "Trash mobs",
+    "rowId": 33
+  },
+  {
+    "className": "Berserker",
+    "npc": "Stragen The Hewer",
+    "reward": "Sash of Ferocity",
+    "questItem": "High Quality Raiment",
+    "source": "Isle 5: The Spiroc Lord",
+    "rowId": 34
+  },
+  {
+    "className": "Berserker",
+    "npc": "Stragen The Hewer",
+    "reward": "Sash of Ferocity",
+    "questItem": "Wind Rune Ozah",
+    "source": "Trash mobs",
+    "rowId": 35
+  },
+  {
+    "className": "Berserker",
+    "npc": "Stragen The Hewer",
+    "reward": "Shroud of the Sky",
+    "questItem": "Feathered Cape",
+    "source": "Isle 3: Gorgalosk",
+    "rowId": 36
+  },
+  {
+    "className": "Berserker",
+    "npc": "Stragen The Hewer",
+    "reward": "Shroud of the Sky",
+    "questItem": "Wind Rune Azia",
+    "source": "Trash mobs",
+    "rowId": 37
+  },
+  {
+    "className": "Berserker",
+    "npc": "Stragen The Hewer",
+    "reward": "Skycleaver",
+    "questItem": "Efreeti Standard",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 38
+  },
+  {
+    "className": "Berserker",
+    "npc": "Stragen The Hewer",
+    "reward": "Skycleaver",
+    "questItem": "Djinni War Blade",
+    "source": "Isle 7: Sister of the Spire",
+    "rowId": 39
+  },
+  {
+    "className": "Berserker",
+    "npc": "Stragen The Hewer",
+    "reward": "Skycleaver",
+    "questItem": "Wind Rune Jaka",
+    "source": "Trash mobs",
+    "rowId": 40
+  },
+  {
+    "className": "Cleric",
+    "npc": "Josin Faithbringer",
+    "reward": "Aegis of the Wind",
+    "questItem": "Small Shield",
+    "source": "Isle 4: Keeper of Souls",
+    "rowId": 41
+  },
+  {
+    "className": "Cleric",
+    "npc": "Josin Faithbringer",
+    "reward": "Aegis of the Wind",
+    "questItem": "Wind Rune Meda",
+    "source": "Trash mobs",
+    "rowId": 42
+  },
+  {
+    "className": "Cleric",
+    "npc": "Josin Faithbringer",
+    "reward": "Pauldrons of Piety",
+    "questItem": "Shiny Pauldrons",
+    "source": "Isle 5: The Spiroc Lord",
+    "rowId": 43
+  },
+  {
+    "className": "Cleric",
+    "npc": "Josin Faithbringer",
+    "reward": "Pauldrons of Piety",
+    "questItem": "Wind Rune Caza",
+    "source": "Trash mobs",
+    "rowId": 44
+  },
+  {
+    "className": "Cleric",
+    "npc": "Josin Faithbringer",
+    "reward": "Truewind Earring",
+    "questItem": "Silver Hoop",
+    "source": "Isle 3: Gorgalosk",
+    "rowId": 45
+  },
+  {
+    "className": "Cleric",
+    "npc": "Josin Faithbringer",
+    "reward": "Truewind Earring",
+    "questItem": "Wind Rune Lena",
+    "source": "Trash mobs",
+    "rowId": 46
+  },
+  {
+    "className": "Cleric",
+    "npc": "Josin Faithbringer",
+    "reward": "Baton of the Sky",
+    "questItem": "Efreeti Standard",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 47
+  },
+  {
+    "className": "Cleric",
+    "npc": "Josin Faithbringer",
+    "reward": "Baton of the Sky",
+    "questItem": "Mithril Bands",
+    "source": "Isle 8: Eye of Veeshan",
+    "rowId": 48
+  },
+  {
+    "className": "Cleric",
+    "npc": "Josin Faithbringer",
+    "reward": "Baton of the Sky",
+    "questItem": "Wind Rune Ena",
+    "source": "Trash mobs",
+    "rowId": 49
+  },
+  {
+    "className": "Cleric",
+    "npc": "Josin Faithbringer",
+    "reward": "Necklace of Resolution",
+    "questItem": "Silvered Spiroc Necklace",
+    "source": "Isle 6: Bazzt Zzzt",
+    "rowId": 50
+  },
+  {
+    "className": "Cleric",
+    "npc": "Josin Faithbringer",
+    "reward": "Necklace of Resolution",
+    "questItem": "Wind Rune Neza",
+    "source": "Trash mobs",
+    "rowId": 51
+  },
+  {
+    "className": "Cleric",
+    "npc": "Josin Faithbringer",
+    "reward": "Theurgist’s Star",
+    "questItem": "Djinni Aura",
+    "source": "Isle 7: Sister of the Spire",
+    "rowId": 52
+  },
+  {
+    "className": "Cleric",
+    "npc": "Josin Faithbringer",
+    "reward": "Theurgist’s Star",
+    "questItem": "Efreeti Mace",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 53
+  },
+  {
+    "className": "Cleric",
+    "npc": "Josin Faithbringer",
+    "reward": "Theurgist’s Star",
+    "questItem": "Wind Rune Kala",
+    "source": "Trash mobs",
+    "rowId": 54
+  },
+  {
+    "className": "Druid",
+    "npc": "Strandar Pinemist",
+    "reward": "Drake-Hide Mask",
+    "questItem": "Worn Leather Mask",
+    "source": "Isle 3: Gorgalosk",
+    "rowId": 55
+  },
+  {
+    "className": "Druid",
+    "npc": "Strandar Pinemist",
+    "reward": "Drake-Hide Mask",
+    "questItem": "Wind Rune Meda",
+    "source": "Trash mobs",
+    "rowId": 56
+  },
+  {
+    "className": "Druid",
+    "npc": "Strandar Pinemist",
+    "reward": "Nature Walker’s Mantle",
+    "questItem": "Mantle of Woven Grass",
+    "source": "Isle 4: Keeper of Souls",
+    "rowId": 57
+  },
+  {
+    "className": "Druid",
+    "npc": "Strandar Pinemist",
+    "reward": "Nature Walker’s Mantle",
+    "questItem": "Wind Rune Kala",
+    "source": "Trash mobs",
+    "rowId": 58
+  },
+  {
+    "className": "Druid",
+    "npc": "Strandar Pinemist",
+    "reward": "Shillelagh",
+    "questItem": "Spiroc Battle Staff",
+    "source": "Isle 5: The Spiroc Lord",
+    "rowId": 59
+  },
+  {
+    "className": "Druid",
+    "npc": "Strandar Pinemist",
+    "reward": "Shillelagh",
+    "questItem": "Efreeti Statuette",
+    "source": "isle eight: the hand of veeshan; isle four: overseer of air; isle 1.5: noble dojorn",
+    "rowId": 60
+  },
+  {
+    "className": "Druid",
+    "npc": "Strandar Pinemist",
+    "reward": "Shillelagh",
+    "questItem": "Wind Rune Azia",
+    "source": "Trash mobs",
+    "rowId": 61
+  },
+  {
+    "className": "Druid",
+    "npc": "Strandar Pinemist",
+    "reward": "Espri",
+    "questItem": "Efreeti Scimitar",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 62
+  },
+  {
+    "className": "Druid",
+    "npc": "Strandar Pinemist",
+    "reward": "Espri",
+    "questItem": "Storm Sky Opal",
+    "source": "Isle 8: Eye of Veeshan",
+    "rowId": 63
+  },
+  {
+    "className": "Druid",
+    "npc": "Strandar Pinemist",
+    "reward": "Espri",
+    "questItem": "Wind Rune Izah",
+    "source": "Trash mobs",
+    "rowId": 64
+  },
+  {
+    "className": "Druid",
+    "npc": "Strandar Pinemist",
+    "reward": "Honeycomb Belt",
+    "questItem": "Divine Honeycomb",
+    "source": "Isle 6: Bazzt Zzzt",
+    "rowId": 65
+  },
+  {
+    "className": "Druid",
+    "npc": "Strandar Pinemist",
+    "reward": "Honeycomb Belt",
+    "questItem": "Wind Rune Dena",
+    "source": "Trash mobs",
+    "rowId": 66
+  },
+  {
+    "className": "Druid",
+    "npc": "Strandar Pinemist",
+    "reward": "Spiroc Banisher Focus",
+    "questItem": "Ethereal Ruby",
+    "source": "Isle 7: Sister of the Spire",
+    "rowId": 67
+  },
+  {
+    "className": "Druid",
+    "npc": "Strandar Pinemist",
+    "reward": "Spiroc Banisher Focus",
+    "questItem": "Spiroc Elder’s Totem",
+    "source": "Isle 5: The Spiroc Lord",
+    "rowId": 68
+  },
+  {
+    "className": "Druid",
+    "npc": "Strandar Pinemist",
+    "reward": "Spiroc Banisher Focus",
+    "questItem": "Wind Rune Ena",
+    "source": "Trash mobs",
+    "rowId": 69
+  },
+  {
+    "className": "Enchanter",
+    "npc": "Enchanter Jolas",
+    "reward": "Earring of Displacement",
+    "questItem": "Adamantium Earring",
+    "source": "Isle 6: Bazzt Zzzt",
+    "rowId": 70
+  },
+  {
+    "className": "Enchanter",
+    "npc": "Enchanter Jolas",
+    "reward": "Earring of Displacement",
+    "questItem": "Wind Rune Caza",
+    "source": "Trash mobs",
+    "rowId": 71
+  },
+  {
+    "className": "Enchanter",
+    "npc": "Enchanter Jolas",
+    "reward": "Necklace of Whispering Winds",
+    "questItem": "Glowing Necklace",
+    "source": "Isle 7: Sister of the Spire",
+    "rowId": 72
+  },
+  {
+    "className": "Enchanter",
+    "npc": "Enchanter Jolas",
+    "reward": "Necklace of Whispering Winds",
+    "questItem": "Wind Rune Fana",
+    "source": "Trash mobs",
+    "rowId": 73
+  },
+  {
+    "className": "Enchanter",
+    "npc": "Enchanter Jolas",
+    "reward": "Rod of the Protecting Winds",
+    "questItem": "Efreeti Wind Staff",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 74
+  },
+  {
+    "className": "Enchanter",
+    "npc": "Enchanter Jolas",
+    "reward": "Rod of the Protecting Winds",
+    "questItem": "Large Sky Sapphire",
+    "source": "Isle 8: Eye of Veeshan",
+    "rowId": 75
+  },
+  {
+    "className": "Enchanter",
+    "npc": "Enchanter Jolas",
+    "reward": "Rod of the Protecting Winds",
+    "questItem": "Wind Rune Izah",
+    "source": "Trash mobs",
+    "rowId": 76
+  },
+  {
+    "className": "Enchanter",
+    "npc": "Enchanter Jolas",
+    "reward": "Ivory Mask",
+    "questItem": "Silken Mask",
+    "source": "Isle 5: The Spiroc Lord",
+    "rowId": 77
+  },
+  {
+    "className": "Enchanter",
+    "npc": "Enchanter Jolas",
+    "reward": "Ivory Mask",
+    "questItem": "Wind Rune Beza",
+    "source": "Trash mobs",
+    "rowId": 78
+  },
+  {
+    "className": "Enchanter",
+    "npc": "Enchanter Jolas",
+    "reward": "Sphinx Hair Cord",
+    "questItem": "Finely Woven Cloth Cord",
+    "source": "Isle 3: Gorgalosk",
+    "rowId": 79
+  },
+  {
+    "className": "Enchanter",
+    "npc": "Enchanter Jolas",
+    "reward": "Sphinx Hair Cord",
+    "questItem": "Wind Rune Meda",
+    "source": "Trash mobs",
+    "rowId": 80
+  },
+  {
+    "className": "Enchanter",
+    "npc": "Enchanter Jolas",
+    "reward": "Wind Walker’s Mantle",
+    "questItem": "Light Cloth Mantle",
+    "source": "Isle 4: Keeper of Souls",
+    "rowId": 81
+  },
+  {
+    "className": "Enchanter",
+    "npc": "Enchanter Jolas",
+    "reward": "Wind Walker’s Mantle",
+    "questItem": "Wind Rune Ozah",
+    "source": "Trash mobs",
+    "rowId": 82
+  },
+  {
+    "className": "Magician",
+    "npc": "Magus Frinon",
+    "reward": "Bracelet of Clarification",
+    "questItem": "Feathered Cape",
+    "source": "Isle 3: Gorgalosk",
+    "rowId": 83
+  },
+  {
+    "className": "Magician",
+    "npc": "Magus Frinon",
+    "reward": "Bracelet of Clarification",
+    "questItem": "Wind Rune Lena",
+    "source": "Trash mobs",
+    "rowId": 84
+  },
+  {
+    "className": "Magician",
+    "npc": "Magus Frinon",
+    "reward": "Gold White Pendant",
+    "questItem": "Golden Coffer",
+    "source": "Isle five - The Spiroc Lord",
+    "rowId": 85
+  },
+  {
+    "className": "Magician",
+    "npc": "Magus Frinon",
+    "reward": "Gold White Pendant",
+    "questItem": "Wind Rune Azia",
+    "source": "Trash mobs",
+    "rowId": 86
+  },
+  {
+    "className": "Magician",
+    "npc": "Magus Frinon",
+    "reward": "Mask of Empowerment",
+    "questItem": "Ceramic Mask",
+    "source": "Isle 4: Keeper of Souls",
+    "rowId": 87
+  },
+  {
+    "className": "Magician",
+    "npc": "Magus Frinon",
+    "reward": "Mask of Empowerment",
+    "questItem": "Wind Rune Neza",
+    "source": "Trash mobs",
+    "rowId": 88
+  },
+  {
+    "className": "Magician",
+    "npc": "Magus Frinon",
+    "reward": "Drake-Hide Amice",
+    "questItem": "Large Diamond",
+    "source": "Isle 6: Bazzt Zzzt",
+    "rowId": 89
+  },
+  {
+    "className": "Magician",
+    "npc": "Magus Frinon",
+    "reward": "Drake-Hide Amice",
+    "questItem": "Wind Rune Dena",
+    "source": "Trash mobs",
+    "rowId": 90
+  },
+  {
+    "className": "Magician",
+    "npc": "Magus Frinon",
+    "reward": "Duennan Shielding Ring",
+    "questItem": "Golden Efreeti Ring",
+    "source": "Isle 7: Sister of the Spire",
+    "rowId": 91
+  },
+  {
+    "className": "Magician",
+    "npc": "Magus Frinon",
+    "reward": "Duennan Shielding Ring",
+    "questItem": "Wind Rune Ena",
+    "source": "Trash mobs",
+    "rowId": 92
+  },
+  {
+    "className": "Magician",
+    "npc": "Magus Frinon",
+    "reward": "Staff of Elemental Mastery: Air",
+    "questItem": "Crown of Elemental Mastery",
+    "source": "Isle 7: Sphinx and Drakes",
+    "rowId": 93
+  },
+  {
+    "className": "Magician",
+    "npc": "Magus Frinon",
+    "reward": "Staff of Elemental Mastery: Air",
+    "questItem": "Djinni Stave",
+    "source": "Isle 7: Sister of the Spire",
+    "rowId": 94
+  },
+  {
+    "className": "Magician",
+    "npc": "Magus Frinon",
+    "reward": "Staff of Elemental Mastery: Air",
+    "questItem": "Large Opal",
+    "source": "Isle 8: Eye of Veeshan",
+    "rowId": 95
+  },
+  {
+    "className": "Magician",
+    "npc": "Magus Frinon",
+    "reward": "Staff of Elemental Mastery: Air",
+    "questItem": "Wind Rune Heda",
+    "source": "Trash mobs",
+    "rowId": 96
+  },
+  {
+    "className": "Magician",
+    "npc": "Magus Frinon",
+    "reward": "Staff of the Magister",
+    "questItem": "Efreeti Magi Staff",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 97
+  },
+  {
+    "className": "Magician",
+    "npc": "Magus Frinon",
+    "reward": "Staff of the Magister",
+    "questItem": "Hazy Opal",
+    "source": "Isle 8: Eye of Veeshan",
+    "rowId": 98
+  },
+  {
+    "className": "Magician",
+    "npc": "Magus Frinon",
+    "reward": "Staff of the Magister",
+    "questItem": "Wind Rune Jaka",
+    "source": "Trash mobs",
+    "rowId": 99
+  },
+  {
+    "className": "Monk",
+    "npc": "Holwin",
+    "reward": "Back Straps of Mastery",
+    "questItem": "Silken Strands",
+    "source": "Isle 3: Gorgalosk",
+    "rowId": 100
+  },
+  {
+    "className": "Monk",
+    "npc": "Holwin",
+    "reward": "Back Straps of Mastery",
+    "questItem": "Wind Rune Caza",
+    "source": "Trash mobs",
+    "rowId": 101
+  },
+  {
+    "className": "Monk",
+    "npc": "Holwin",
+    "reward": "Sandals of Alacrity",
+    "questItem": "Dove Slippers",
+    "source": "Isle 5: The Spiroc Lord",
+    "rowId": 102
+  },
+  {
+    "className": "Monk",
+    "npc": "Holwin",
+    "reward": "Sandals of Alacrity",
+    "questItem": "Wind Rune Jaka",
+    "source": "Trash mobs",
+    "rowId": 103
+  },
+  {
+    "className": "Monk",
+    "npc": "Holwin",
+    "reward": "Ton Po’s Eye Patch",
+    "questItem": "Cracked Leather Eyepatch",
+    "source": "Isle 4: Keeper of Souls",
+    "rowId": 104
+  },
+  {
+    "className": "Monk",
+    "npc": "Holwin",
+    "reward": "Ton Po’s Eye Patch",
+    "questItem": "Wind Rune Geza",
+    "source": "Trash mobs",
+    "rowId": 105
+  },
+  {
+    "className": "Monk",
+    "npc": "Holwin",
+    "reward": "Golden Sash of Tranquility",
+    "questItem": "Tear of Quellious",
+    "source": "Isle 8: Eye of Veeshan",
+    "rowId": 106
+  },
+  {
+    "className": "Monk",
+    "npc": "Holwin",
+    "reward": "Golden Sash of Tranquility",
+    "questItem": "Wind Rune Lena",
+    "source": "Trash mobs",
+    "rowId": 107
+  },
+  {
+    "className": "Monk",
+    "npc": "Holwin",
+    "reward": "Ton Po’s Shoulder Wraps",
+    "questItem": "Silken Wrap",
+    "source": "Isle 6: Bazzt Zzzt",
+    "rowId": 108
+  },
+  {
+    "className": "Monk",
+    "npc": "Holwin",
+    "reward": "Ton Po’s Shoulder Wraps",
+    "questItem": "Wind Rune Beza",
+    "source": "Trash mobs",
+    "rowId": 109
+  },
+  {
+    "className": "Monk",
+    "npc": "Holwin",
+    "reward": "Wu’s Fist of Mastery",
+    "questItem": "Brass Knuckles",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 110
+  },
+  {
+    "className": "Monk",
+    "npc": "Holwin",
+    "reward": "Wu’s Fist of Mastery",
+    "questItem": "Nebulous Sapphire",
+    "source": "Isle 7: Sister of the Spire",
+    "rowId": 111
+  },
+  {
+    "className": "Monk",
+    "npc": "Holwin",
+    "reward": "Wu’s Fist of Mastery",
+    "questItem": "Wind Rune Neza",
+    "source": "Trash mobs",
+    "rowId": 112
+  },
+  {
+    "className": "Necromancer",
+    "npc": "Drakis Bloodcaster",
+    "reward": "Band of Wailing Winds",
+    "questItem": "Ring of Veeshan",
+    "source": "Isle 7: Sister of the Spire",
+    "rowId": 113
+  },
+  {
+    "className": "Necromancer",
+    "npc": "Drakis Bloodcaster",
+    "reward": "Band of Wailing Winds",
+    "questItem": "Wind Rune Caza",
+    "source": "Trash mobs",
+    "rowId": 114
+  },
+  {
+    "className": "Necromancer",
+    "npc": "Drakis Bloodcaster",
+    "reward": "Gorgon Head Staff",
+    "questItem": "Efreeti Great Staff",
+    "source": "Isle eight: Eye of Veeshan",
+    "rowId": 115
+  },
+  {
+    "className": "Necromancer",
+    "npc": "Drakis Bloodcaster",
+    "reward": "Gorgon Head Staff",
+    "questItem": "Gorgon Head",
+    "source": "Isle 3: Gorgalosk",
+    "rowId": 116
+  },
+  {
+    "className": "Necromancer",
+    "npc": "Drakis Bloodcaster",
+    "reward": "Gorgon Head Staff",
+    "questItem": "Wind Rune Fana",
+    "source": "Trash mobs",
+    "rowId": 117
+  },
+  {
+    "className": "Necromancer",
+    "npc": "Drakis Bloodcaster",
+    "reward": "Sphinx Heart Amulet",
+    "questItem": "Pulsating Ruby",
+    "source": "Isle 6: Bazzt Zzzt",
+    "rowId": 118
+  },
+  {
+    "className": "Necromancer",
+    "npc": "Drakis Bloodcaster",
+    "reward": "Sphinx Heart Amulet",
+    "questItem": "Wind Rune Azia",
+    "source": "Trash mobs",
+    "rowId": 119
+  },
+  {
+    "className": "Necromancer",
+    "npc": "Drakis Bloodcaster",
+    "reward": "Bloodsoaked Raiment",
+    "questItem": "Fine Cloth Raiment",
+    "source": "Isle 5: The Spiroc Lord",
+    "rowId": 120
+  },
+  {
+    "className": "Necromancer",
+    "npc": "Drakis Bloodcaster",
+    "reward": "Bloodsoaked Raiment",
+    "questItem": "Wind Rune Ozah",
+    "source": "Trash mobs",
+    "rowId": 121
+  },
+  {
+    "className": "Necromancer",
+    "npc": "Drakis Bloodcaster",
+    "reward": "Bloody Griffon-Hide Wrist Guard",
+    "questItem": "Griffon’s Beak",
+    "source": "Isle 3: Gorgalosk",
+    "rowId": 122
+  },
+  {
+    "className": "Necromancer",
+    "npc": "Drakis Bloodcaster",
+    "reward": "Bloody Griffon-Hide Wrist Guard",
+    "questItem": "Wind Rune Lena",
+    "source": "Trash mobs",
+    "rowId": 123
+  },
+  {
+    "className": "Necromancer",
+    "npc": "Drakis Bloodcaster",
+    "reward": "Cloak of Spiroc Feathers",
+    "questItem": "Black Silk Cape",
+    "source": "Isle 4: Keeper of Souls",
+    "rowId": 124
+  },
+  {
+    "className": "Necromancer",
+    "npc": "Drakis Bloodcaster",
+    "reward": "Cloak of Spiroc Feathers",
+    "questItem": "Wind Rune Neza",
+    "source": "Trash mobs",
+    "rowId": 125
+  },
+  {
+    "className": "Paladin",
+    "npc": "Dason Goldblade",
+    "reward": "Aldryn, Blade of the Ocean",
+    "questItem": "Bixie Sword Blade",
+    "source": "Isle 6: Bazzt Zzzt",
+    "rowId": 126
+  },
+  {
+    "className": "Paladin",
+    "npc": "Dason Goldblade",
+    "reward": "Aldryn, Blade of the Ocean",
+    "questItem": "Wind Rune Ozah",
+    "source": "Trash mobs",
+    "rowId": 127
+  },
+  {
+    "className": "Paladin",
+    "npc": "Dason Goldblade",
+    "reward": "Thelvorn, Blade of Light",
+    "questItem": "Golden Hilt",
+    "source": "Isle seven - Sphinx and Drakes",
+    "rowId": 128
+  },
+  {
+    "className": "Paladin",
+    "npc": "Dason Goldblade",
+    "reward": "Thelvorn, Blade of Light",
+    "questItem": "Sphinx Claw",
+    "source": "Isle 7: Sister of the Spire",
+    "rowId": 129
+  },
+  {
+    "className": "Paladin",
+    "npc": "Dason Goldblade",
+    "reward": "Thelvorn, Blade of Light",
+    "questItem": "Wind Rune Geza",
+    "source": "Trash mobs",
+    "rowId": 130
+  },
+  {
+    "className": "Paladin",
+    "npc": "Dason Goldblade",
+    "reward": "Truvinan",
+    "questItem": "Efreeti Zweihander",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 131
+  },
+  {
+    "className": "Paladin",
+    "npc": "Dason Goldblade",
+    "reward": "Truvinan",
+    "questItem": "Large Sky Diamond",
+    "source": "Isle 8: Eye of Veeshan",
+    "rowId": 132
+  },
+  {
+    "className": "Paladin",
+    "npc": "Dason Goldblade",
+    "reward": "Truvinan",
+    "questItem": "Wind Rune Izah",
+    "source": "Trash mobs",
+    "rowId": 133
+  },
+  {
+    "className": "Paladin",
+    "npc": "Dason Goldblade",
+    "reward": "Girdle of Faith",
+    "questItem": "Ivory Sky Diamond",
+    "source": "Isle 5: The Spiroc Lord",
+    "rowId": 134
+  },
+  {
+    "className": "Paladin",
+    "npc": "Dason Goldblade",
+    "reward": "Girdle of Faith",
+    "questItem": "Wind Rune Lena",
+    "source": "Trash mobs",
+    "rowId": 135
+  },
+  {
+    "className": "Ranger",
+    "npc": "Ranger Spirit",
+    "reward": "Arydryidriyorn",
+    "questItem": "Efreeti Long Sword",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 136
+  },
+  {
+    "className": "Ranger",
+    "npc": "Ranger Spirit",
+    "reward": "Arydryidriyorn",
+    "questItem": "Circlet of Brambles",
+    "source": "Isle 7: Sister of the Spire",
+    "rowId": 137
+  },
+  {
+    "className": "Ranger",
+    "npc": "Ranger Spirit",
+    "reward": "Arydryidriyorn",
+    "questItem": "Wind Rune Ena",
+    "source": "Trash mobs",
+    "rowId": 138
+  },
+  {
+    "className": "Ranger",
+    "npc": "Ranger Spirit",
+    "reward": "Thunderforged Earring",
+    "questItem": "White Gold Earring",
+    "source": "Isle 6: Bazzt Zzzt",
+    "rowId": 139
+  },
+  {
+    "className": "Ranger",
+    "npc": "Ranger Spirit",
+    "reward": "Thunderforged Earring",
+    "questItem": "Wind Rune Azia",
+    "source": "Trash mobs",
+    "rowId": 140
+  },
+  {
+    "className": "Ranger",
+    "npc": "Ranger Spirit",
+    "reward": "Windstriker",
+    "questItem": "Efreeti War Bow",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 141
+  },
+  {
+    "className": "Ranger",
+    "npc": "Ranger Spirit",
+    "reward": "Windstriker",
+    "questItem": "Shimmering Pearl",
+    "source": "Isle 8: Eye of Veeshan",
+    "rowId": 142
+  },
+  {
+    "className": "Ranger",
+    "npc": "Ranger Spirit",
+    "reward": "Windstriker",
+    "questItem": "Wind Rune Heda",
+    "source": "Trash mobs",
+    "rowId": 143
+  },
+  {
+    "className": "Ranger",
+    "npc": "Ranger Spirit",
+    "reward": "Dark Cloak of the Sky",
+    "questItem": "Fine Velvet Cloak",
+    "source": "Isle 4: Keeper of Souls",
+    "rowId": 144
+  },
+  {
+    "className": "Ranger",
+    "npc": "Ranger Spirit",
+    "reward": "Dark Cloak of the Sky",
+    "questItem": "Wind Rune Neza",
+    "source": "Trash mobs",
+    "rowId": 145
+  },
+  {
+    "className": "Ranger",
+    "npc": "Ranger Spirit",
+    "reward": "Earthshaker’s Mantle",
+    "questItem": "Spiroc Earth Totem",
+    "source": "Isle 5: The Spiroc Lord",
+    "rowId": 146
+  },
+  {
+    "className": "Ranger",
+    "npc": "Ranger Spirit",
+    "reward": "Earthshaker’s Mantle",
+    "questItem": "Wind Rune Kala",
+    "source": "Trash mobs",
+    "rowId": 147
+  },
+  {
+    "className": "Ranger",
+    "npc": "Ranger Spirit",
+    "reward": "Griffon Talon Necklace",
+    "questItem": "Griffon Talon",
+    "source": "Isle 3: Gorgalosk",
+    "rowId": 148
+  },
+  {
+    "className": "Ranger",
+    "npc": "Ranger Spirit",
+    "reward": "Griffon Talon Necklace",
+    "questItem": "Wind Rune Meda",
+    "source": "Trash mobs",
+    "rowId": 149
+  },
+  {
+    "className": "Rogue",
+    "npc": "Thalik Silenthand",
+    "reward": "Crystal Mask",
+    "questItem": "Jester’s Mask",
+    "source": "Isle 4: Keeper of Souls",
+    "rowId": 150
+  },
+  {
+    "className": "Rogue",
+    "npc": "Thalik Silenthand",
+    "reward": "Crystal Mask",
+    "questItem": "Wind Rune Dena",
+    "source": "Trash mobs",
+    "rowId": 151
+  },
+  {
+    "className": "Rogue",
+    "npc": "Thalik Silenthand",
+    "reward": "Scintillating Bracer of Protection",
+    "questItem": "Fine Wool Cloak",
+    "source": "Isle 6: Bazzt Zzzt",
+    "rowId": 152
+  },
+  {
+    "className": "Rogue",
+    "npc": "Thalik Silenthand",
+    "reward": "Scintillating Bracer of Protection",
+    "questItem": "Wind Rune Geza",
+    "source": "Trash mobs",
+    "rowId": 153
+  },
+  {
+    "className": "Rogue",
+    "npc": "Thalik Silenthand",
+    "reward": "Thornstinger",
+    "questItem": "Bixie Stinger",
+    "source": "Isle 6: Bazzt Zzzt",
+    "rowId": 154
+  },
+  {
+    "className": "Rogue",
+    "npc": "Thalik Silenthand",
+    "reward": "Thornstinger",
+    "questItem": "Bloodsky Sapphire",
+    "source": "Isle 8: Eye of Veeshan",
+    "rowId": 155
+  },
+  {
+    "className": "Rogue",
+    "npc": "Thalik Silenthand",
+    "reward": "Thornstinger",
+    "questItem": "Wind Rune Jaka",
+    "source": "Trash mobs",
+    "rowId": 156
+  },
+  {
+    "className": "Rogue",
+    "npc": "Thalik Silenthand",
+    "reward": "Griffon Wing Spaulders",
+    "questItem": "Spiroc Sky Totem",
+    "source": "Isle 5: The Spiroc Lord",
+    "rowId": 157
+  },
+  {
+    "className": "Rogue",
+    "npc": "Thalik Silenthand",
+    "reward": "Griffon Wing Spaulders",
+    "questItem": "Wind Rune Ena",
+    "source": "Trash mobs",
+    "rowId": 158
+  },
+  {
+    "className": "Rogue",
+    "npc": "Thalik Silenthand",
+    "reward": "Renard’s Belt of Quickness",
+    "questItem": "Sphinxian Circlet",
+    "source": "Isle 7: Sister of the Spire",
+    "rowId": 159
+  },
+  {
+    "className": "Rogue",
+    "npc": "Thalik Silenthand",
+    "reward": "Renard’s Belt of Quickness",
+    "questItem": "Wind Rune Izah",
+    "source": "Trash mobs",
+    "rowId": 160
+  },
+  {
+    "className": "Rogue",
+    "npc": "Thalik Silenthand",
+    "reward": "Wispy Choker of Vigor",
+    "questItem": "Inlaid Choker",
+    "source": "Isle 3: Gorgalosk",
+    "rowId": 161
+  },
+  {
+    "className": "Rogue",
+    "npc": "Thalik Silenthand",
+    "reward": "Wispy Choker of Vigor",
+    "questItem": "Wind Rune Ozah",
+    "source": "Trash mobs",
+    "rowId": 162
+  },
+  {
+    "className": "Shaman",
+    "npc": "Medicine Man Veetra",
+    "reward": "Amulet of the Fang",
+    "questItem": "Leather Cord",
+    "source": "Isle 3: Gorgalosk",
+    "rowId": 163
+  },
+  {
+    "className": "Shaman",
+    "npc": "Medicine Man Veetra",
+    "reward": "Amulet of the Fang",
+    "questItem": "Wind Rune Meda",
+    "source": "Trash mobs",
+    "rowId": 164
+  },
+  {
+    "className": "Shaman",
+    "npc": "Medicine Man Veetra",
+    "reward": "Bracelet of the Spirits",
+    "questItem": "Ceremonial Belt",
+    "source": "Isle 5: The Spiroc Lord",
+    "rowId": 165
+  },
+  {
+    "className": "Shaman",
+    "npc": "Medicine Man Veetra",
+    "reward": "Bracelet of the Spirits",
+    "questItem": "Wind Rune Kala",
+    "source": "Trash mobs",
+    "rowId": 166
+  },
+  {
+    "className": "Shaman",
+    "npc": "Medicine Man Veetra",
+    "reward": "Fairy-Hide Mantle",
+    "questItem": "Light Damask Mantle",
+    "source": "Isle 5: The Spiroc Lord",
+    "rowId": 167
+  },
+  {
+    "className": "Shaman",
+    "npc": "Medicine Man Veetra",
+    "reward": "Fairy-Hide Mantle",
+    "questItem": "Wind Rune Beza",
+    "source": "Trash mobs",
+    "rowId": 168
+  },
+  {
+    "className": "Shaman",
+    "npc": "Medicine Man Veetra",
+    "reward": "Garduk",
+    "questItem": "Efreeti War Maul",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 169
+  },
+  {
+    "className": "Shaman",
+    "npc": "Medicine Man Veetra",
+    "reward": "Garduk",
+    "questItem": "Symbol of Veeshan",
+    "source": "Isle 8: Eye of Veeshan",
+    "rowId": 170
+  },
+  {
+    "className": "Shaman",
+    "npc": "Medicine Man Veetra",
+    "reward": "Garduk",
+    "questItem": "Wind Rune Geza",
+    "source": "Trash mobs",
+    "rowId": 171
+  },
+  {
+    "className": "Shaman",
+    "npc": "Medicine Man Veetra",
+    "reward": "Vermilion Sky Ring",
+    "questItem": "Bixie Essence",
+    "source": "Isle six - bees",
+    "rowId": 172
+  },
+  {
+    "className": "Shaman",
+    "npc": "Medicine Man Veetra",
+    "reward": "Vermilion Sky Ring",
+    "questItem": "Spiritualist`s Ring",
+    "source": "Isle 7: Sister of the Spire",
+    "rowId": 173
+  },
+  {
+    "className": "Shaman",
+    "npc": "Medicine Man Veetra",
+    "reward": "Vermilion Sky Ring",
+    "questItem": "Wind Rune Heda",
+    "source": "Trash mobs",
+    "rowId": 174
+  },
+  {
+    "className": "Shaman",
+    "npc": "Medicine Man Veetra",
+    "reward": "Warhammer of the Wind",
+    "questItem": "Corrosive Venom",
+    "source": "Isle 6: Bazzt Zzzt",
+    "rowId": 175
+  },
+  {
+    "className": "Shaman",
+    "npc": "Medicine Man Veetra",
+    "reward": "Warhammer of the Wind",
+    "questItem": "Efreeti War Club",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 176
+  },
+  {
+    "className": "Shaman",
+    "npc": "Medicine Man Veetra",
+    "reward": "Warhammer of the Wind",
+    "questItem": "Wind Rune Ena",
+    "source": "Trash mobs",
+    "rowId": 177
+  },
+  {
+    "className": "Shadow Knight",
+    "npc": "Sarkis Ebonblade",
+    "reward": "Amulet of the Sphinx Eye",
+    "questItem": "Finely Crafted Amulet",
+    "source": "Isle 3: Gorgalosk",
+    "rowId": 178
+  },
+  {
+    "className": "Shadow Knight",
+    "npc": "Sarkis Ebonblade",
+    "reward": "Amulet of the Sphinx Eye",
+    "questItem": "Wind Rune Ozah",
+    "source": "Trash mobs",
+    "rowId": 179
+  },
+  {
+    "className": "Shadow Knight",
+    "npc": "Sarkis Ebonblade",
+    "reward": "Crimson Ring of the Djinni",
+    "questItem": "Silvery Ring",
+    "source": "Isle 4: Keeper of Souls",
+    "rowId": 180
+  },
+  {
+    "className": "Shadow Knight",
+    "npc": "Sarkis Ebonblade",
+    "reward": "Crimson Ring of the Djinni",
+    "questItem": "Wind Rune Beza",
+    "source": "Trash mobs",
+    "rowId": 181
+  },
+  {
+    "className": "Shadow Knight",
+    "npc": "Sarkis Ebonblade",
+    "reward": "Pegasus-Hide Belt",
+    "questItem": "Finely Woven Cloth Belt",
+    "source": "Isle 5: The Spiroc Lord",
+    "rowId": 182
+  },
+  {
+    "className": "Shadow Knight",
+    "npc": "Sarkis Ebonblade",
+    "reward": "Pegasus-Hide Belt",
+    "questItem": "Wind Rune Dena",
+    "source": "Trash mobs",
+    "rowId": 183
+  },
+  {
+    "className": "Shadow Knight",
+    "npc": "Sarkis Ebonblade",
+    "reward": "Blood Sky Face Plate",
+    "questItem": "Rusted Pauldrons",
+    "source": "Isle 6: Bazzt Zzzt",
+    "rowId": 184
+  },
+  {
+    "className": "Shadow Knight",
+    "npc": "Sarkis Ebonblade",
+    "reward": "Blood Sky Face Plate",
+    "questItem": "Wind Rune Fana",
+    "source": "Trash mobs",
+    "rowId": 185
+  },
+  {
+    "className": "Shadow Knight",
+    "npc": "Sarkis Ebonblade",
+    "reward": "Khyldorn the Blood Drinker",
+    "questItem": "Blood Sky Ruby",
+    "source": "Isle 8: Eye of Veeshan",
+    "rowId": 186
+  },
+  {
+    "className": "Shadow Knight",
+    "npc": "Sarkis Ebonblade",
+    "reward": "Khyldorn the Blood Drinker",
+    "questItem": "Efreeti War Axe",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 187
+  },
+  {
+    "className": "Shadow Knight",
+    "npc": "Sarkis Ebonblade",
+    "reward": "Khyldorn the Blood Drinker",
+    "questItem": "Wind Rune Kala",
+    "source": "Trash mobs",
+    "rowId": 188
+  },
+  {
+    "className": "Shadow Knight",
+    "npc": "Sarkis Ebonblade",
+    "reward": "Obtenebrate Mithril Guard",
+    "questItem": "Efreeti War Shield",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 189
+  },
+  {
+    "className": "Shadow Knight",
+    "npc": "Sarkis Ebonblade",
+    "reward": "Obtenebrate Mithril Guard",
+    "questItem": "Wind Rune Heda",
+    "source": "Trash mobs",
+    "rowId": 190
+  },
+  {
+    "className": "Shadow Knight",
+    "npc": "Sarkis Ebonblade",
+    "reward": "Pearlescent Pauldrons",
+    "questItem": "Fae Pauldrons",
+    "source": "Isle 8: Eye of Veeshan",
+    "rowId": 191
+  },
+  {
+    "className": "Shadow Knight",
+    "npc": "Sarkis Ebonblade",
+    "reward": "Pearlescent Pauldrons",
+    "questItem": "Sphinxian Ring",
+    "source": "Isle 7: Sister of the Spire",
+    "rowId": 192
+  },
+  {
+    "className": "Shadow Knight",
+    "npc": "Sarkis Ebonblade",
+    "reward": "Pearlescent Pauldrons",
+    "questItem": "Wind Rune Izah",
+    "source": "Trash mobs",
+    "rowId": 193
+  },
+  {
+    "className": "Warrior",
+    "npc": "Torgon Blademaster",
+    "reward": "Azure Ruby Ring",
+    "questItem": "Azure Ring",
+    "source": "Isle 3: Gorgalosk",
+    "rowId": 194
+  },
+  {
+    "className": "Warrior",
+    "npc": "Torgon Blademaster",
+    "reward": "Azure Ruby Ring",
+    "questItem": "Wind Rune Neza",
+    "source": "Trash mobs",
+    "rowId": 195
+  },
+  {
+    "className": "Warrior",
+    "npc": "Torgon Blademaster",
+    "reward": "Pauldrons of the Blue Sky",
+    "questItem": "Spiroc Air Totem",
+    "source": "Isle 5: The Spiroc Lord",
+    "rowId": 196
+  },
+  {
+    "className": "Warrior",
+    "npc": "Torgon Blademaster",
+    "reward": "Pauldrons of the Blue Sky",
+    "questItem": "Wind Rune Beza",
+    "source": "Trash mobs",
+    "rowId": 197
+  },
+  {
+    "className": "Warrior",
+    "npc": "Torgon Blademaster",
+    "reward": "Runed Wind Amulet",
+    "questItem": "Stone Amulet",
+    "source": "Isle 4: Keeper of Souls",
+    "rowId": 198
+  },
+  {
+    "className": "Warrior",
+    "npc": "Torgon Blademaster",
+    "reward": "Runed Wind Amulet",
+    "questItem": "Wind Rune Azia",
+    "source": "Trash mobs",
+    "rowId": 199
+  },
+  {
+    "className": "Warrior",
+    "npc": "Torgon Blademaster",
+    "reward": "Belt of the Four Winds",
+    "questItem": "Efreeti Belt",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 200
+  },
+  {
+    "className": "Warrior",
+    "npc": "Torgon Blademaster",
+    "reward": "Belt of the Four Winds",
+    "questItem": "Wind Tablet",
+    "source": "Isle 6: Bazzt Zzzt",
+    "rowId": 201
+  },
+  {
+    "className": "Warrior",
+    "npc": "Torgon Blademaster",
+    "reward": "Belt of the Four Winds",
+    "questItem": "Wind Rune Fana",
+    "source": "Trash mobs",
+    "rowId": 202
+  },
+  {
+    "className": "Warrior",
+    "npc": "Torgon Blademaster",
+    "reward": "Dagas",
+    "questItem": "Djinni War Blade",
+    "source": "Isle 7: Sister of the Spire",
+    "rowId": 203
+  },
+  {
+    "className": "Warrior",
+    "npc": "Torgon Blademaster",
+    "reward": "Dagas",
+    "questItem": "Gem of Invigoration",
+    "source": "Isle seven - Sphinx and Drakes",
+    "rowId": 204
+  },
+  {
+    "className": "Warrior",
+    "npc": "Torgon Blademaster",
+    "reward": "Dagas",
+    "questItem": "Wind Rune Jaka",
+    "source": "Trash mobs",
+    "rowId": 205
+  },
+  {
+    "className": "Warrior",
+    "npc": "Torgon Blademaster",
+    "reward": "Fangol",
+    "questItem": "Efreeti Battle Axe",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 206
+  },
+  {
+    "className": "Warrior",
+    "npc": "Torgon Blademaster",
+    "reward": "Fangol",
+    "questItem": "Ethereal Emerald",
+    "source": "Isle 8: Eye of Veeshan",
+    "rowId": 207
+  },
+  {
+    "className": "Warrior",
+    "npc": "Torgon Blademaster",
+    "reward": "Fangol",
+    "questItem": "Wind Rune Dena",
+    "source": "Trash mobs",
+    "rowId": 208
+  },
+  {
+    "className": "Wizard",
+    "npc": "Wizard Schrock",
+    "reward": "Al`Kabor’s Cap of Binding",
+    "questItem": "Woven Skull Cap",
+    "source": "Isle 4: Keeper of Souls",
+    "rowId": 209
+  },
+  {
+    "className": "Wizard",
+    "npc": "Wizard Schrock",
+    "reward": "Al`Kabor’s Cap of Binding",
+    "questItem": "Wind Rune Fana",
+    "source": "Trash mobs",
+    "rowId": 210
+  },
+  {
+    "className": "Wizard",
+    "npc": "Wizard Schrock",
+    "reward": "Augmentor’s Mask",
+    "questItem": "Grey Damask Cloak",
+    "source": "Isle 3: Gorgalosk",
+    "rowId": 211
+  },
+  {
+    "className": "Wizard",
+    "npc": "Wizard Schrock",
+    "reward": "Augmentor’s Mask",
+    "questItem": "Wind Rune Dena",
+    "source": "Trash mobs",
+    "rowId": 212
+  },
+  {
+    "className": "Wizard",
+    "npc": "Wizard Schrock",
+    "reward": "Raiment of Thunder",
+    "questItem": "High Quality Raiment",
+    "source": "Isle 5: The Spiroc Lord",
+    "rowId": 213
+  },
+  {
+    "className": "Wizard",
+    "npc": "Wizard Schrock",
+    "reward": "Raiment of Thunder",
+    "questItem": "Wind Rune Geza",
+    "source": "Trash mobs",
+    "rowId": 214
+  },
+  {
+    "className": "Wizard",
+    "npc": "Wizard Schrock",
+    "reward": "Amulet of the Void",
+    "questItem": "Amethyst Amulet",
+    "source": "Isle 7: Sister of the Spire",
+    "rowId": 215
+  },
+  {
+    "className": "Wizard",
+    "npc": "Wizard Schrock",
+    "reward": "Amulet of the Void",
+    "questItem": "Wind Rune Jaka",
+    "source": "Trash mobs",
+    "rowId": 216
+  },
+  {
+    "className": "Wizard",
+    "npc": "Wizard Schrock",
+    "reward": "Nargon’s Staff",
+    "questItem": "Efreeti War Staff",
+    "source": "Isle eight: the Hand of Veeshan; Isle four: Overseer of Air; Isle 1.5: Noble Dojorn",
+    "rowId": 217
+  },
+  {
+    "className": "Wizard",
+    "npc": "Wizard Schrock",
+    "reward": "Nargon’s Staff",
+    "questItem": "Large Sky Lapis",
+    "source": "Isle 8: Eye of Veeshan",
+    "rowId": 218
+  },
+  {
+    "className": "Wizard",
+    "npc": "Wizard Schrock",
+    "reward": "Nargon’s Staff",
+    "questItem": "Wind Rune Caza",
+    "source": "Trash mobs",
+    "rowId": 219
+  },
+  {
+    "className": "Wizard",
+    "npc": "Wizard Schrock",
+    "reward": "Solidate Mithril Ring",
+    "questItem": "Box of Winds",
+    "source": "Isle 6: Bazzt Zzzt",
+    "rowId": 220
+  },
+  {
+    "className": "Wizard",
+    "npc": "Wizard Schrock",
+    "reward": "Solidate Mithril Ring",
+    "questItem": "Efreeti Statuette",
+    "source": "isle eight: the hand of veeshan; isle four: overseer of air; isle 1.5: noble dojorn",
+    "rowId": 221
+  },
+  {
+    "className": "Wizard",
+    "npc": "Wizard Schrock",
+    "reward": "Solidate Mithril Ring",
+    "questItem": "Wind Rune Izah",
+    "source": "Trash mobs",
+    "rowId": 222
+  }
+]
